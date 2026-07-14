@@ -1,0 +1,316 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات الحيوانات الأليفة والمواشي",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "age",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "العمر",
+                "en": "Age",
+                "tr": "Yaş"
+            },
+            "options": [
+                {
+                    "ar": "أقل من شهر",
+                    "en": "Under 1 Month",
+                    "tr": "1 Aydan Küçük"
+                },
+                {
+                    "ar": "1 - 3 أشهر",
+                    "en": "1–3 Months",
+                    "tr": "1–3 Ay"
+                },
+                {
+                    "ar": "3 - 6 أشهر",
+                    "en": "3–6 Months",
+                    "tr": "3–6 Ay"
+                },
+                {
+                    "ar": "6 - 12 شهر",
+                    "en": "6–12 Months",
+                    "tr": "6–12 Ay"
+                },
+                {
+                    "ar": "1 - 3 سنوات",
+                    "en": "1–3 Years",
+                    "tr": "1–3 Yıl"
+                },
+                {
+                    "ar": "أكثر من 3 سنوات",
+                    "en": "Over 3 Years",
+                    "tr": "3 Yıldan Büyük"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "gender",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الجنس",
+                "en": "Gender",
+                "tr": "Cinsiyet"
+            },
+            "options": [
+                {
+                    "ar": "ذكر",
+                    "en": "Male",
+                    "tr": "Erkek"
+                },
+                {
+                    "ar": "أنثى",
+                    "en": "Female",
+                    "tr": "Dişi"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "health_status",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الحالة الصحية",
+                "en": "Health Status",
+                "tr": "Sağlık Durumu"
+            },
+            "options": [
+                {
+                    "ar": "ممتازة",
+                    "en": "Excellent",
+                    "tr": "Mükemmel"
+                },
+                {
+                    "ar": "جيدة",
+                    "en": "Good",
+                    "tr": "İyi"
+                },
+                {
+                    "ar": "تحتاج رعاية",
+                    "en": "Needs Care",
+                    "tr": "Bakım Gerekiyor"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "vaccinated",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مطعّم",
+                "en": "Vaccinated",
+                "tr": "Aşılı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "hand_tame",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "أليف / معتاد على التعامل",
+                "en": "Hand-Tame / Socialized",
+                "tr": "Evcil / Alışık"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "جزئيًا",
+                    "en": "Partially",
+                    "tr": "Kısmen"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "delivery_method",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "طريقة التسليم",
+                "en": "Delivery Method",
+                "tr": "Teslim Yöntemi"
+            },
+            "options": [
+                {
+                    "ar": "استلام من البائع",
+                    "en": "Pickup from Seller",
+                    "tr": "Satıcıdan Teslim"
+                },
+                {
+                    "ar": "توصيل داخل المدينة",
+                    "en": "City Delivery",
+                    "tr": "Şehir İçi Teslimat"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "مربي",
+                    "en": "Breeder",
+                    "tr": "Üretici / Yetiştirici"
+                },
+                {
+                    "ar": "محل / متجر",
+                    "en": "Shop / Store",
+                    "tr": "Mağaza"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,581 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات عقارات > أراضي > مقابل شراكة بناء",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "land_area_sqm",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مساحة الأرض (م²)",
+                "en": "Land Area (m²)",
+                "tr": "Arsa Alanı (m²)"
+            }
+        },
+        {
+            "id": "land_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الأرض",
+                "en": "Land Type",
+                "tr": "Arsa Tipi"
+            },
+            "options": [
+                {
+                    "ar": "سكنية",
+                    "en": "سكنية",
+                    "tr": "سكنية"
+                },
+                {
+                    "ar": "تجارية",
+                    "en": "تجارية",
+                    "tr": "تجارية"
+                },
+                {
+                    "ar": "تنظيم",
+                    "en": "Zoned",
+                    "tr": "İmarlı"
+                },
+                {
+                    "ar": "قيد التنظيم",
+                    "en": "Under Zoning",
+                    "tr": "İmar Sürecinde"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "zoning_status",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة التنظيم",
+                "en": "Zoning Status",
+                "tr": "İmar Durumu"
+            },
+            "options": [
+                {
+                    "ar": "منظم",
+                    "en": "Zoned",
+                    "tr": "İmarlı"
+                },
+                {
+                    "ar": "غير منظم",
+                    "en": "Not Zoned",
+                    "tr": "İmarsız"
+                },
+                {
+                    "ar": "قيد التنظيم",
+                    "en": "Under Zoning",
+                    "tr": "İmar Sürecinde"
+                },
+                {
+                    "ar": "لا أعلم",
+                    "en": "Unknown",
+                    "tr": "Bilmiyorum"
+                }
+            ]
+        },
+        {
+            "id": "title_deed_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع سند الملكية",
+                "en": "Title Deed Type",
+                "tr": "Tapu Türü"
+            },
+            "options": [
+                {
+                    "ar": "طابو أخضر",
+                    "en": "Green Title Deed",
+                    "tr": "Yeşil Tapu"
+                },
+                {
+                    "ar": "حكم محكمة",
+                    "en": "Court Ruling",
+                    "tr": "Mahkeme Kararı"
+                },
+                {
+                    "ar": "وكالة كاتب عدل",
+                    "en": "Notary Power of Attorney",
+                    "tr": "Noter Vekaleti"
+                },
+                {
+                    "ar": "عقد بيع",
+                    "en": "Sale Contract",
+                    "tr": "Satış Sözleşmesi"
+                },
+                {
+                    "ar": "أسهم / حصص",
+                    "en": "Shares / Stakes",
+                    "tr": "Hisseler / Paylar"
+                },
+                {
+                    "ar": "غير متوفر",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                }
+            ]
+        },
+        {
+            "id": "agreement_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الاتفاق",
+                "en": "Agreement Type",
+                "tr": "Anlaşma Tipi"
+            },
+            "options": [
+                {
+                    "ar": "نسبة شقق",
+                    "en": "Apartment Share",
+                    "tr": "Daire Payı"
+                },
+                {
+                    "ar": "نسبة طوابق",
+                    "en": "Floor Share",
+                    "tr": "Kat Payı"
+                },
+                {
+                    "ar": "مبلغ + حصة",
+                    "en": "Cash + Share",
+                    "tr": "Nakit + Pay"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "landowner_share",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نسبة صاحب الأرض",
+                "en": "Landowner Share",
+                "tr": "Arsa Sahibi Payı"
+            },
+            "options": [
+                {
+                    "ar": "أقل من 30%",
+                    "en": "Under 30%",
+                    "tr": "%30 Altı"
+                },
+                {
+                    "ar": "30% - 40%",
+                    "en": "30%–40%",
+                    "tr": "%30–40"
+                },
+                {
+                    "ar": "40% - 50%",
+                    "en": "40%–50%",
+                    "tr": "%40–50"
+                },
+                {
+                    "ar": "أكثر من 50%",
+                    "en": "Over 50%",
+                    "tr": "%50 Üzeri"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "contractor_share",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نسبة المقاول / المطور",
+                "en": "Contractor / Developer Share",
+                "tr": "Müteahhit / Geliştirici Payı"
+            },
+            "options": [
+                {
+                    "ar": "أقل من 50%",
+                    "en": "Under 50%",
+                    "tr": "%50 Altı"
+                },
+                {
+                    "ar": "50% - 60%",
+                    "en": "50%–60%",
+                    "tr": "%50–60"
+                },
+                {
+                    "ar": "60% - 70%",
+                    "en": "60%–70%",
+                    "tr": "%60–70"
+                },
+                {
+                    "ar": "أكثر من 70%",
+                    "en": "Over 70%",
+                    "tr": "%70 Üzeri"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "allowed_floors",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الطوابق المسموح",
+                "en": "Allowed Floors",
+                "tr": "İzin Verilen Kat Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "1",
+                    "en": "1",
+                    "tr": "1"
+                },
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5",
+                    "en": "5",
+                    "tr": "5"
+                },
+                {
+                    "ar": "6+",
+                    "en": "6+",
+                    "tr": "6+"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "building_ratio",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نسبة البناء",
+                "en": "Building Coverage Ratio",
+                "tr": "İnşaat Yoğunluğu"
+            },
+            "options": [
+                {
+                    "ar": "أقل من 25%",
+                    "en": "Under 25%",
+                    "tr": "%25 Altı"
+                },
+                {
+                    "ar": "25% - 50%",
+                    "en": "25%–50%",
+                    "tr": "%25–50"
+                },
+                {
+                    "ar": "50% - 75%",
+                    "en": "50%–75%",
+                    "tr": "%50–75"
+                },
+                {
+                    "ar": "أكثر من 75%",
+                    "en": "Over 75%",
+                    "tr": "%75 Üzeri"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "building_permit",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "رخصة بناء",
+                "en": "Building Permit",
+                "tr": "İnşaat Ruhsatı"
+            },
+            "options": [
+                {
+                    "ar": "موجودة",
+                    "en": "Available",
+                    "tr": "Mevcut"
+                },
+                {
+                    "ar": "قيد الاستخراج",
+                    "en": "In Process",
+                    "tr": "Çıkarma Sürecinde"
+                },
+                {
+                    "ar": "غير موجودة",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                },
+                {
+                    "ar": "غير مطلوب",
+                    "en": "Not Required",
+                    "tr": "Gerekli Değil"
+                }
+            ]
+        },
+        {
+            "id": "engineering_plan",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مخطط هندسي",
+                "en": "Engineering Plan",
+                "tr": "Mühendislik Planı"
+            },
+            "options": [
+                {
+                    "ar": "موجود",
+                    "en": "Available",
+                    "tr": "Mevcut"
+                },
+                {
+                    "ar": "غير موجود",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                },
+                {
+                    "ar": "قيد التجهيز",
+                    "en": "Under Setup",
+                    "tr": "Hazırlık Aşamasında"
+                }
+            ]
+        },
+        {
+            "id": "project_readiness",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "جاهزية المشروع",
+                "en": "Project Readiness",
+                "tr": "Proje Hazırlığı"
+            },
+            "options": [
+                {
+                    "ar": "فكرة أولية",
+                    "en": "Initial Concept",
+                    "tr": "İlk Fikir"
+                },
+                {
+                    "ar": "مخطط جاهز",
+                    "en": "Plan Ready",
+                    "tr": "Plan Hazır"
+                },
+                {
+                    "ar": "رخصة جاهزة",
+                    "en": "Permit Ready",
+                    "tr": "Ruhsat Hazır"
+                },
+                {
+                    "ar": "جاهز للتنفيذ",
+                    "en": "Ready to Execute",
+                    "tr": "Uygulamaya Hazır"
+                }
+            ]
+        },
+        {
+            "id": "old_building_exists",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "وجود بناء قديم",
+                "en": "Old Building on Site",
+                "tr": "Mevcut Eski Yapı"
+            },
+            "options": [
+                {
+                    "ar": "يوجد",
+                    "en": "Yes",
+                    "tr": "Var"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                }
+            ]
+        },
+        {
+            "id": "available_utilities",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الخدمات المتوفرة",
+                "en": "Available Utilities",
+                "tr": "Mevcut Altyapı"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                },
+                {
+                    "ar": "ماء",
+                    "en": "Water",
+                    "tr": "Su"
+                },
+                {
+                    "ar": "صرف صحي",
+                    "en": "Sewage",
+                    "tr": "Kanalizasyon"
+                },
+                {
+                    "ar": "طريق مزفت",
+                    "en": "Paved Road",
+                    "tr": "Asfalt Yol"
+                },
+                {
+                    "ar": "طريق ترابي",
+                    "en": "Dirt Road",
+                    "tr": "Toprak Yol"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                }
+            ]
+        },
+        {
+            "id": "financial_requirement",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المطلوب المالي إن وجد",
+                "en": "Financial Requirement (if any)",
+                "tr": "Mali Gereksinim (varsa)"
+            }
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Advertiser Type",
+                "tr": "İlan Sahibi Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Owner",
+                    "tr": "Mal Sahibi"
+                },
+                {
+                    "ar": "مكتب عقاري",
+                    "en": "Real Estate Office",
+                    "tr": "Emlak Ofisi"
+                },
+                {
+                    "ar": "وكيل",
+                    "en": "Agent",
+                    "tr": "Temsilci"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                },
+                {
+                    "ar": "مطور عقاري",
+                    "en": "Real Estate Developer",
+                    "tr": "Gayrimenkul Geliştirici"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

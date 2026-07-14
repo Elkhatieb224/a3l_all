@@ -1,0 +1,99 @@
+row_num,csv_path,csv_name,status,message,subcategory_id,db_name_ar,slug,nodes_deleted,ads_count
+1,"العقارات > عقار تجاري > تنازل عن عقد الإيجار > وكيل ألعاب حظ","وكيل ألعاب حظ",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",44548,"وكيل ألعاب حظ",lottery-dealer,1,0
+2,"العقارات > عقار تجاري > للبيع مع التنازل عن النشاط > وكيل ألعاب حظ","وكيل ألعاب حظ",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",44612,"وكيل ألعاب حظ",lottery-dealer-business-transfer-sale,1,0
+3,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > أجهزة منزلية > مجموعات مدمجة","مجموعات مدمجة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26191,"مجموعات مدمجة",built-in-sets-2,1,0
+4,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > أجهزة منزلية صغيرة > آلات فراغ","آلات فراغ",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26264,"آلات فراغ",vacuum-machines-2,1,0
+5,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > أجهزة منزلية صغيرة > جارباجي ديسبوسالس","جارباجي ديسبوسالس",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26244,"جارباجي ديسبوسالس",garbage-disposals-2,1,0
+6,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > أجهزة منزلية صغيرة > عصارات",عصارات,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26250,عصارات,juicers-2,1,0
+7,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > أجهزة منزلية صغيرة > ماكينات الخبز","ماكينات الخبز",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26230,"ماكينات الخبز",bread-machines-2,1,0
+8,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > أجهزة منزلية صغيرة > مجفف الطعام","مجفف الطعام",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26242,"مجفف الطعام",food-dehydrator-2,1,0
+9,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > تدفئة وتبريد وتهوية > ستائر هوائية","ستائر هوائية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26224,"ستائر هوائية",air-curtains-2,1,0
+10,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > تدفئة وتبريد وتهوية > سخان لوحة المسخن","سخان لوحة المسخن",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26218,"سخان لوحة المسخن",convector-panel-heater-2,1,0
+11,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > تدفئة وتبريد وتهوية > سخانات الزيت المبرد","سخانات الزيت المبرد",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26220,"سخانات الزيت المبرد",oil-radiator-heaters-2,1,0
+12,"سلع مستعملة وجديدة > أجهزة منزلية كهربائية > تدفئة وتبريد وتهوية > ملفات المروحة","ملفات المروحة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26225,"ملفات المروحة",fan-coils-2,1,0
+13,"سلع مستعملة وجديدة > كمبيوتر > إكسسوارات > موسي بونجي","موسي بونجي",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25815,"موسي بونجي",mouse-bungee-2,1,0
+14,"سلع مستعملة وجديدة > كمبيوتر > ملحقات الكمبيوتر > قارئات البطاقات","قارئات البطاقات",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26063,"قارئات البطاقات",card-readers-2,1,0
+15,"سلع مستعملة وجديدة > كمبيوتر > ملحقات الكمبيوتر > كابليس & كونفيرتيرس","كابليس & كونفيرتيرس",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26057,"كابليس & كونفيرتيرس",cables-converters-2,1,0
+16,"سلع مستعملة وجديدة > كمبيوتر > ملحقات الكمبيوتر > مفاتيح KVM","مفاتيح KVM",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26066,"مفاتيح KVM",kvm-switches-2,1,0
+17,"سلع مستعملة وجديدة > كمبيوتر > ملحقات الكمبيوتر > يو بي إس","يو بي إس",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26064,"يو بي إس",ups-2,1,0
+18,"سلع مستعملة وجديدة > كمبيوتر > نطاقات واستضافة وبرمجيات > دوماينس",دوماينس,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25925,دوماينس,domains-2,1,0
+19,"العقارات > سكن > عقار للبيع مع نقل النشاط","عقار للبيع مع نقل النشاط",would_delete,"Would soft-delete 3 node(s), 0 linked ad(s)",44358,"عقار للبيع مع نقل النشاط",property-for-sale-with-business-transfer,3,0
+20,"المركبات > المركبات الكهربائية > مركبات ATV كهربائية","مركبات ATV كهربائية",would_delete,"Would soft-delete 15 node(s), 0 linked ad(s)",33137,"مركبات ATV كهربائية",electric-atv,15,0
+21,"المركبات > المركبات الكهربائية > مركبات UTV كهربائية","مركبات UTV كهربائية",would_delete,"Would soft-delete 5 node(s), 0 linked ad(s)",33139,"مركبات UTV كهربائية",electric-utv,5,0
+22,"المركبات > تأجير سيارات > طائرات",طائرات,would_delete,"Would soft-delete 3 node(s), 0 linked ad(s)",37458,طائرات,aircraft,3,0
+23,"المركبات > دراجات ATV رباعية > واواساكي",واواساكي,would_delete,"Would soft-delete 2 node(s), 0 linked ad(s)",43060,واواساكي,wawasaky-ATV,2,0
+24,"المركبات > سيارات > جويس",جويس,not_found,"No subcategory matches current name under candidate categories",,,,0,0
+25,"سلع مستعملة وجديدة > أنتيكات > الكتب والمواد المطبوعة","الكتب والمواد المطبوعة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25189,"الكتب والمواد المطبوعة",books-printed-materials-2,1,0
+26,"سلع مستعملة وجديدة > أنتيكات > ماريتيمي",ماريتيمي,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25191,ماريتيمي,maritime-2,1,0
+27,"سلع مستعملة وجديدة > رياضة > رياضات خطرة","رياضات خطرة",would_delete,"Would soft-delete 17 node(s), 0 linked ad(s)",28930,"رياضات خطرة",extreme-sports,17,0
+27,"سلع مستعملة وجديدة > رياضة > رياضات خطرة","رياضات خطرة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28946,"رياضات خطرة",extreme-sports-2,1,0
+27,"سلع مستعملة وجديدة > رياضة > رياضات خطرة","رياضات خطرة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28962,"رياضات خطرة",extreme-sports-3,1,0
+28,"سلع مستعملة وجديدة > رياضة > رياضات شتوية","رياضات شتوية",would_delete,"Would soft-delete 29 node(s), 0 linked ad(s)",28941,"رياضات شتوية",winter-sports,29,0
+28,"سلع مستعملة وجديدة > رياضة > رياضات شتوية","رياضات شتوية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28957,"رياضات شتوية",winter-sports-2,1,0
+28,"سلع مستعملة وجديدة > رياضة > رياضات شتوية","رياضات شتوية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28973,"رياضات شتوية",winter-sports-3,1,0
+29,"سلع مستعملة وجديدة > رياضة > رياضات طبيعية","رياضات طبيعية",would_delete,"Would soft-delete 76 node(s), 0 linked ad(s)",28935,"رياضات طبيعية",nature-sports,76,0
+29,"سلع مستعملة وجديدة > رياضة > رياضات طبيعية","رياضات طبيعية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28951,"رياضات طبيعية",nature-sports-2,1,0
+29,"سلع مستعملة وجديدة > رياضة > رياضات طبيعية","رياضات طبيعية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28967,"رياضات طبيعية",nature-sports-3,1,0
+30,"سلع مستعملة وجديدة > رياضة > رياضات مائية","رياضات مائية",would_delete,"Would soft-delete 47 node(s), 0 linked ad(s)",28940,"رياضات مائية",water-sports,47,0
+30,"سلع مستعملة وجديدة > رياضة > رياضات مائية","رياضات مائية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28956,"رياضات مائية",water-sports-2,1,0
+30,"سلع مستعملة وجديدة > رياضة > رياضات مائية","رياضات مائية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28972,"رياضات مائية",water-sports-3,1,0
+31,"سلع مستعملة وجديدة > رياضة > عضويات",عضويات,would_delete,"Would soft-delete 2 node(s), 0 linked ad(s)",28934,عضويات,membership,2,0
+31,"سلع مستعملة وجديدة > رياضة > عضويات",عضويات,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28950,عضويات,membership-2,1,0
+31,"سلع مستعملة وجديدة > رياضة > عضويات",عضويات,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28966,عضويات,membership-3,1,0
+32,"سلع مستعملة وجديدة > رياضة > مستلزمات المشجعين","مستلزمات المشجعين",would_delete,"Would soft-delete 4 node(s), 0 linked ad(s)",28938,"مستلزمات المشجعين",sports-fan-products,4,0
+32,"سلع مستعملة وجديدة > رياضة > مستلزمات المشجعين","مستلزمات المشجعين",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28954,"مستلزمات المشجعين",sports-fan-products-2,1,0
+32,"سلع مستعملة وجديدة > رياضة > مستلزمات المشجعين","مستلزمات المشجعين",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",28970,"مستلزمات المشجعين",sports-fan-products-3,1,0
+33,"سلع مستعملة وجديدة > ساعات ومنبهات > ساعات الجيب","ساعات الجيب",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",29483,"ساعات الجيب",pocket-watches,1,0
+34,"سلع مستعملة وجديدة > ساعات ومنبهات > ساعات المجوهرات","ساعات المجوهرات",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",29486,"ساعات المجوهرات",jewelry-watches,1,0
+35,"سلع مستعملة وجديدة > ساعات ومنبهات > هورجلاسسيس",هورجلاسسيس,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",29482,هورجلاسسيس,hourglasses,1,0
+36,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > أدب",أدب,would_delete,"Would soft-delete 30 node(s), 0 linked ad(s)",25280,أدب,literature-2,30,0
+36,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > أدب",أدب,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25290,أدب,literature-3,1,0
+36,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > أدب",أدب,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25300,أدب,literature-4,1,0
+37,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > أفلام",أفلام,would_delete,"Would soft-delete 65 node(s), 0 linked ad(s)",25282,أفلام,movies-2,65,0
+37,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > أفلام",أفلام,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25292,أفلام,movies-3,1,0
+37,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > أفلام",أفلام,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25302,أفلام,movies-4,1,0
+38,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > إكسسوارات الكتب الإلكترونية","إكسسوارات الكتب الإلكترونية",would_delete,"Would soft-delete 7 node(s), 0 linked ad(s)",25277,"إكسسوارات الكتب الإلكترونية",electronic-book-accessories-2,7,0
+38,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > إكسسوارات الكتب الإلكترونية","إكسسوارات الكتب الإلكترونية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25287,"إكسسوارات الكتب الإلكترونية",electronic-book-accessories-3,1,0
+38,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > إكسسوارات الكتب الإلكترونية","إكسسوارات الكتب الإلكترونية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25297,"إكسسوارات الكتب الإلكترونية",electronic-book-accessories-4,1,0
+39,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > الإنجليزية ولغات أخرى","الإنجليزية ولغات أخرى",would_delete,"Would soft-delete 13 node(s), 0 linked ad(s)",25278,"الإنجليزية ولغات أخرى",english-other-languages-2,13,0
+39,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > الإنجليزية ولغات أخرى","الإنجليزية ولغات أخرى",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25288,"الإنجليزية ولغات أخرى",english-other-languages-3,1,0
+39,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > الإنجليزية ولغات أخرى","الإنجليزية ولغات أخرى",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25298,"الإنجليزية ولغات أخرى",english-other-languages-4,1,0
+40,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > الكتب المصورة والفكاهة","الكتب المصورة والفكاهة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25283,"الكتب المصورة والفكاهة",comic-books-humor-2,1,0
+40,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > الكتب المصورة والفكاهة","الكتب المصورة والفكاهة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25293,"الكتب المصورة والفكاهة",comic-books-humor-3,1,0
+40,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > الكتب المصورة والفكاهة","الكتب المصورة والفكاهة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25303,"الكتب المصورة والفكاهة",comic-books-humor-4,1,0
+41,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > بيع بالجملة","بيع بالجملة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25284,"بيع بالجملة",wholesale-lots-12,1,0
+41,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > بيع بالجملة","بيع بالجملة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25294,"بيع بالجملة",wholesale-lots-13,1,0
+41,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > بيع بالجملة","بيع بالجملة",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25304,"بيع بالجملة",wholesale-lots-14,1,0
+42,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب أطفال","كتب أطفال",would_delete,"Would soft-delete 8 node(s), 0 linked ad(s)",25275,"كتب أطفال",childrens-books-2,8,0
+42,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب أطفال","كتب أطفال",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25285,"كتب أطفال",childrens-books-3,1,0
+42,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب أطفال","كتب أطفال",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25295,"كتب أطفال",childrens-books-4,1,0
+43,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب تعليمية وقواميس","كتب تعليمية وقواميس",would_delete,"Would soft-delete 7 node(s), 0 linked ad(s)",25276,"كتب تعليمية وقواميس",educational-books-dictionaries-2,7,0
+43,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب تعليمية وقواميس","كتب تعليمية وقواميس",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25286,"كتب تعليمية وقواميس",educational-books-dictionaries-3,1,0
+43,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب تعليمية وقواميس","كتب تعليمية وقواميس",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25296,"كتب تعليمية وقواميس",educational-books-dictionaries-4,1,0
+44,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب معلومات ومراجع","كتب معلومات ومراجع",would_delete,"Would soft-delete 34 node(s), 0 linked ad(s)",25279,"كتب معلومات ومراجع",information-reference-books-2,34,0
+44,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب معلومات ومراجع","كتب معلومات ومراجع",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25289,"كتب معلومات ومراجع",information-reference-books-3,1,0
+44,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > كتب معلومات ومراجع","كتب معلومات ومراجع",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25299,"كتب معلومات ومراجع",information-reference-books-4,1,0
+45,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > مجلات",مجلات,would_delete,"Would soft-delete 40 node(s), 0 linked ad(s)",25281,مجلات,magazine-4,40,0
+45,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > مجلات",مجلات,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25291,مجلات,magazine-5,1,0
+45,"سلع مستعملة وجديدة > كتب ومجلات وأفلام > مجلات",مجلات,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",25301,مجلات,magazine-6,1,0
+46,"سلع مستعملة وجديدة > هوايات وألعاب > أطقم تركيب خشبية وبلاستيكية","أطقم تركيب خشبية وبلاستيكية",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26768,"أطقم تركيب خشبية وبلاستيكية",wood-plastic-model-kits,1,0
+47,"سلع مستعملة وجديدة > هوايات وألعاب > بطاقات تجميع","بطاقات تجميع",would_delete,"Would soft-delete 3 node(s), 0 linked ad(s)",26761,"بطاقات تجميع",collection-cards,3,0
+48,"سلع مستعملة وجديدة > هوايات وألعاب > مجسمات معدنية","مجسمات معدنية",would_delete,"Would soft-delete 20 node(s), 0 linked ad(s)",26763,"مجسمات معدنية",diecast-model,20,0
+49,"سلع مستعملة وجديدة > أخرى > منتجات يمكن التخلص منها","منتجات يمكن التخلص منها",would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",26278,"منتجات يمكن التخلص منها",disposible-products-2,1,0
+50,"سلع مستعملة وجديدة > مستلزمات الحدائق والبناء > تحسين المنزل","تحسين المنزل",would_delete,"Would soft-delete 108 node(s), 0 linked ad(s)",26481,"تحسين المنزل",home-improvement,108,0
+51,"سلع مستعملة وجديدة > مستلزمات الحدائق والبناء > مبانٍ جاهزة","مبانٍ جاهزة",would_delete,"Would soft-delete 6 node(s), 0 linked ad(s)",26482,"مبانٍ جاهزة",prefab-building,6,0
+52,"سلع مستعملة وجديدة > هوايات وألعاب > مجسمات الشخصيات","مجسمات الشخصيات",would_delete,"Would soft-delete 9 node(s), 0 linked ad(s)",26760,"مجسمات الشخصيات",action-figures,9,0
+53,"الحيوانات الأليفة والمواشي > الحشرات",الحشرات,would_delete,"Would soft-delete 5 node(s), 0 linked ad(s)",29944,الحشرات,insects,5,0
+54,"الحيوانات الأليفة والمواشي > الزواحف",الزواحف,would_delete,"Would soft-delete 9 node(s), 0 linked ad(s)",29947,الزواحف,reptiles,9,0
+55,"الحيوانات الأليفة والمواشي > الكائنات البحرية","الكائنات البحرية",would_delete,"Would soft-delete 12 node(s), 0 linked ad(s)",29948,"الكائنات البحرية",sea-lives,12,0
+56,"العقارات > تايم شير","تايم شير",would_delete,"Would soft-delete 80 node(s), 0 linked ad(s)",44354,"تايم شير",timeshare,80,0
+57,"المركبات > مركبات بلوحات ذوي الاحتياجات الخاصة","مركبات بلوحات ذوي الاحتياجات الخاصة",would_delete,"Would soft-delete 108 node(s), 0 linked ad(s)",42418,"مركبات بلوحات ذوي الاحتياجات الخاصة",VehicleswithDisabilityPlates,108,0
+58,"الوظائف > إدارة الأعمال والإدارة الاستراتيجية","إدارة الأعمال والإدارة الاستراتيجية",would_delete,"Would soft-delete 11 node(s), 0 linked ad(s)",17431,"إدارة الأعمال والإدارة الاستراتيجية",job-business-and-strategic-management,11,0
+59,"الوظائف > الموارد البشرية","الموارد البشرية",would_delete,"Would soft-delete 8 node(s), 0 linked ad(s)",17447,"الموارد البشرية",job-human-resources,8,0
+60,"دروس خصوصية > تصوير فوتوغرافي","تصوير فوتوغرافي",would_delete,"Would soft-delete 8 node(s), 0 linked ad(s)",17820,"تصوير فوتوغرافي",lesson-photography,8,0
+61,"دروس خصوصية > تطوير الذات","تطوير الذات",would_delete,"Would soft-delete 14 node(s), 0 linked ad(s)",17811,"تطوير الذات",lesson-personal-development,14,0
+62,"دروس خصوصية > مهارات الأعمال والمالية","مهارات الأعمال والمالية",would_delete,"Would soft-delete 17 node(s), 0 linked ad(s)",17799,"مهارات الأعمال والمالية",lesson-business-finance-skills,17,0
+63,"سلع مستعملة وجديدة > مجوهرات وأحجار كريمة","مجوهرات وأحجار كريمة",would_delete,"Would soft-delete 65 node(s), 0 linked ad(s)",25171,"مجوهرات وأحجار كريمة",jewelry-precious-stones,65,0
+64,"سلع مستعملة وجديدة > مقتنيات",مقتنيات,would_delete,"Would soft-delete 74 node(s), 0 linked ad(s)",25161,مقتنيات,collection,74,0
+65,"سلع مستعملة وجديدة > موسيقى",موسيقى,would_delete,"Would soft-delete 271 node(s), 0 linked ad(s)",25174,موسيقى,music,271,0
+66,"سلع مستعملة وجديدة > جوزفين",جوزفين,would_delete,"Would soft-delete 1 node(s), 0 linked ad(s)",27053,جوزفين,josefin,1,0

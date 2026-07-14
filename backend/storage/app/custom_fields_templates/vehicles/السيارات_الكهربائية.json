@@ -1,0 +1,967 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات السيارات الكهربائية",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "model_year",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "سنة الصنع",
+                "en": "Model Year",
+                "tr": "Model Yılı"
+            },
+            "options": [
+                {
+                    "ar": "2026",
+                    "en": "2026",
+                    "tr": "2026"
+                },
+                {
+                    "ar": "2025",
+                    "en": "2025",
+                    "tr": "2025"
+                },
+                {
+                    "ar": "2024",
+                    "en": "2024",
+                    "tr": "2024"
+                },
+                {
+                    "ar": "2023",
+                    "en": "2023",
+                    "tr": "2023"
+                },
+                {
+                    "ar": "2022",
+                    "en": "2022",
+                    "tr": "2022"
+                },
+                {
+                    "ar": "2021",
+                    "en": "2021",
+                    "tr": "2021"
+                },
+                {
+                    "ar": "2020",
+                    "en": "2020",
+                    "tr": "2020"
+                },
+                {
+                    "ar": "2019",
+                    "en": "2019",
+                    "tr": "2019"
+                },
+                {
+                    "ar": "2018",
+                    "en": "2018",
+                    "tr": "2018"
+                },
+                {
+                    "ar": "2017",
+                    "en": "2017",
+                    "tr": "2017"
+                },
+                {
+                    "ar": "2016",
+                    "en": "2016",
+                    "tr": "2016"
+                },
+                {
+                    "ar": "2015",
+                    "en": "2015",
+                    "tr": "2015"
+                },
+                {
+                    "ar": "2014",
+                    "en": "2014",
+                    "tr": "2014"
+                },
+                {
+                    "ar": "2013",
+                    "en": "2013",
+                    "tr": "2013"
+                },
+                {
+                    "ar": "2012",
+                    "en": "2012",
+                    "tr": "2012"
+                },
+                {
+                    "ar": "2011",
+                    "en": "2011",
+                    "tr": "2011"
+                },
+                {
+                    "ar": "2010",
+                    "en": "2010",
+                    "tr": "2010"
+                },
+                {
+                    "ar": "2009",
+                    "en": "2009",
+                    "tr": "2009"
+                },
+                {
+                    "ar": "2008",
+                    "en": "2008",
+                    "tr": "2008"
+                },
+                {
+                    "ar": "2007",
+                    "en": "2007",
+                    "tr": "2007"
+                },
+                {
+                    "ar": "2006",
+                    "en": "2006",
+                    "tr": "2006"
+                },
+                {
+                    "ar": "2005",
+                    "en": "2005",
+                    "tr": "2005"
+                },
+                {
+                    "ar": "2004",
+                    "en": "2004",
+                    "tr": "2004"
+                },
+                {
+                    "ar": "2003",
+                    "en": "2003",
+                    "tr": "2003"
+                },
+                {
+                    "ar": "2002",
+                    "en": "2002",
+                    "tr": "2002"
+                },
+                {
+                    "ar": "2001",
+                    "en": "2001",
+                    "tr": "2001"
+                },
+                {
+                    "ar": "2000",
+                    "en": "2000",
+                    "tr": "2000"
+                },
+                {
+                    "ar": "قبل 2000",
+                    "en": "Before 2000",
+                    "tr": "2000 Öncesi"
+                }
+            ]
+        },
+        {
+            "id": "mileage",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الكيلومترات",
+                "en": "Mileage",
+                "tr": "Kilometre"
+            }
+        },
+        {
+            "id": "vehicle_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة السيارة",
+                "en": "Vehicle Condition",
+                "tr": "Araç Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديدة",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعملة",
+                    "en": "Used",
+                    "tr": "İkinci El"
+                }
+            ]
+        },
+        {
+            "id": "registration_status",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة التسجيل",
+                "en": "Registration Status",
+                "tr": "Tescil Durumu"
+            },
+            "options": [
+                {
+                    "ar": "مسجلة في سوريا",
+                    "en": "Registered in Syria",
+                    "tr": "Suriye Tescilli"
+                },
+                {
+                    "ar": "مسجلة في تركيا",
+                    "en": "Registered in Turkey",
+                    "tr": "Türkiye Tescilli"
+                },
+                {
+                    "ar": "غير مسجلة",
+                    "en": "Unregistered",
+                    "tr": "Tescilsiz"
+                },
+                {
+                    "ar": "إدخال جمركي",
+                    "en": "Customs Import",
+                    "tr": "Gümrük Girişli"
+                },
+                {
+                    "ar": "لوحة مؤقتة",
+                    "en": "Temporary Plates",
+                    "tr": "Geçici Plaka"
+                },
+                {
+                    "ar": "لوحة أجنبية",
+                    "en": "Foreign Plates",
+                    "tr": "Yabancı Plaka"
+                },
+                {
+                    "ar": "قيد التسجيل",
+                    "en": "Registration Pending",
+                    "tr": "Tescil Sürecinde"
+                }
+            ]
+        },
+        {
+            "id": "license_inspection_status",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "حالة الترخيص / الفحص",
+                "en": "License / Inspection",
+                "tr": "Ruhsat / Muayene"
+            },
+            "options": [
+                {
+                    "ar": "ساري",
+                    "en": "Valid",
+                    "tr": "Geçerli"
+                },
+                {
+                    "ar": "منتهي",
+                    "en": "Expired",
+                    "tr": "Süresi Dolmuş"
+                },
+                {
+                    "ar": "غير متوفر",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                }
+            ]
+        },
+        {
+            "id": "vehicle_source",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مصدر السيارة",
+                "en": "Vehicle Origin",
+                "tr": "Araç Menşei"
+            },
+            "options": [
+                {
+                    "ar": "محلية",
+                    "en": "Local",
+                    "tr": "Yerli"
+                },
+                {
+                    "ar": "واردة من كوريا",
+                    "en": "Imported from Korea",
+                    "tr": "Kore İthal"
+                },
+                {
+                    "ar": "واردة من الخليج",
+                    "en": "Imported from Gulf",
+                    "tr": "Körfez İthal"
+                },
+                {
+                    "ar": "واردة من أوروبا",
+                    "en": "Imported from Europe",
+                    "tr": "Avrupa İthal"
+                },
+                {
+                    "ar": "واردة من أمريكا",
+                    "en": "Imported from USA",
+                    "tr": "ABD İthal"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "energy_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الطاقة",
+                "en": "Powertrain",
+                "tr": "Güç Ünitesi"
+            },
+            "options": [
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                },
+                {
+                    "ar": "هايبرد قابل للشحن",
+                    "en": "Plug-in Hybrid",
+                    "tr": "Şarj Edilebilir Hibrit"
+                }
+            ]
+        },
+        {
+            "id": "driving_range",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مدى السيارة بالشحنة الواحدة",
+                "en": "Driving Range",
+                "tr": "Menzil"
+            },
+            "options": [
+                {
+                    "ar": "أقل من 150 كم",
+                    "en": "Under 150 km",
+                    "tr": "150 km Altı"
+                },
+                {
+                    "ar": "150 - 250 كم",
+                    "en": "150–250 km",
+                    "tr": "150–250 km"
+                },
+                {
+                    "ar": "251 - 400 كم",
+                    "en": "251–400 km",
+                    "tr": "251–400 km"
+                },
+                {
+                    "ar": "أكثر من 400 كم",
+                    "en": "Over 400 km",
+                    "tr": "400 km Üzeri"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "battery_condition",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "حالة البطارية",
+                "en": "Battery Condition",
+                "tr": "Batarya Durumu"
+            },
+            "options": [
+                {
+                    "ar": "ممتازة",
+                    "en": "Excellent",
+                    "tr": "Mükemmel"
+                },
+                {
+                    "ar": "جيدة",
+                    "en": "Good",
+                    "tr": "İyi"
+                },
+                {
+                    "ar": "تحتاج فحص",
+                    "en": "Needs Inspection",
+                    "tr": "Kontrol Gerekli"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                },
+                {
+                    "ar": "جديدة",
+                    "en": "New",
+                    "tr": "Sıfır"
+                }
+            ]
+        },
+        {
+            "id": "charging_type",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الشحن",
+                "en": "Charging Type",
+                "tr": "Şarj Tipi"
+            },
+            "options": [
+                {
+                    "ar": "شحن عادي",
+                    "en": "Standard Charging",
+                    "tr": "Normal Şarj"
+                },
+                {
+                    "ar": "شحن سريع",
+                    "en": "Fast Charging",
+                    "tr": "Hızlı Şarj"
+                },
+                {
+                    "ar": "شحن عادي وسريع",
+                    "en": "Standard & Fast Charging",
+                    "tr": "Normal ve Hızlı Şarj"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "drive_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الدفع",
+                "en": "Drive Type",
+                "tr": "Çekiş Tipi"
+            },
+            "options": [
+                {
+                    "ar": "دفع أمامي",
+                    "en": "Front-Wheel Drive",
+                    "tr": "Önden Çekiş"
+                },
+                {
+                    "ar": "دفع خلفي",
+                    "en": "Rear-Wheel Drive",
+                    "tr": "Arkadan Çekiş"
+                },
+                {
+                    "ar": "دفع رباعي",
+                    "en": "All-Wheel Drive",
+                    "tr": "4x4 / AWD"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "color",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "لون السيارة",
+                "en": "Color",
+                "tr": "Renk"
+            },
+            "options": [
+                {
+                    "ar": "أبيض",
+                    "en": "White",
+                    "tr": "Beyaz"
+                },
+                {
+                    "ar": "أسود",
+                    "en": "Black",
+                    "tr": "Siyah"
+                },
+                {
+                    "ar": "فضي",
+                    "en": "Silver",
+                    "tr": "Gümüş"
+                },
+                {
+                    "ar": "رمادي",
+                    "en": "Gray",
+                    "tr": "Gri"
+                },
+                {
+                    "ar": "أحمر",
+                    "en": "Red",
+                    "tr": "Kırmızı"
+                },
+                {
+                    "ar": "أزرق",
+                    "en": "Blue",
+                    "tr": "Mavi"
+                },
+                {
+                    "ar": "كحلي",
+                    "en": "Navy",
+                    "tr": "Lacivert"
+                },
+                {
+                    "ar": "بيج",
+                    "en": "Beige",
+                    "tr": "Bej"
+                },
+                {
+                    "ar": "بني",
+                    "en": "Brown",
+                    "tr": "Kahverengi"
+                },
+                {
+                    "ar": "أخضر",
+                    "en": "Green",
+                    "tr": "Yeşil"
+                },
+                {
+                    "ar": "أصفر",
+                    "en": "Yellow",
+                    "tr": "Sarı"
+                },
+                {
+                    "ar": "برتقالي",
+                    "en": "Orange",
+                    "tr": "Turuncu"
+                },
+                {
+                    "ar": "لون آخر",
+                    "en": "Other Color",
+                    "tr": "Diğer Renk"
+                }
+            ]
+        },
+        {
+            "id": "doors",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الأبواب",
+                "en": "Doors",
+                "tr": "Kapı Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5",
+                    "en": "5",
+                    "tr": "5"
+                }
+            ]
+        },
+        {
+            "id": "seats",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "عدد المقاعد",
+                "en": "Seats",
+                "tr": "Koltuk Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5",
+                    "en": "5",
+                    "tr": "5"
+                },
+                {
+                    "ar": "6",
+                    "en": "6",
+                    "tr": "6"
+                },
+                {
+                    "ar": "7",
+                    "en": "7",
+                    "tr": "7"
+                },
+                {
+                    "ar": "8",
+                    "en": "8",
+                    "tr": "8"
+                },
+                {
+                    "ar": "أكثر من 8",
+                    "en": "Over 8",
+                    "tr": "8 Üzeri"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "معرض سيارات",
+                    "en": "Dealership",
+                    "tr": "Galeri"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "delivery_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "إمكانية الداكيش",
+                "en": "Delivery Available",
+                "tr": "Teslimat Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "comfort_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات الراحة",
+                "en": "Comfort Features",
+                "tr": "Konfor Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مكيف",
+                    "en": "Air Conditioning",
+                    "tr": "Klima"
+                },
+                {
+                    "ar": "شاشة",
+                    "en": "Infotainment Screen",
+                    "tr": "Ekran"
+                },
+                {
+                    "ar": "كاميرا خلفية",
+                    "en": "Rear Camera",
+                    "tr": "Geri Vites Kamerası"
+                },
+                {
+                    "ar": "حساسات",
+                    "en": "Parking Sensors",
+                    "tr": "Park Sensörleri"
+                },
+                {
+                    "ar": "مثبت سرعة",
+                    "en": "Cruise Control",
+                    "tr": "Hız Sabitleyici"
+                },
+                {
+                    "ar": "دخول بدون مفتاح",
+                    "en": "Keyless Entry",
+                    "tr": "Anahtarsız Giriş"
+                },
+                {
+                    "ar": "تشغيل بصمة",
+                    "en": "Push Start",
+                    "tr": "Start/Stop"
+                },
+                {
+                    "ar": "فتحة سقف",
+                    "en": "Sunroof",
+                    "tr": "Sunroof"
+                },
+                {
+                    "ar": "مقاعد جلد",
+                    "en": "Leather Seats",
+                    "tr": "Deri Koltuk"
+                },
+                {
+                    "ar": "مقاعد كهربائية",
+                    "en": "Power Seats",
+                    "tr": "Elektrikli Koltuk"
+                }
+            ]
+        },
+        {
+            "id": "safety_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات الأمان",
+                "en": "Safety Features",
+                "tr": "Güvenlik Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "ABS",
+                    "en": "ABS",
+                    "tr": "ABS"
+                },
+                {
+                    "ar": "Airbag",
+                    "en": "Airbags",
+                    "tr": "Hava Yastığı"
+                },
+                {
+                    "ar": "ESP",
+                    "en": "ESP",
+                    "tr": "ESP"
+                },
+                {
+                    "ar": "مانع انزلاق",
+                    "en": "Traction Control",
+                    "tr": "Kayma Kontrolü"
+                },
+                {
+                    "ar": "مراقبة النقطة العمياء",
+                    "en": "Blind Spot Monitor",
+                    "tr": "Kör Nokta Uyarısı"
+                },
+                {
+                    "ar": "نظام مانع سرقة",
+                    "en": "Anti-Theft System",
+                    "tr": "Hırsızlık Önleme"
+                }
+            ]
+        },
+        {
+            "id": "exterior_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات خارجية",
+                "en": "Exterior Features",
+                "tr": "Dış Donanım"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "جنوط ألمنيوم",
+                    "en": "Alloy Wheels",
+                    "tr": "Alaşım Jant"
+                },
+                {
+                    "ar": "أضواء LED",
+                    "en": "LED Lights",
+                    "tr": "LED Farlar"
+                },
+                {
+                    "ar": "حساسات أمامية",
+                    "en": "Front Sensors",
+                    "tr": "Ön Sensörler"
+                },
+                {
+                    "ar": "حساسات خلفية",
+                    "en": "Rear Sensors",
+                    "tr": "Arka Sensörler"
+                },
+                {
+                    "ar": "سقف بانوراما",
+                    "en": "Panoramic Roof",
+                    "tr": "Panoramik Tavan"
+                },
+                {
+                    "ar": "زجاج مظلل",
+                    "en": "Tinted Glass",
+                    "tr": "Karartılmış Cam"
+                }
+            ]
+        },
+        {
+            "id": "electric_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات كهربائية",
+                "en": "EV Features",
+                "tr": "Elektrikli Araç Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "شاحن منزلي",
+                    "en": "Home Charger",
+                    "tr": "Ev Şarj Cihazı"
+                },
+                {
+                    "ar": "منفذ شحن سريع",
+                    "en": "Fast Charge Port",
+                    "tr": "Hızlı Şarj Girişi"
+                },
+                {
+                    "ar": "نظام استرجاع طاقة",
+                    "en": "Regenerative Braking",
+                    "tr": "Rejeneratif Fren"
+                },
+                {
+                    "ar": "تطبيق تحكم",
+                    "en": "Control App",
+                    "tr": "Kontrol Uygulaması"
+                },
+                {
+                    "ar": "نظام توفير الطاقة",
+                    "en": "Eco Mode",
+                    "tr": "Eco Modu"
+                }
+            ]
+        }
+    ]
+}

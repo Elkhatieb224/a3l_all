@@ -1,0 +1,1087 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات عقارات > سكني > للإيجار > شقة",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "rental_rate",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "بدل الإيجار",
+                "en": "Rental Rate",
+                "tr": "Kira Bedeli"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار أمريكي",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "payment_period",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "فترة الدفع",
+                "en": "Payment Period",
+                "tr": "Ödeme Periyodu"
+            },
+            "options": [
+                {
+                    "ar": "شهري",
+                    "en": "Monthly",
+                    "tr": "Aylık"
+                },
+                {
+                    "ar": "سنوي",
+                    "en": "Yearly",
+                    "tr": "Yıllık"
+                }
+            ]
+        },
+        {
+            "id": "total_area_sqm",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "المساحة الإجمالية (م²)",
+                "en": "Total Area (m²)",
+                "tr": "Toplam Alan (m²)"
+            }
+        },
+        {
+            "id": "net_area_sqm",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "المساحة الصافية (م²)",
+                "en": "Net Area (m²)",
+                "tr": "Net Alan (m²)"
+            }
+        },
+        {
+            "id": "rooms_count",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الغرف",
+                "en": "Number of Rooms",
+                "tr": "Oda Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "ستوديو",
+                    "en": "Studio",
+                    "tr": "Stüdyo"
+                },
+                {
+                    "ar": "1+1",
+                    "en": "1+1",
+                    "tr": "1+1"
+                },
+                {
+                    "ar": "2+1",
+                    "en": "2+1",
+                    "tr": "2+1"
+                },
+                {
+                    "ar": "3+1",
+                    "en": "3+1",
+                    "tr": "3+1"
+                },
+                {
+                    "ar": "4+1",
+                    "en": "4+1",
+                    "tr": "4+1"
+                },
+                {
+                    "ar": "5+1",
+                    "en": "5+1",
+                    "tr": "5+1"
+                },
+                {
+                    "ar": "6+1",
+                    "en": "6+1",
+                    "tr": "6+1"
+                },
+                {
+                    "ar": "7+1",
+                    "en": "7+1",
+                    "tr": "7+1"
+                },
+                {
+                    "ar": "8+1",
+                    "en": "8+1",
+                    "tr": "8+1"
+                },
+                {
+                    "ar": "9+1",
+                    "en": "9+1",
+                    "tr": "9+1"
+                },
+                {
+                    "ar": "10 غرف وأكثر",
+                    "en": "10+ Rooms",
+                    "tr": "10+ Oda"
+                }
+            ]
+        },
+        {
+            "id": "floor_number",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "رقم الطابق",
+                "en": "Floor Number",
+                "tr": "Kat Numarası"
+            },
+            "options": [
+                {
+                    "ar": "قبو",
+                    "en": "Basement",
+                    "tr": "Bodrum"
+                },
+                {
+                    "ar": "أرضي",
+                    "en": "Ground Floor",
+                    "tr": "Zemin Kat"
+                },
+                {
+                    "ar": "1",
+                    "en": "1",
+                    "tr": "1"
+                },
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5",
+                    "en": "5",
+                    "tr": "5"
+                },
+                {
+                    "ar": "6",
+                    "en": "6",
+                    "tr": "6"
+                },
+                {
+                    "ar": "7",
+                    "en": "7",
+                    "tr": "7"
+                },
+                {
+                    "ar": "8",
+                    "en": "8",
+                    "tr": "8"
+                },
+                {
+                    "ar": "9",
+                    "en": "9",
+                    "tr": "9"
+                },
+                {
+                    "ar": "10",
+                    "en": "10",
+                    "tr": "10"
+                },
+                {
+                    "ar": "11-15",
+                    "en": "11–15",
+                    "tr": "11–15"
+                },
+                {
+                    "ar": "16-20",
+                    "en": "16–20",
+                    "tr": "16–20"
+                },
+                {
+                    "ar": "21+",
+                    "en": "21+",
+                    "tr": "21+"
+                },
+                {
+                    "ar": "آخر طابق / سطح",
+                    "en": "Top Floor / Roof",
+                    "tr": "Son Kat / Çatı"
+                }
+            ]
+        },
+        {
+            "id": "building_floors_count",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عدد طوابق البناء",
+                "en": "Building Floors",
+                "tr": "Bina Kat Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "1",
+                    "en": "1",
+                    "tr": "1"
+                },
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5",
+                    "en": "5",
+                    "tr": "5"
+                },
+                {
+                    "ar": "6",
+                    "en": "6",
+                    "tr": "6"
+                },
+                {
+                    "ar": "7",
+                    "en": "7",
+                    "tr": "7"
+                },
+                {
+                    "ar": "8",
+                    "en": "8",
+                    "tr": "8"
+                },
+                {
+                    "ar": "9",
+                    "en": "9",
+                    "tr": "9"
+                },
+                {
+                    "ar": "10",
+                    "en": "10",
+                    "tr": "10"
+                },
+                {
+                    "ar": "11-15",
+                    "en": "11–15",
+                    "tr": "11–15"
+                },
+                {
+                    "ar": "16-20",
+                    "en": "16–20",
+                    "tr": "16–20"
+                },
+                {
+                    "ar": "21+",
+                    "en": "21+",
+                    "tr": "21+"
+                }
+            ]
+        },
+        {
+            "id": "building_age",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عمر البناء",
+                "en": "Building Age",
+                "tr": "Bina Yaşı"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "0-5 سنوات",
+                    "en": "0–5 Years",
+                    "tr": "0–5 Yıl"
+                },
+                {
+                    "ar": "6-10 سنوات",
+                    "en": "6–10 Years",
+                    "tr": "6–10 Yıl"
+                },
+                {
+                    "ar": "11-20 سنة",
+                    "en": "11–20 Years",
+                    "tr": "11–20 Yıl"
+                },
+                {
+                    "ar": "21-30 سنة",
+                    "en": "21–30 Years",
+                    "tr": "21–30 Yıl"
+                },
+                {
+                    "ar": "أكثر من 30 سنة",
+                    "en": "Over 30 Years",
+                    "tr": "30 Yıldan Fazla"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "heating_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع التدفئة",
+                "en": "Heating Type",
+                "tr": "Isıtma Tipi"
+            },
+            "options": [
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "مدفأة مازوت",
+                    "en": "Fuel Oil Stove",
+                    "tr": "Fuel Oil Sobası"
+                },
+                {
+                    "ar": "غاز",
+                    "en": "Gas",
+                    "tr": "Gaz"
+                },
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                },
+                {
+                    "ar": "تدفئة مركزية",
+                    "en": "Central Heating",
+                    "tr": "Merkezi Isıtma"
+                },
+                {
+                    "ar": "تدفئة أرضية",
+                    "en": "Underfloor Heating",
+                    "tr": "Yerden Isıtma"
+                },
+                {
+                    "ar": "مكيف",
+                    "en": "Air Conditioner",
+                    "tr": "Klima"
+                },
+                {
+                    "ar": "طاقة شمسية",
+                    "en": "Solar Power",
+                    "tr": "Güneş Enerjisi"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "bathrooms_count",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الحمامات",
+                "en": "Number of Bathrooms",
+                "tr": "Banyo Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "1",
+                    "en": "1",
+                    "tr": "1"
+                },
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5+",
+                    "en": "5+",
+                    "tr": "5+"
+                }
+            ]
+        },
+        {
+            "id": "kitchen_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "المطبخ",
+                "en": "Kitchen",
+                "tr": "Mutfak"
+            },
+            "options": [
+                {
+                    "ar": "مطبخ مستقل",
+                    "en": "Separate Kitchen",
+                    "tr": "Ayrı Mutfak"
+                },
+                {
+                    "ar": "مطبخ مفتوح",
+                    "en": "Open Kitchen",
+                    "tr": "Açık Mutfak"
+                },
+                {
+                    "ar": "مطبخ أمريكي",
+                    "en": "American Kitchen",
+                    "tr": "Amerikan Mutfak"
+                },
+                {
+                    "ar": "غير متوفر",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                }
+            ]
+        },
+        {
+            "id": "balcony",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "بلكون",
+                "en": "Balcony",
+                "tr": "Balkon"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "elevator",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مصعد",
+                "en": "Elevator",
+                "tr": "Asansör"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "parking",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "موقف سيارة",
+                "en": "Parking",
+                "tr": "Otopark"
+            },
+            "options": [
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "موقف على الشارع",
+                    "en": "Street Parking",
+                    "tr": "Sokak Otoparkı"
+                },
+                {
+                    "ar": "موقف خاص",
+                    "en": "Private Parking",
+                    "tr": "Özel Otopark"
+                },
+                {
+                    "ar": "كراج",
+                    "en": "Garage",
+                    "tr": "Garaj"
+                },
+                {
+                    "ar": "موقف مغطى",
+                    "en": "Covered Parking",
+                    "tr": "Kapalı Otopark"
+                }
+            ]
+        },
+        {
+            "id": "furnished",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مفروش",
+                "en": "Furnished",
+                "tr": "Eşyalı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "مفروش جزئيًا",
+                    "en": "Partially Furnished",
+                    "tr": "Kısmen Eşyalı"
+                }
+            ]
+        },
+        {
+            "id": "property_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة العقار",
+                "en": "Property Condition",
+                "tr": "Mülk Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "شبه جديد",
+                    "en": "Like New",
+                    "tr": "Sıfıra Yakın"
+                },
+                {
+                    "ar": "جيد",
+                    "en": "Good",
+                    "tr": "İyi"
+                },
+                {
+                    "ar": "يحتاج صيانة",
+                    "en": "Needs Maintenance",
+                    "tr": "Bakım Gerekiyor"
+                },
+                {
+                    "ar": "قيد الإنشاء",
+                    "en": "Under Construction",
+                    "tr": "İnşaat Halinde"
+                }
+            ]
+        },
+        {
+            "id": "availability_status",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة التوفر",
+                "en": "Availability Status",
+                "tr": "Müsaitlik Durumu"
+            },
+            "options": [
+                {
+                    "ar": "فارغ وجاهز للسكن",
+                    "en": "Vacant & Move-in Ready",
+                    "tr": "Boş ve Oturuma Hazır"
+                },
+                {
+                    "ar": "مشغول وسيتم الإخلاء قريبًا",
+                    "en": "Occupied, Vacating Soon",
+                    "tr": "Dolu, Yakında Boşalacak"
+                },
+                {
+                    "ar": "قيد التجهيز / الصيانة",
+                    "en": "Under Setup / Maintenance",
+                    "tr": "Hazırlık / Bakımda"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Advertiser Type",
+                "tr": "İlan Sahibi Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Owner",
+                    "tr": "Mal Sahibi"
+                },
+                {
+                    "ar": "مكتب عقاري",
+                    "en": "Real Estate Office",
+                    "tr": "Emlak Ofisi"
+                },
+                {
+                    "ar": "شركة إنشاءات",
+                    "en": "Construction Company",
+                    "tr": "İnşaat Şirketi"
+                },
+                {
+                    "ar": "وكيل / مفوض",
+                    "en": "Agent / Representative",
+                    "tr": "Temsilci / Vekil"
+                }
+            ]
+        },
+        {
+            "id": "deposit",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "التأمين / العربون",
+                "en": "Deposit / Insurance",
+                "tr": "Depozito / Sigorta"
+            }
+        },
+        {
+            "id": "monthly_services",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الخدمات الشهرية",
+                "en": "Monthly Services Fee",
+                "tr": "Aylık Hizmet Bedeli"
+            }
+        },
+        {
+            "id": "view",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الإطلالة",
+                "en": "View",
+                "tr": "Manzara"
+            },
+            "options": [
+                {
+                    "ar": "لا يوجد إطلالة محددة",
+                    "en": "No Specific View",
+                    "tr": "Belirli Manzara Yok"
+                },
+                {
+                    "ar": "شارع",
+                    "en": "Street",
+                    "tr": "Sokak"
+                },
+                {
+                    "ar": "حديقة",
+                    "en": "Garden",
+                    "tr": "Bahçe"
+                },
+                {
+                    "ar": "مدينة",
+                    "en": "City",
+                    "tr": "Şehir"
+                },
+                {
+                    "ar": "جبل",
+                    "en": "Mountain",
+                    "tr": "Dağ"
+                },
+                {
+                    "ar": "بحر",
+                    "en": "Sea",
+                    "tr": "Deniz"
+                },
+                {
+                    "ar": "إطلالة مفتوحة",
+                    "en": "Open View",
+                    "tr": "Açık Manzara"
+                }
+            ]
+        },
+        {
+            "id": "orientation",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الواجهة",
+                "en": "Orientation",
+                "tr": "Cephe Yönü"
+            },
+            "options": [
+                {
+                    "ar": "شمال",
+                    "en": "North",
+                    "tr": "Kuzey"
+                },
+                {
+                    "ar": "جنوب",
+                    "en": "South",
+                    "tr": "Güney"
+                },
+                {
+                    "ar": "شرق",
+                    "en": "East",
+                    "tr": "Doğu"
+                },
+                {
+                    "ar": "غرب",
+                    "en": "West",
+                    "tr": "Batı"
+                },
+                {
+                    "ar": "شمال شرقي",
+                    "en": "Northeast",
+                    "tr": "Kuzeydoğu"
+                },
+                {
+                    "ar": "شمال غربي",
+                    "en": "Northwest",
+                    "tr": "Kuzeybatı"
+                },
+                {
+                    "ar": "جنوب شرقي",
+                    "en": "Southeast",
+                    "tr": "Güneydoğu"
+                },
+                {
+                    "ar": "جنوب غربي",
+                    "en": "Southwest",
+                    "tr": "Güneybatı"
+                },
+                {
+                    "ar": "عدة جهات",
+                    "en": "Multiple Sides",
+                    "tr": "Birden Fazla Cephe"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "interior_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الميزات الداخلية",
+                "en": "Interior Features",
+                "tr": "İç Özellikler"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "خزائن",
+                    "en": "Closets",
+                    "tr": "Dolaplar"
+                },
+                {
+                    "ar": "غرفة لباس",
+                    "en": "Walk-in Closet",
+                    "tr": "Giyinme Odası"
+                },
+                {
+                    "ar": "غرفة تخزين",
+                    "en": "Storage Room",
+                    "tr": "Depo Odası"
+                },
+                {
+                    "ar": "غسيل مستقل",
+                    "en": "Separate Laundry",
+                    "tr": "Ayrı Çamaşırhane"
+                },
+                {
+                    "ar": "مطبخ مجهز",
+                    "en": "Equipped Kitchen",
+                    "tr": "Donanımlı Mutfak"
+                },
+                {
+                    "ar": "تكييف",
+                    "en": "Air Conditioning",
+                    "tr": "Klima"
+                },
+                {
+                    "ar": "تدفئة",
+                    "en": "Heating",
+                    "tr": "Isıtma"
+                },
+                {
+                    "ar": "جاهز للإنترنت",
+                    "en": "Internet Ready",
+                    "tr": "İnternet Hazır"
+                }
+            ]
+        },
+        {
+            "id": "building_complex_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات البناء / المجمع",
+                "en": "Building / Complex Features",
+                "tr": "Bina / Site Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "حارس",
+                    "en": "Doorman",
+                    "tr": "Kapıcı"
+                },
+                {
+                    "ar": "أمن",
+                    "en": "Security",
+                    "tr": "Güvenlik"
+                },
+                {
+                    "ar": "مولدة",
+                    "en": "Generator",
+                    "tr": "Jeneratör"
+                },
+                {
+                    "ar": "حديقة مشتركة",
+                    "en": "Shared Garden",
+                    "tr": "Ortak Bahçe"
+                },
+                {
+                    "ar": "كاميرات مراقبة",
+                    "en": "CCTV",
+                    "tr": "Güvenlik Kamerası"
+                }
+            ]
+        },
+        {
+            "id": "nearby_services_residential",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الخدمات القريبة",
+                "en": "Nearby Services",
+                "tr": "Yakın Hizmetler"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مدرسة",
+                    "en": "School",
+                    "tr": "Okul"
+                },
+                {
+                    "ar": "مشفى",
+                    "en": "Hospital",
+                    "tr": "Hastane"
+                },
+                {
+                    "ar": "صيدلية",
+                    "en": "Pharmacy",
+                    "tr": "Eczane"
+                },
+                {
+                    "ar": "سوق",
+                    "en": "سوق",
+                    "tr": "سوق"
+                },
+                {
+                    "ar": "مسجد",
+                    "en": "Mosque",
+                    "tr": "Cami"
+                },
+                {
+                    "ar": "حديقة",
+                    "en": "Garden",
+                    "tr": "Bahçe"
+                },
+                {
+                    "ar": "مركز تجاري",
+                    "en": "Commercial Center",
+                    "tr": "Ticari Merkez"
+                }
+            ]
+        },
+        {
+            "id": "nearby_transport_residential",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المواصلات القريبة",
+                "en": "Nearby Transport",
+                "tr": "Yakın Ulaşım"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "موقف باص",
+                    "en": "Bus Stop",
+                    "tr": "Otobüs Durağı"
+                },
+                {
+                    "ar": "طريق رئيسي",
+                    "en": "Main Road",
+                    "tr": "Ana Yol"
+                },
+                {
+                    "ar": "ميكرو / سرفيس",
+                    "en": "Minibus / Shared Taxi",
+                    "tr": "Minibüs / Servis"
+                },
+                {
+                    "ar": "تكسي",
+                    "en": "Taxi",
+                    "tr": "Taksi"
+                },
+                {
+                    "ar": "كراج / محطة",
+                    "en": "Garage / Station",
+                    "tr": "Garaj / İstasyon"
+                }
+            ]
+        },
+        {
+            "id": "usage_suitability",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ملاءمة الاستخدام",
+                "en": "Usage Suitability",
+                "tr": "Kullanım Uygunluğu"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مناسب لكبار السن",
+                    "en": "Senior Friendly",
+                    "tr": "Yaşlılara Uygun"
+                },
+                {
+                    "ar": "مناسب لذوي الاحتياجات الخاصة",
+                    "en": "Accessible",
+                    "tr": "Engellilere Uygun"
+                },
+                {
+                    "ar": "مدخل بدون درج",
+                    "en": "Step-free Entrance",
+                    "tr": "Merdivensiz Giriş"
+                },
+                {
+                    "ar": "مصعد مناسب",
+                    "en": "Accessible Elevator",
+                    "tr": "Uygun Asansör"
+                }
+            ]
+        }
+    ]
+}

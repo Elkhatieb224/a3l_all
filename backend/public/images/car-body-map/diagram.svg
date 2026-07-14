@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 318" fill="none">
+  <!-- E.77 3J'1) EF 'D#9DI  E3'1'* 9DI 4CD B79 -BJBJ) E9 AH'5D (J6'! -->
+  <rect width="200" height="318" fill="#ffffff" rx="10"/>
+
+  <!-- 'DE5/ 'D#E'EJ -->
+  <path data-part-id="front_bumper" class="car-body-part"
+        d="M48 6h104c6 0 10 4 10 10v10c0 4-3 7-7 7H45c-4 0-7-3-7-7V16c0-6 4-10 10-10z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D1A1A 'D#E'EJ 'D#J31 -->
+  <path data-part-id="front_left_fender" class="car-body-part"
+        d="M8 34h42c2 0 4 2 4 4v28c0 3-2 5-5 5H8c-3 0-5-2-5-5V38c0-2 2-4 4-4z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- :7'! 'DE-1C -->
+  <path data-part-id="hood" class="car-body-part"
+        d="M54 32h92c4 0 7 3 7 7v30c0 3-2 5-5 5H52c-3 0-5-2-5-5V39c0-4 3-7 7-7z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D1A1A 'D#E'EJ 'D#JEF -->
+  <path data-part-id="front_right_fender" class="car-body-part"
+        d="M150 34h42c2 0 4 2 4 4v28c0 3-2 5-5 5h-44c-3 0-5-2-5-5V38c0-2 2-4 4-4z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D('( 'D#E'EJ 'D#J31 -->
+  <path data-part-id="left_front_door" class="car-body-part"
+        d="M8 78h42c3 0 5 2 5 5v44c0 3-2 5-5 5H8c-3 0-5-2-5-5V83c0-3 2-5 5-5z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D3BA -->
+  <path data-part-id="roof" class="car-body-part"
+        d="M52 76h96c4 0 7 3 7 7v96c0 4-3 7-7 7H52c-4 0-7-3-7-7V83c0-4 3-7 7-7z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D('( 'D#E'EJ 'D#JEF -->
+  <path data-part-id="right_front_door" class="car-body-part"
+        d="M150 78h42c3 0 5 2 5 5v44c0 3-2 5-5 5h-42c-3 0-5-2-5-5V83c0-3 2-5 5-5z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D('( 'D.DAJ 'D#J31 -->
+  <path data-part-id="left_rear_door" class="car-body-part"
+        d="M8 132h42c3 0 5 2 5 5v44c0 3-2 5-5 5H8c-3 0-5-2-5-5v-44c0-3 2-5 5-5z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D('( 'D.DAJ 'D#JEF -->
+  <path data-part-id="right_rear_door" class="car-body-part"
+        d="M150 132h42c3 0 5 2 5 5v44c0 3-2 5-5 5h-42c-3 0-5-2-5-5v-44c0-3 2-5 5-5z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D1A1A 'D.DAJ 'D#J31 -->
+  <path data-part-id="left_rear_fender" class="car-body-part"
+        d="M8 186h42c3 0 5 2 5 5v36c0 3-2 5-5 5H8c-3 0-5-2-5-5v-36c0-3 2-5 5-5z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 5F/HB 'D#E*9) -->
+  <path data-part-id="trunk" class="car-body-part"
+        d="M52 184h96c4 0 7 3 7 7v40c0 4-3 7-7 7H52c-4 0-7-3-7-7v-40c0-4 3-7 7-7z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'D1A1A 'D.DAJ 'D#JEF -->
+  <path data-part-id="right_rear_fender" class="car-body-part"
+        d="M150 186h42c3 0 5 2 5 5v36c0 3-2 5-5 5h-42c-3 0-5-2-5-5v-36c0-3 2-5 5-5z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+
+  <!-- 'DE5/ 'D.DAJ -->
+  <path data-part-id="rear_bumper" class="car-body-part"
+        d="M48 238h104c6 0 10 4 10 10v8c0 8-6 14-14 14H52c-8 0-14-6-14-14v-8c0-6 4-10 10-10z"
+        stroke="#b8c4d4" stroke-width="1.2" stroke-linejoin="round"/>
+</svg>

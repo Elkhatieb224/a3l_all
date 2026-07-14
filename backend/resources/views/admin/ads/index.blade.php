@@ -1,0 +1,213 @@
+@extends('admin.layouts.app')
+
+@section('title', __('admin.ads.title'))
+@section('page-title', __('admin.ads.title'))
+
+@section('content')
+<div class="space-y-6">
+    <!-- Header with Create Button -->
+    <div class="flex items-center justify-between">
+        <h2 class="text-2xl font-bold text-gray-800">{{ __('admin.ads.title') }}</h2>
+        @if(auth('admin')->user()->isAdmin())
+        <div class="flex items-center gap-3">
+            <a href="{{ route('admin.ads.deleted-account-ads') }}"
+               class="bg-red-500 hover:bg-red-600 text-white px-6 py-3 rounded-lg font-bold flex items-center gap-2">
+                <i class="fas fa-user-slash"></i>
+                {{ __('admin.ads.deleted_account_ads.title') }}
+            </a>
+            <a href="{{ route('admin.ads.create') }}" class="btn-primary px-6 py-3 rounded-lg font-bold">
+                <i class="fas fa-plus ml-2"></i>
+                {{ __('admin.ads.add_new') }}
+            </a>
+        </div>
+        @endif
+    </div>
+
+    <!-- Status Tabs -->
+    <div class="bg-white rounded-xl shadow-md p-4">
+        <div class="flex items-center gap-2 overflow-x-auto">
+            <a href="{{ route('admin.ads.index') }}"
+               class="px-6 py-3 rounded-lg transition whitespace-nowrap
+                   {{ !request('status') ? 'bg-primary text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+                <i class="fas fa-list ml-2"></i>
+                {{ __('admin.ads.tabs.all') }} ({{ $statusCounts['all'] }})
+            </a>
+            <a href="{{ route('admin.ads.index', ['status' => 'pending']) }}"
+               class="px-6 py-3 rounded-lg transition whitespace-nowrap
+                   {{ request('status') === 'pending' ? 'bg-yellow-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+                <i class="fas fa-clock ml-2"></i>
+                {{ __('admin.ads.tabs.pending') }} ({{ $statusCounts['pending'] }})
+            </a>
+            <a href="{{ route('admin.ads.index', ['status' => 'active']) }}"
+               class="px-6 py-3 rounded-lg transition whitespace-nowrap
+                   {{ request('status') === 'active' ? 'bg-green-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+                <i class="fas fa-check ml-2"></i>
+                {{ __('admin.ads.tabs.active') }} ({{ $statusCounts['active'] }})
+            </a>
+            <a href="{{ route('admin.ads.index', ['status' => 'rejected']) }}"
+               class="px-6 py-3 rounded-lg transition whitespace-nowrap
+                   {{ request('status') === 'rejected' ? 'bg-red-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+                <i class="fas fa-times ml-2"></i>
+                {{ __('admin.ads.tabs.rejected') }} ({{ $statusCounts['rejected'] }})
+            </a>
+            <a href="{{ route('admin.ads.index', ['status' => 'expired']) }}"
+               class="px-6 py-3 rounded-lg transition whitespace-nowrap
+                   {{ request('status') === 'expired' ? 'bg-gray-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+                <i class="fas fa-calendar-times ml-2"></i>
+                {{ __('admin.ads.tabs.expired') }} ({{ $statusCounts['expired'] }})
+            </a>
+            <a href="{{ route('admin.ads.index', ['has_pending_changes' => 1]) }}"
+               class="px-6 py-3 rounded-lg transition whitespace-nowrap
+                   {{ request('has_pending_changes') ? 'bg-orange-500 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200' }}">
+                <i class="fas fa-edit ml-2"></i>
+                {{ __('admin.ads.tabs.with_pending_changes') }} ({{ $statusCounts['with_pending_changes'] ?? 0 }})
+            </a>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="bg-white rounded-xl shadow-md p-6">
+        <form method="GET" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <input type="hidden" name="status" value="{{ request('status') }}">
+
+            <input type="text"
+                   name="search"
+                   value="{{ request('search') }}"
+                   placeholder="{{ __('admin.ads.filters.search_placeholder') }}"
+                   class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary">
+
+            <select name="category_id" class="px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-secondary">
+                <option value="">{{ __('admin.ads.filters.all_categories') }}</option>
+                <!-- Add categories dynamically -->
+            </select>
+
+            <button type="submit" class="btn-primary px-6 py-2 rounded-lg">
+                <i class="fas fa-search ml-2"></i>
+                {{ __('admin.ads.filters.submit') }}
+            </button>
+        </form>
+    </div>
+
+    <!-- Ads Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        @forelse($ads as $ad)
+            <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition {{ $ad->pending_changes ? 'ring-2 ring-orange-400' : '' }}">
+                <!-- Image -->
+                <div class="h-48 bg-gray-200 relative overflow-hidden">
+                <img
+    src="{{ asset('storage/' . ($ad->images[0] ?? '')) }}"
+    alt="{{ $ad->title }}"
+    class="w-full h-full object-cover">
+
+
+                    <div class="absolute top-2 left-2 flex flex-wrap gap-2">
+                        @if($ad->pending_changes)
+                            <span class="px-3 py-1 bg-orange-500 text-white rounded-full text-xs font-bold flex items-center gap-1">
+                                <i class="fas fa-edit"></i>
+                                {{ __('admin.ads.badges.pending_changes') }}
+                            </span>
+                        @endif
+                        @if($ad->is_featured)
+                            <span class="px-2 py-1 bg-gradient-to-r from-yellow-400 to-amber-500 text-white text-xs font-bold rounded shadow-sm ring-1 ring-amber-300/70">
+                                <i class="fas fa-star"></i> {{ __('admin.ads.badges.featured') }}
+                            </span>
+                        @endif
+                        @if($ad->is_urgent)
+                            <span class="px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">
+                                <i class="fas fa-bolt"></i> {{ __('admin.ads.badges.urgent') }}
+                            </span>
+                        @endif
+                    </div>
+
+                    <span class="absolute top-2 right-2 px-3 py-1 rounded-full text-xs font-semibold whitespace-nowrap
+                        {{ $ad->status === 'active' ? 'bg-green-500 text-white' :
+                           ($ad->status === 'pending' ? 'bg-yellow-500 text-white' : 'bg-red-500 text-white') }}">
+                        {{ __('admin.' . $ad->status) ?? $ad->status }}
+                    </span>
+                </div>
+
+                <!-- Content -->
+                <div class="p-4">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="text-xs text-gray-500 font-mono">UID: {{ $ad->uid }}</span>
+                    </div>
+                    <h3 class="font-bold text-gray-800 mb-2 line-clamp-2">{{ $ad->title }}</h3>
+                    <p class="text-sm text-gray-600 mb-3 line-clamp-2">{{ $ad->description }}</p>
+
+                    <div class="flex items-center justify-between mb-3 pb-3 border-b">
+                        <span class="text-lg font-bold text-primary">
+                            @if($ad->display_price)
+                                {{ $ad->display_price }}
+                            @else
+                                <span class="text-sm text-gray-500">{{ __('admin.ads.grid.price_not_specified') }}</span>
+                            @endif
+                        </span>
+                        <span class="text-xs text-gray-500">
+                            <i class="fas fa-eye ml-1"></i>
+                            {{ $ad->views_count }}
+                        </span>
+                    </div>
+
+                    <div class="flex items-center gap-2 text-xs text-gray-500 mb-3">
+                        <img src="{{ $ad->user->avatar ? asset('storage/' . $ad->user->avatar) : 'https://ui-avatars.com/api/?name=' . urlencode($ad->user->name) }}"
+                             alt="{{ $ad->user->name }}"
+                             class="w-6 h-6 rounded-full">
+                        <span>{{ $ad->user->name }}</span>
+                        <span class="mx-1">•</span>
+                        <span>{{ $ad->category->name_ar }}</span>
+                    </div>
+
+                    <!-- Actions -->
+                    <div class="flex items-center gap-2">
+                        <a href="{{ route('admin.ads.show', $ad->uid) }}"
+                           class="flex-1 text-center py-2 rounded-lg text-sm transition {{ $ad->pending_changes ? 'bg-orange-50 text-orange-600 hover:bg-orange-100' : 'bg-blue-50 text-blue-600 hover:bg-blue-100' }}">
+                            @if($ad->pending_changes)
+                                <i class="fas fa-edit"></i> {{ __('admin.ads.grid.view_modifications') }}
+                            @else
+                                <i class="fas fa-eye"></i> {{ __('admin.ads.grid.view') }}
+                            @endif
+                        </a>
+
+                        @if($ad->status === 'pending')
+                            <form action="{{ route('admin.ads.approve', $ad->uid) }}" method="POST" class="flex-1 admin-action-form">
+                                @csrf
+                                <button type="submit"
+                                        class="w-full bg-green-50 text-green-600 hover:bg-green-100 py-2 rounded-lg text-sm transition disabled:opacity-70 disabled:cursor-not-allowed">
+                                    <i class="fas fa-check"></i> {{ __('admin.ads.grid.approve') }}
+                                </button>
+                            </form>
+                        @endif
+
+                        @if(auth('admin')->user()->isAdmin())
+                        <form action="{{ route('admin.ads.destroy', $ad->uid) }}"
+                              method="POST"
+                              class="admin-action-form"
+                              onsubmit="return confirm('{{ __('admin.ads.grid.delete_confirm') }}')">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit"
+                                    class="bg-red-50 text-red-600 hover:bg-red-100 px-3 py-2 rounded-lg text-sm transition disabled:opacity-70 disabled:cursor-not-allowed">
+                                <i class="fas fa-trash"></i>
+                            </button>
+                        </form>
+                        @endif
+                    </div>
+                </div>
+            </div>
+        @empty
+            <div class="col-span-3 bg-white rounded-xl shadow-md p-12 text-center">
+                <i class="fas fa-bullhorn text-6xl text-gray-300 mb-4"></i>
+                <p class="text-gray-500 text-lg">{{ __('admin.ads.grid.empty') }}</p>
+            </div>
+        @endforelse
+    </div>
+
+    <!-- Pagination -->
+    @if($ads->hasPages())
+        <div class="bg-white rounded-xl shadow-md p-4">
+            {{ $ads->links() }}
+        </div>
+    @endif
+</div>
+@endsection
+

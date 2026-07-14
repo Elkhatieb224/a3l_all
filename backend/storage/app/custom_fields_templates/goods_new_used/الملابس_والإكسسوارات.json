@@ -1,0 +1,567 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات الملابس والإكسسوارات",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            },
+            "show_currency": false
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "product_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المنتج",
+                "en": "Condition",
+                "tr": "Ürün Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعمل بحالة جيدة",
+                    "en": "Used — Good Condition",
+                    "tr": "İyi Durumda İkinci El"
+                }
+            ]
+        },
+        {
+            "id": "size",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "المقاس",
+                "en": "Size",
+                "tr": "Beden / Numara"
+            },
+            "options": [
+                {
+                    "ar": "لا ينطبق",
+                    "en": "Not Applicable",
+                    "tr": "Uygulanmaz"
+                },
+                {
+                    "ar": "مقاس حر",
+                    "en": "Free Size",
+                    "tr": "Tek Beden"
+                },
+                {
+                    "ar": "XS",
+                    "en": "XS",
+                    "tr": "XS"
+                },
+                {
+                    "ar": "S",
+                    "en": "S",
+                    "tr": "S"
+                },
+                {
+                    "ar": "M",
+                    "en": "M",
+                    "tr": "M"
+                },
+                {
+                    "ar": "L",
+                    "en": "L",
+                    "tr": "L"
+                },
+                {
+                    "ar": "XL",
+                    "en": "XL",
+                    "tr": "XL"
+                },
+                {
+                    "ar": "XXL",
+                    "en": "XXL",
+                    "tr": "XXL"
+                },
+                {
+                    "ar": "3XL",
+                    "en": "3XL",
+                    "tr": "3XL"
+                },
+                {
+                    "ar": "4XL",
+                    "en": "4XL",
+                    "tr": "4XL"
+                },
+                {
+                    "ar": "5XL",
+                    "en": "5XL",
+                    "tr": "5XL"
+                },
+                {
+                    "ar": "0-3 أشهر",
+                    "en": "0–3 months",
+                    "tr": "0–3 ay"
+                },
+                {
+                    "ar": "3-6 أشهر",
+                    "en": "3–6 months",
+                    "tr": "3–6 ay"
+                },
+                {
+                    "ar": "6-9 أشهر",
+                    "en": "6–9 months",
+                    "tr": "6–9 ay"
+                },
+                {
+                    "ar": "9-12 شهر",
+                    "en": "9-12 شهر",
+                    "tr": "9-12 شهر"
+                },
+                {
+                    "ar": "1 سنة",
+                    "en": "1 year",
+                    "tr": "1 yaş"
+                },
+                {
+                    "ar": "2 سنة",
+                    "en": "2 years",
+                    "tr": "2 yaş"
+                },
+                {
+                    "ar": "3 سنوات",
+                    "en": "3 years",
+                    "tr": "3 yaş"
+                },
+                {
+                    "ar": "4 سنوات",
+                    "en": "4 years",
+                    "tr": "4 yaş"
+                },
+                {
+                    "ar": "5 سنوات",
+                    "en": "5 years",
+                    "tr": "5 yaş"
+                },
+                {
+                    "ar": "6 سنوات",
+                    "en": "6 years",
+                    "tr": "6 yaş"
+                },
+                {
+                    "ar": "7 سنوات",
+                    "en": "7 years",
+                    "tr": "7 yaş"
+                },
+                {
+                    "ar": "8 سنوات",
+                    "en": "8 years",
+                    "tr": "8 yaş"
+                },
+                {
+                    "ar": "9 سنوات",
+                    "en": "9 years",
+                    "tr": "9 yaş"
+                },
+                {
+                    "ar": "10 سنوات",
+                    "en": "10 years",
+                    "tr": "10 yaş"
+                },
+                {
+                    "ar": "11 سنة",
+                    "en": "11 years",
+                    "tr": "11 yaş"
+                },
+                {
+                    "ar": "12 سنة",
+                    "en": "12 years",
+                    "tr": "12 yaş"
+                },
+                {
+                    "ar": "13 سنة",
+                    "en": "13 years",
+                    "tr": "13 yaş"
+                },
+                {
+                    "ar": "14 سنة",
+                    "en": "14 years",
+                    "tr": "14 yaş"
+                },
+                {
+                    "ar": "15 سنة",
+                    "en": "15 years",
+                    "tr": "15 yaş"
+                },
+                {
+                    "ar": "16 سنة",
+                    "en": "16 years",
+                    "tr": "16 yaş"
+                },
+                {
+                    "ar": "17 سنة",
+                    "en": "17 years",
+                    "tr": "17 yaş"
+                },
+                {
+                    "ar": "18 سنة",
+                    "en": "18 years",
+                    "tr": "18 yaş"
+                },
+                {
+                    "ar": "16",
+                    "en": "16",
+                    "tr": "16"
+                },
+                {
+                    "ar": "17",
+                    "en": "17",
+                    "tr": "17"
+                },
+                {
+                    "ar": "18",
+                    "en": "18",
+                    "tr": "18"
+                },
+                {
+                    "ar": "19",
+                    "en": "19",
+                    "tr": "19"
+                },
+                {
+                    "ar": "20",
+                    "en": "20",
+                    "tr": "20"
+                },
+                {
+                    "ar": "21",
+                    "en": "21",
+                    "tr": "21"
+                },
+                {
+                    "ar": "22",
+                    "en": "22",
+                    "tr": "22"
+                },
+                {
+                    "ar": "23",
+                    "en": "23",
+                    "tr": "23"
+                },
+                {
+                    "ar": "24",
+                    "en": "24",
+                    "tr": "24"
+                },
+                {
+                    "ar": "25",
+                    "en": "25",
+                    "tr": "25"
+                },
+                {
+                    "ar": "26",
+                    "en": "26",
+                    "tr": "26"
+                },
+                {
+                    "ar": "27",
+                    "en": "27",
+                    "tr": "27"
+                },
+                {
+                    "ar": "28",
+                    "en": "28",
+                    "tr": "28"
+                },
+                {
+                    "ar": "29",
+                    "en": "29",
+                    "tr": "29"
+                },
+                {
+                    "ar": "30",
+                    "en": "30",
+                    "tr": "30"
+                },
+                {
+                    "ar": "31",
+                    "en": "31",
+                    "tr": "31"
+                },
+                {
+                    "ar": "32",
+                    "en": "32",
+                    "tr": "32"
+                },
+                {
+                    "ar": "33",
+                    "en": "33",
+                    "tr": "33"
+                },
+                {
+                    "ar": "34",
+                    "en": "34",
+                    "tr": "34"
+                },
+                {
+                    "ar": "35",
+                    "en": "35",
+                    "tr": "35"
+                },
+                {
+                    "ar": "36",
+                    "en": "36",
+                    "tr": "36"
+                },
+                {
+                    "ar": "37",
+                    "en": "37",
+                    "tr": "37"
+                },
+                {
+                    "ar": "38",
+                    "en": "38",
+                    "tr": "38"
+                },
+                {
+                    "ar": "39",
+                    "en": "39",
+                    "tr": "39"
+                },
+                {
+                    "ar": "40",
+                    "en": "40",
+                    "tr": "40"
+                },
+                {
+                    "ar": "41",
+                    "en": "41",
+                    "tr": "41"
+                },
+                {
+                    "ar": "42",
+                    "en": "42",
+                    "tr": "42"
+                },
+                {
+                    "ar": "43",
+                    "en": "43",
+                    "tr": "43"
+                },
+                {
+                    "ar": "44",
+                    "en": "44",
+                    "tr": "44"
+                },
+                {
+                    "ar": "45",
+                    "en": "45",
+                    "tr": "45"
+                },
+                {
+                    "ar": "46",
+                    "en": "46",
+                    "tr": "46"
+                },
+                {
+                    "ar": "47",
+                    "en": "47",
+                    "tr": "47"
+                },
+                {
+                    "ar": "48",
+                    "en": "48",
+                    "tr": "48"
+                },
+                {
+                    "ar": "49",
+                    "en": "49",
+                    "tr": "49"
+                },
+                {
+                    "ar": "50",
+                    "en": "50",
+                    "tr": "50"
+                }
+            ]
+        },
+        {
+            "id": "color",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "اللون",
+                "en": "Color",
+                "tr": "Renk"
+            }
+        },
+        {
+            "id": "category",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الفئة",
+                "en": "Category",
+                "tr": "Kategori"
+            },
+            "options": [
+                {
+                    "ar": "رجالي",
+                    "en": "Men",
+                    "tr": "Erkek"
+                },
+                {
+                    "ar": "نسائي",
+                    "en": "Women",
+                    "tr": "Kadın"
+                },
+                {
+                    "ar": "أطفال",
+                    "en": "Kids",
+                    "tr": "Çocuk"
+                },
+                {
+                    "ar": "للجنسين",
+                    "en": "Unisex",
+                    "tr": "Unisex"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "delivery_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "إمكانية الداكيش",
+                "en": "Delivery Available",
+                "tr": "Teslimat Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "متجر",
+                    "en": "Shop",
+                    "tr": "Mağaza"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                },
+                {
+                    "ar": "وكيل / مندوب",
+                    "en": "Agent / Dealer",
+                    "tr": "Temsilci / Bayi"
+                }
+            ]
+        }
+    ]
+}

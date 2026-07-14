@@ -1,0 +1,812 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات معدات الإنشاءات للإيجار",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "وصف الإعلان",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "rental_rate",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "بدل الإيجار",
+                "en": "Rental Rate",
+                "tr": "Kira Bedeli"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "rental_period",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "فترة الإيجار",
+                "en": "Rental Period",
+                "tr": "Kiralama Süresi"
+            },
+            "options": [
+                {
+                    "ar": "يومي",
+                    "en": "Daily",
+                    "tr": "Günlük"
+                },
+                {
+                    "ar": "أسبوعي",
+                    "en": "Weekly",
+                    "tr": "Haftalık"
+                },
+                {
+                    "ar": "شهري",
+                    "en": "Monthly",
+                    "tr": "Aylık"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "minimum_rental_period",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "أقل مدة إيجار",
+                "en": "Minimum Rental Period",
+                "tr": "Minimum Kiralama Süresi"
+            },
+            "options": [
+                {
+                    "ar": "يوم واحد",
+                    "en": "One Day",
+                    "tr": "Bir Gün"
+                },
+                {
+                    "ar": "أسبوع",
+                    "en": "One Week",
+                    "tr": "Bir Hafta"
+                },
+                {
+                    "ar": "شهر",
+                    "en": "One Month",
+                    "tr": "Bir Ay"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "model_year",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "سنة الصنع",
+                "en": "Year of Manufacture",
+                "tr": "Üretim Yılı"
+            },
+            "options": [
+                {
+                    "ar": "2026",
+                    "en": "2026",
+                    "tr": "2026"
+                },
+                {
+                    "ar": "2025",
+                    "en": "2025",
+                    "tr": "2025"
+                },
+                {
+                    "ar": "2024",
+                    "en": "2024",
+                    "tr": "2024"
+                },
+                {
+                    "ar": "2023",
+                    "en": "2023",
+                    "tr": "2023"
+                },
+                {
+                    "ar": "2022",
+                    "en": "2022",
+                    "tr": "2022"
+                },
+                {
+                    "ar": "2021",
+                    "en": "2021",
+                    "tr": "2021"
+                },
+                {
+                    "ar": "2020",
+                    "en": "2020",
+                    "tr": "2020"
+                },
+                {
+                    "ar": "2019",
+                    "en": "2019",
+                    "tr": "2019"
+                },
+                {
+                    "ar": "2018",
+                    "en": "2018",
+                    "tr": "2018"
+                },
+                {
+                    "ar": "2017",
+                    "en": "2017",
+                    "tr": "2017"
+                },
+                {
+                    "ar": "2016",
+                    "en": "2016",
+                    "tr": "2016"
+                },
+                {
+                    "ar": "2015",
+                    "en": "2015",
+                    "tr": "2015"
+                },
+                {
+                    "ar": "2014",
+                    "en": "2014",
+                    "tr": "2014"
+                },
+                {
+                    "ar": "2013",
+                    "en": "2013",
+                    "tr": "2013"
+                },
+                {
+                    "ar": "2012",
+                    "en": "2012",
+                    "tr": "2012"
+                },
+                {
+                    "ar": "2011",
+                    "en": "2011",
+                    "tr": "2011"
+                },
+                {
+                    "ar": "2010",
+                    "en": "2010",
+                    "tr": "2010"
+                },
+                {
+                    "ar": "2009",
+                    "en": "2009",
+                    "tr": "2009"
+                },
+                {
+                    "ar": "2008",
+                    "en": "2008",
+                    "tr": "2008"
+                },
+                {
+                    "ar": "2007",
+                    "en": "2007",
+                    "tr": "2007"
+                },
+                {
+                    "ar": "2006",
+                    "en": "2006",
+                    "tr": "2006"
+                },
+                {
+                    "ar": "2005",
+                    "en": "2005",
+                    "tr": "2005"
+                },
+                {
+                    "ar": "2004",
+                    "en": "2004",
+                    "tr": "2004"
+                },
+                {
+                    "ar": "2003",
+                    "en": "2003",
+                    "tr": "2003"
+                },
+                {
+                    "ar": "2002",
+                    "en": "2002",
+                    "tr": "2002"
+                },
+                {
+                    "ar": "2001",
+                    "en": "2001",
+                    "tr": "2001"
+                },
+                {
+                    "ar": "2000",
+                    "en": "2000",
+                    "tr": "2000"
+                },
+                {
+                    "ar": "1999",
+                    "en": "1999",
+                    "tr": "1999"
+                },
+                {
+                    "ar": "1998",
+                    "en": "1998",
+                    "tr": "1998"
+                },
+                {
+                    "ar": "1997",
+                    "en": "1997",
+                    "tr": "1997"
+                },
+                {
+                    "ar": "1996",
+                    "en": "1996",
+                    "tr": "1996"
+                },
+                {
+                    "ar": "1995",
+                    "en": "1995",
+                    "tr": "1995"
+                },
+                {
+                    "ar": "1994",
+                    "en": "1994",
+                    "tr": "1994"
+                },
+                {
+                    "ar": "1993",
+                    "en": "1993",
+                    "tr": "1993"
+                },
+                {
+                    "ar": "1992",
+                    "en": "1992",
+                    "tr": "1992"
+                },
+                {
+                    "ar": "1991",
+                    "en": "1991",
+                    "tr": "1991"
+                },
+                {
+                    "ar": "1990",
+                    "en": "1990",
+                    "tr": "1990"
+                },
+                {
+                    "ar": "قبل 1990",
+                    "en": "Before 1990",
+                    "tr": "1990 Öncesi"
+                }
+            ]
+        },
+        {
+            "id": "equipment_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المعدة",
+                "en": "Equipment Condition",
+                "tr": "Ekipman Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديدة",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعملة بحالة جيدة",
+                    "en": "Used — Good Condition",
+                    "tr": "İyi Durumda İkinci El"
+                },
+                {
+                    "ar": "تحتاج صيانة",
+                    "en": "Needs Maintenance",
+                    "tr": "Bakım Gerekiyor"
+                },
+                {
+                    "ar": "لا تعمل / للتصليح",
+                    "en": "Not Working / For Repair",
+                    "tr": "Çalışmıyor / Tamir İçin"
+                }
+            ]
+        },
+        {
+            "id": "power_source",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نوع التشغيل",
+                "en": "Power Source",
+                "tr": "Güç Kaynağı"
+            },
+            "options": [
+                {
+                    "ar": "ديزل",
+                    "en": "Diesel",
+                    "tr": "Dizel"
+                },
+                {
+                    "ar": "بنزين",
+                    "en": "Petrol",
+                    "tr": "Benzin"
+                },
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                },
+                {
+                    "ar": "هايبرد",
+                    "en": "Hybrid",
+                    "tr": "Hibrit"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "mobility_type",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الحركة",
+                "en": "Mobility Type",
+                "tr": "Hareket Tipi"
+            },
+            "options": [
+                {
+                    "ar": "جنزير",
+                    "en": "Tracks",
+                    "tr": "Paletli"
+                },
+                {
+                    "ar": "دواليب",
+                    "en": "Wheels",
+                    "tr": "Tekerlekli"
+                },
+                {
+                    "ar": "ثابتة",
+                    "en": "Stationary",
+                    "tr": "Sabit"
+                },
+                {
+                    "ar": "مقطورة",
+                    "en": "Trailer-Mounted",
+                    "tr": "Römork Üzeri"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "equipment_origin",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مصدر المعدة",
+                "en": "Equipment Origin",
+                "tr": "Ekipman Menşei"
+            },
+            "options": [
+                {
+                    "ar": "محلية",
+                    "en": "Local",
+                    "tr": "Yerli"
+                },
+                {
+                    "ar": "واردة من الخليج",
+                    "en": "Imported from Gulf",
+                    "tr": "Körfez İthal"
+                },
+                {
+                    "ar": "واردة من أوروبا",
+                    "en": "Imported from Europe",
+                    "tr": "Avrupa İthal"
+                },
+                {
+                    "ar": "واردة من أمريكا",
+                    "en": "Imported from USA",
+                    "tr": "ABD İthal"
+                },
+                {
+                    "ar": "واردة من كوريا",
+                    "en": "Imported from Korea",
+                    "tr": "Kore İthal"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "registration_status",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "حالة التسجيل / الأوراق",
+                "en": "Registration / Documents",
+                "tr": "Tescil / Belgeler"
+            },
+            "options": [
+                {
+                    "ar": "مرخصة",
+                    "en": "Licensed",
+                    "tr": "Ruhsatlı"
+                },
+                {
+                    "ar": "أوراق جمركية",
+                    "en": "Customs Documents",
+                    "tr": "Gümrük Belgeli"
+                },
+                {
+                    "ar": "بدون أوراق",
+                    "en": "No Documents",
+                    "tr": "Belgesiz"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "with_operator",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مع مشغّل",
+                "en": "With Operator",
+                "tr": "Operatörlü"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "transport_fees",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "رسوم النقل",
+                "en": "Transport Fees",
+                "tr": "Nakliye Ücreti"
+            },
+            "options": [
+                {
+                    "ar": "على المؤجر",
+                    "en": "Paid by Owner",
+                    "tr": "Kiralayan Öder"
+                },
+                {
+                    "ar": "على المستأجر",
+                    "en": "Paid by Renter",
+                    "tr": "Kiracı Öder"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "deposit_insurance",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "التأمين / العربون",
+                "en": "Deposit / Insurance",
+                "tr": "Depozito / Sigorta"
+            },
+            "options": [
+                {
+                    "ar": "يوجد",
+                    "en": "Yes",
+                    "tr": "Var"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "trial_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتجربة",
+                "en": "Available to Try",
+                "tr": "Deneme İmkanı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "attachments",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المرفقات / الملحقات",
+                "en": "Attachments / Accessories",
+                "tr": "Aksesuarlar / Ekler"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "دلو",
+                    "en": "Bucket",
+                    "tr": "Kova"
+                },
+                {
+                    "ar": "شاكوش هيدروليك",
+                    "en": "Hydraulic Hammer",
+                    "tr": "Hidrolik Kırıcı"
+                },
+                {
+                    "ar": "شوك تحميل",
+                    "en": "Loading Forks",
+                    "tr": "Yükleme Çatalı"
+                },
+                {
+                    "ar": "شفرة",
+                    "en": "Blade",
+                    "tr": "Bıçak"
+                },
+                {
+                    "ar": "رأس حفر",
+                    "en": "Drill Head",
+                    "tr": "Delme Kafası"
+                },
+                {
+                    "ar": "جنزير إضافي",
+                    "en": "Extra Tracks",
+                    "tr": "Ek Palet"
+                },
+                {
+                    "ar": "إطارات إضافية",
+                    "en": "Extra Tires",
+                    "tr": "Ek Lastik"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "equipment_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات المعدة",
+                "en": "Equipment Features",
+                "tr": "Ekipman Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مكيف كابينة",
+                    "en": "Cabin A/C",
+                    "tr": "Kabin Kliması"
+                },
+                {
+                    "ar": "كابينة مغلقة",
+                    "en": "Enclosed Cabin",
+                    "tr": "Kapalı Kabin"
+                },
+                {
+                    "ar": "نظام GPS",
+                    "en": "GPS System",
+                    "tr": "GPS Sistemi"
+                },
+                {
+                    "ar": "كاميرا خلفية",
+                    "en": "Rear Camera",
+                    "tr": "Geri Vites Kamerası"
+                },
+                {
+                    "ar": "إنارة عمل",
+                    "en": "Work Lights",
+                    "tr": "Çalışma Farları"
+                },
+                {
+                    "ar": "نظام هيدروليك إضافي",
+                    "en": "Extra Hydraulic System",
+                    "tr": "Ek Hidrolik Sistem"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "تاجر معدات",
+                    "en": "Equipment Dealer",
+                    "tr": "Ekipman Tüccarı"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

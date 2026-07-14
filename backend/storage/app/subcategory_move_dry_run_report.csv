@@ -1,0 +1,32 @@
+row_num,csv_current_path,csv_name,csv_target_path,status,message,subcategory_id,db_name_ar,slug,old_parent_id,new_parent_id,target_subcategory_id,ads_count
+1,"المركبات > 323ti",323ti,"المركبات > سيارات > BMW > 3 Series > 323ti",would_move,"Would move to parent id 20924 in category 1",23890,323ti,bmw-3-serisi-323ti,,20924,,1
+2,"المركبات > 325td",325td,"المركبات > سيارات > BMW > 3 Series > 325td",would_move,"Would move to parent id 20924 in category 1",23891,325td,bmw-3-serisi-325td,,20924,,0
+3,"المركبات > 325ti",325ti,"المركبات > سيارات > BMW > 3 Series > 325ti",would_move,"Would move to parent id 20924 in category 1",23892,325ti,bmw-3-serisi-325ti,,20924,,0
+4,"المركبات > 340d xDrive","340d xDrive","المركبات > سيارات > BMW > 3 Series > 340d xDrive",would_move,"Would move to parent id 20924 in category 1",23893,"340d xDrive",bmw-3-serisi-340d-xdrive,,20924,,0
+5,"المركبات > 524td",524td,"المركبات > سيارات > BMW > 5 Series > 524td",would_move,"Would move to parent id 21168 in category 1",23894,524td,bmw-5-serisi-524td,,21168,,0
+6,"المركبات > 550i xDrive","550i xDrive","المركبات > سيارات > BMW > 5 Series > 550i xDrive",would_move,"Would move to parent id 21168 in category 1",23895,"550i xDrive",bmw-5-serisi-550i-xdrive,,21168,,0
+7,"المركبات > دراجات نارية > 125 R","125 R","المركبات > دراجات نارية > Voge > 125 R",would_remove_duplicate,"Would remove duplicate id 32779; keep id 32802",32779,"125 R",125-r-Motorcycl,30293,30445,32802,0
+8,"المركبات > دراجات نارية > 250 GY","250 GY","المركبات > دراجات نارية > Voge > 250 GY",would_remove_duplicate,"Would remove duplicate id 32780; keep id 32803",32780,"250 GY",250-gy,30293,30445,32803,0
+9,"المركبات > دراجات نارية > 250 RR","250 RR","المركبات > دراجات نارية > Voge > 250 RR",would_remove_duplicate,"Would remove duplicate id 32782; keep id 32805",32782,"250 RR",250-rr-Motorcycl,30293,30445,32805,0
+10,"المركبات > دراجات نارية > 250 Rally","250 Rally","المركبات > دراجات نارية > Voge > 250 Rally",would_remove_duplicate,"Would remove duplicate id 32781; keep id 32804",32781,"250 Rally",250-rally,30293,30445,32804,0
+11,"المركبات > دراجات نارية > 300 DS","300 DS","المركبات > دراجات نارية > Voge > 300 DS",would_remove_duplicate,"Would remove duplicate id 32783; keep id 32806",32783,"300 DS",300-ds,30293,30445,32806,0
+12,"المركبات > دراجات نارية > 300 GY","300 GY","المركبات > دراجات نارية > Voge > 300 GY",would_remove_duplicate,"Would remove duplicate id 32784; keep id 32807",32784,"300 GY",300-gy,30293,30445,32807,0
+13,"المركبات > دراجات نارية > 300 R","300 R","المركبات > دراجات نارية > Voge > 300 R",would_remove_duplicate,"Would remove duplicate id 32785; keep id 32808",32785,"300 R",300-r,30293,30445,32808,0
+14,"المركبات > دراجات نارية > 300 Rally","300 Rally","المركبات > دراجات نارية > Voge > 300 Rally",would_remove_duplicate,"Would remove duplicate id 32786; keep id 32809",32786,"300 Rally",300-rally,30293,30445,32809,0
+15,"المركبات > دراجات نارية > 500 AC","500 AC","المركبات > دراجات نارية > Voge > 500 AC",would_remove_duplicate,"Would remove duplicate id 32787; keep id 32810",32787,"500 AC",500-ac,30293,30445,32810,0
+16,"المركبات > دراجات نارية > 500 DS","500 DS","المركبات > دراجات نارية > Voge > 500 DS",would_remove_duplicate,"Would remove duplicate id 32788; keep id 32811",32788,"500 DS",500-ds,30293,30445,32811,0
+17,"المركبات > دراجات نارية > 500 DSX","500 DSX","المركبات > دراجات نارية > Voge > 500 DSX",would_remove_duplicate,"Would remove duplicate id 32789; keep id 32812",32789,"500 DSX",500-dsx,30293,30445,32812,0
+18,"المركبات > دراجات نارية > 500 R","500 R","المركبات > دراجات نارية > Voge > 500 R",would_remove_duplicate,"Would remove duplicate id 32790; keep id 32813",32790,"500 R",500-r,30293,30445,32813,0
+19,"المركبات > دراجات نارية > 525 ACX","525 ACX","المركبات > دراجات نارية > Voge > 525 ACX",would_remove_duplicate,"Would remove duplicate id 32791; keep id 32814",32791,"525 ACX",525-acx,30293,30445,32814,0
+20,"المركبات > دراجات نارية > 525 DSX","525 DSX","المركبات > دراجات نارية > Voge > 525 DSX",would_remove_duplicate,"Would remove duplicate id 32792; keep id 32815",32792,"525 DSX",525-dsx,30293,30445,32815,0
+21,"المركبات > دراجات نارية > 525 R","525 R","المركبات > دراجات نارية > Voge > 525 R",would_remove_duplicate,"Would remove duplicate id 32793; keep id 32816",32793,"525 R",525-r,30293,30445,32816,0
+22,"المركبات > دراجات نارية > 525 RR","525 RR","المركبات > دراجات نارية > Voge > 525 RR",would_remove_duplicate,"Would remove duplicate id 32794; keep id 32817",32794,"525 RR",525-rr,30293,30445,32817,0
+23,"المركبات > دراجات نارية > 625 DSX","625 DSX","المركبات > دراجات نارية > Voge > 625 DSX",would_remove_duplicate,"Would remove duplicate id 32795; keep id 32818",32795,"625 DSX",625-dsx,30293,30445,32818,0
+24,"المركبات > دراجات نارية > 650 DSX","650 DSX","المركبات > دراجات نارية > Voge > 650 DSX",would_remove_duplicate,"Would remove duplicate id 32796; keep id 32819",32796,"650 DSX",650-dsx,30293,30445,32819,0
+25,"المركبات > دراجات نارية > 900 DSX","900 DSX","المركبات > دراجات نارية > Voge > 900 DSX",would_remove_duplicate,"Would remove duplicate id 32797; keep id 32820",32797,"900 DSX",900-dsx,30293,30445,32820,0
+26,"المركبات > دراجات نارية > SR1",SR1,"المركبات > دراجات نارية > Voge > SR1",would_remove_duplicate,"Would remove duplicate id 32798; keep id 32821",32798,SR1,sr1,30293,30445,32821,0
+27,"المركبات > دراجات نارية > SR1 ADV","SR1 ADV","المركبات > دراجات نارية > Voge > SR1 ADV",would_remove_duplicate,"Would remove duplicate id 32799; keep id 32822",32799,"SR1 ADV",sr1-adv,30293,30445,32822,0
+28,"المركبات > دراجات نارية > SR3",SR3,"المركبات > دراجات نارية > Voge > SR3",would_remove_duplicate,"Would remove duplicate id 32800; keep id 32823",32800,SR3,sr3,30293,30445,32823,0
+29,"المركبات > دراجات نارية > SR4 Maxi 350","SR4 Maxi 350","المركبات > دراجات نارية > Voge > SR4 Maxi 350",would_remove_duplicate,"Would remove duplicate id 32801; keep id 32824",32801,"SR4 Maksi 350",sr4-maksi-350,30293,30445,32824,0
+30,"المركبات > سيارات > Tesla > Model X","Model X","المركبات > سيارات دفع رباعي وبيك آب > Tesla > Model X",would_move,"Would move to parent id -27294 in category 1",23141,"Model X",tesla-model-x,23103,-27294,,0
+31,"المركبات > سيارات > Tesla > Model Y","Model Y","المركبات > سيارات دفع رباعي وبيك آب > Tesla > Model Y",would_move,"Would move to parent id -27294 in category 1",23142,"Model Y",tesla-model-y,23103,-27294,,0

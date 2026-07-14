@@ -1,0 +1,555 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات عقارات > أراضي > للإيجار",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "rental_rate",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "بدل الإيجار",
+                "en": "Rental Rate",
+                "tr": "Kira Bedeli"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار أمريكي",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "payment_period",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "فترة الدفع",
+                "en": "Payment Period",
+                "tr": "Ödeme Periyodu"
+            },
+            "options": [
+                {
+                    "ar": "شهري",
+                    "en": "Monthly",
+                    "tr": "Aylık"
+                },
+                {
+                    "ar": "سنوي",
+                    "en": "Yearly",
+                    "tr": "Yıllık"
+                },
+                {
+                    "ar": "موسمي",
+                    "en": "Seasonal",
+                    "tr": "Mevsimlik"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "land_area_sqm",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مساحة الأرض (م²)",
+                "en": "Land Area (m²)",
+                "tr": "Arsa Alanı (m²)"
+            }
+        },
+        {
+            "id": "land_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الأرض",
+                "en": "Land Type",
+                "tr": "Arsa Tipi"
+            },
+            "options": [
+                {
+                    "ar": "سكنية",
+                    "en": "سكنية",
+                    "tr": "سكنية"
+                },
+                {
+                    "ar": "تجارية",
+                    "en": "تجارية",
+                    "tr": "تجارية"
+                },
+                {
+                    "ar": "زراعية",
+                    "en": "Agricultural",
+                    "tr": "Tarımsal"
+                },
+                {
+                    "ar": "صناعية",
+                    "en": "Industrial",
+                    "tr": "Sanayi"
+                },
+                {
+                    "ar": "سياحية",
+                    "en": "Tourism",
+                    "tr": "Turizm"
+                },
+                {
+                    "ar": "خارج التنظيم",
+                    "en": "Outside Zoning",
+                    "tr": "İmar Dışı"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "allowed_use",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الاستخدام المسموح",
+                "en": "Allowed Use",
+                "tr": "İzin Verilen Kullanım"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "زراعة",
+                    "en": "Agriculture",
+                    "tr": "Tarım"
+                },
+                {
+                    "ar": "مستودع",
+                    "en": "Warehouse",
+                    "tr": "Depo"
+                },
+                {
+                    "ar": "موقف سيارات",
+                    "en": "موقف سيارات",
+                    "tr": "موقف سيارات"
+                },
+                {
+                    "ar": "مشروع مؤقت",
+                    "en": "Temporary Project",
+                    "tr": "Geçici Proje"
+                },
+                {
+                    "ar": "ورشة",
+                    "en": "Workshop",
+                    "tr": "Atölye"
+                },
+                {
+                    "ar": "نشاط تجاري",
+                    "en": "نشاط تجاري",
+                    "tr": "نشاط تجاري"
+                },
+                {
+                    "ar": "مخيم / موسم",
+                    "en": "Camp / Seasonal",
+                    "tr": "Kamp / Mevsimlik"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "lease_duration",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مدة الإيجار",
+                "en": "Lease Duration",
+                "tr": "Kiralama Süresi"
+            },
+            "options": [
+                {
+                    "ar": "أقل من سنة",
+                    "en": "Less Than 1 Year",
+                    "tr": "1 Yıldan Az"
+                },
+                {
+                    "ar": "سنة",
+                    "en": "One Year",
+                    "tr": "Bir Yıl"
+                },
+                {
+                    "ar": "أكثر من سنة",
+                    "en": "Over 1 Year",
+                    "tr": "1 Yıldan Fazla"
+                },
+                {
+                    "ar": "طويل الأمد",
+                    "en": "Long-Term",
+                    "tr": "Uzun Süreli"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "deposit",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "التأمين / العربون",
+                "en": "Deposit / Insurance",
+                "tr": "Depozito / Sigorta"
+            }
+        },
+        {
+            "id": "hal_alard",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة الأرض",
+                "en": "حالة الأرض",
+                "tr": "حالة الأرض"
+            },
+            "options": [
+                {
+                    "ar": "فارغة",
+                    "en": "Empty",
+                    "tr": "Boş"
+                },
+                {
+                    "ar": "مزروعة",
+                    "en": "Cultivated",
+                    "tr": "Ekili"
+                },
+                {
+                    "ar": "مسوّرة",
+                    "en": "Fenced",
+                    "tr": "Çevrili"
+                },
+                {
+                    "ar": "عليها بناء قديم",
+                    "en": "Old Building on Site",
+                    "tr": "Eski Yapı Mevcut"
+                },
+                {
+                    "ar": "عليها منشأة",
+                    "en": "Structure on Site",
+                    "tr": "Tesis Mevcut"
+                },
+                {
+                    "ar": "غير مهيأة",
+                    "en": "Not Prepared",
+                    "tr": "Hazır Değil"
+                }
+            ]
+        },
+        {
+            "id": "fenced",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مسوّرة",
+                "en": "Fenced",
+                "tr": "Çevrili"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "road_frontage",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "واجهة على طريق",
+                "en": "Road Frontage",
+                "tr": "Yol Cephesi"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "available_utilities",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الخدمات المتوفرة",
+                "en": "Available Utilities",
+                "tr": "Mevcut Altyapı"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                },
+                {
+                    "ar": "ماء",
+                    "en": "Water",
+                    "tr": "Su"
+                },
+                {
+                    "ar": "صرف صحي",
+                    "en": "Sewage",
+                    "tr": "Kanalizasyon"
+                },
+                {
+                    "ar": "بئر ماء",
+                    "en": "Water Well",
+                    "tr": "Su Kuyusu"
+                },
+                {
+                    "ar": "طريق مزفت",
+                    "en": "Paved Road",
+                    "tr": "Asfalt Yol"
+                },
+                {
+                    "ar": "طريق ترابي",
+                    "en": "Dirt Road",
+                    "tr": "Toprak Yol"
+                },
+                {
+                    "ar": "إنترنت",
+                    "en": "Internet",
+                    "tr": "İnternet"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                }
+            ]
+        },
+        {
+            "id": "building_or_room_exists",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "وجود بناء أو غرفة",
+                "en": "Building or Room on Site",
+                "tr": "Yapı veya Oda Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "يوجد",
+                    "en": "Yes",
+                    "tr": "Var"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                }
+            ]
+        },
+        {
+            "id": "water_source",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مصدر مياه",
+                "en": "Water Source",
+                "tr": "Su Kaynağı"
+            },
+            "options": [
+                {
+                    "ar": "شبكة مياه",
+                    "en": "شبكة مياه",
+                    "tr": "شبكة مياه"
+                },
+                {
+                    "ar": "بئر",
+                    "en": "Well",
+                    "tr": "Kuyu"
+                },
+                {
+                    "ar": "صهريج",
+                    "en": "Water Tanker",
+                    "tr": "Su Tankeri"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "electricity_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "كهرباء متوفرة",
+                "en": "Electricity Available",
+                "tr": "Elektrik Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "قريبة من الأرض",
+                    "en": "Near the Land",
+                    "tr": "Arsaya Yakın"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Advertiser Type",
+                "tr": "İlan Sahibi Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Owner",
+                    "tr": "Mal Sahibi"
+                },
+                {
+                    "ar": "مكتب عقاري",
+                    "en": "Real Estate Office",
+                    "tr": "Emlak Ofisi"
+                },
+                {
+                    "ar": "وكيل",
+                    "en": "Agent",
+                    "tr": "Temsilci"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

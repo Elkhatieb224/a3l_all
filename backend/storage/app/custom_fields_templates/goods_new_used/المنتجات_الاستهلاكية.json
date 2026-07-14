@@ -1,0 +1,185 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات المنتجات الاستهلاكية (أغذية، عناية شخصية)",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            },
+            "show_currency": false
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "product_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المنتج",
+                "en": "Condition",
+                "tr": "Ürün Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "غير مفتوح",
+                    "en": "Sealed",
+                    "tr": "Açılmamış"
+                },
+                {
+                    "ar": "مفتوح",
+                    "en": "Opened",
+                    "tr": "Açılmış"
+                }
+            ]
+        },
+        {
+            "id": "expiry_date",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "تاريخ الصلاحية",
+                "en": "Expiry Date",
+                "tr": "Son Kullanma Tarihi"
+            }
+        },
+        {
+            "id": "quantity",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الكمية",
+                "en": "Quantity",
+                "tr": "Miktar"
+            }
+        },
+        {
+            "id": "country_of_origin",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "بلد المنشأ",
+                "en": "Country of Origin",
+                "tr": "Menşei Ülke"
+            }
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "متجر",
+                    "en": "Shop",
+                    "tr": "Mağaza"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                },
+                {
+                    "ar": "وكيل / مندوب",
+                    "en": "Agent / Dealer",
+                    "tr": "Temsilci / Bayi"
+                }
+            ]
+        }
+    ]
+}

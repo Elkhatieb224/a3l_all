@@ -1,0 +1,263 @@
+row_num,csv_parent_path,csv_name,status,message,subcategory_id,db_name_ar,db_name_en,slug,parent_subcategory_id,category_id
+1,"المركبات > سيارات دفع رباعي وبيك آب",Geely,would_add,"Would create «Geely» under parent id 32704",-27295,Geely,Geely,Off-Road-SUV-Pickup-Trucks-geely,32704,1
+2,"المركبات > سيارات دفع رباعي وبيك آب",Tesla,skipped_exists,"Subcategory already exists under parent (id 44720)",44720,Tesla,Tesla,Off-Road-SUV-Pickup-Trucks-tesla,32704,1
+3,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة",Chevrolet,would_add,"Would create «Chevrolet» under parent id 38078",-27296,Chevrolet,Chevrolet,trucks-light-trucks-chevrolet,38078,1
+4,"المركبات > سيارات > Audi",200,would_add,"Would create «200» under parent id 20346",-27297,200,200,audi-200,20346,1
+5,"المركبات > سيارات > Audi",90,would_add,"Would create «90» under parent id 20346",-27298,90,90,audi-90,20346,1
+6,"المركبات > سيارات > BMW","M Series",would_add,"Would create «M Series» under parent id 20794",-27299,"M Series","M Series",bmw-m-series,20794,1
+7,"المركبات > سيارات > BMW","Z Series",would_add,"Would create «Z Series» under parent id 20794",-27300,"Z Series","Z Series",bmw-z-series,20794,1
+8,"المركبات > سيارات > BYD","Qin Plus",would_add,"Would create «Qin Plus» under parent id 21403",-27301,"Qin Plus","Qin Plus",byd-qin-plus,21403,1
+9,"المركبات > سيارات > BYD",Seagull,would_add,"Would create «Seagull» under parent id 21403",-27302,Seagull,Seagull,byd-seagull,21403,1
+10,"المركبات > سيارات دفع رباعي وبيك آب > BYD","Song Plus",would_add,"Would create «Song Plus» under parent id 33984",-27303,"Song Plus","Song Plus",byd-Off-Road-SUV-Pickup-Trucks-song-plus,33984,1
+11,"المركبات > سيارات > Cadillac",ATS,would_add,"Would create «ATS» under parent id 21409",-27304,ATS,ATS,cadillac-ats,21409,1
+12,"المركبات > سيارات > Cadillac",CT4,would_add,"Would create «CT4» under parent id 21409",-27305,CT4,CT4,cadillac-ct4,21409,1
+13,"المركبات > سيارات > Cadillac",CT5,would_add,"Would create «CT5» under parent id 21409",-27306,CT5,CT5,cadillac-ct5,21409,1
+14,"المركبات > سيارات > Cadillac",XTS,would_add,"Would create «XTS» under parent id 21409",-27307,XTS,XTS,cadillac-xts,21409,1
+15,"المركبات > سيارات > Chery","Arrizo 5",would_add,"Would create «Arrizo 5» under parent id 21421",-27308,"Arrizo 5","Arrizo 5",chery-arrizo-5,21421,1
+16,"المركبات > سيارات > Chery","Arrizo 6",would_add,"Would create «Arrizo 6» under parent id 21421",-27309,"Arrizo 6","Arrizo 6",chery-arrizo-6,21421,1
+17,"المركبات > سيارات > Chery","Arrizo 8",would_add,"Would create «Arrizo 8» under parent id 21421",-27310,"Arrizo 8","Arrizo 8",chery-arrizo-8,21421,1
+18,"المركبات > سيارات دفع رباعي وبيك آب > Chery","Tiggo 2",would_add,"Would create «Tiggo 2» under parent id 33986",-27311,"Tiggo 2","Tiggo 2",chery-Off-Road-SUV-Pickup-Trucks-tiggo-2,33986,1
+19,"المركبات > سيارات دفع رباعي وبيك آب > Chery","Tiggo 4",would_add,"Would create «Tiggo 4» under parent id 33986",-27312,"Tiggo 4","Tiggo 4",chery-Off-Road-SUV-Pickup-Trucks-tiggo-4,33986,1
+20,"المركبات > سيارات > Chevrolet",Cobalt,would_add,"Would create «Cobalt» under parent id 21426",-27313,Cobalt,Cobalt,chevrolet-cobalt,21426,1
+21,"المركبات > سيارات > Chevrolet",Malibu,would_add,"Would create «Malibu» under parent id 21426",-27314,Malibu,Malibu,chevrolet-malibu,21426,1
+22,"المركبات > سيارات > Chevrolet",Nubira,would_add,"Would create «Nubira» under parent id 21426",-27315,Nubira,Nubira,chevrolet-nubira,21426,1
+23,"المركبات > سيارات > Chevrolet",Optra,would_add,"Would create «Optra» under parent id 21426",-27316,Optra,Optra,chevrolet-optra,21426,1
+24,"المركبات > سيارات > Chevrolet",Sail,would_add,"Would create «Sail» under parent id 21426",-27317,Sail,Sail,chevrolet-sail,21426,1
+25,"المركبات > سيارات > Chevrolet",Sonic,would_add,"Would create «Sonic» under parent id 21426",-27318,Sonic,Sonic,chevrolet-sonic,21426,1
+26,"المركبات > سيارات > Dacia",Spring,would_add,"Would create «Spring» under parent id 21527",-27319,Spring,Spring,dacia-spring,21527,1
+27,"المركبات > سيارات > Dodge",Caliber,would_add,"Would create «Caliber» under parent id 21551",-27320,Caliber,Caliber,dodge-caliber,21551,1
+28,"المركبات > سيارات > Dodge",Dart,would_add,"Would create «Dart» under parent id 21551",-27321,Dart,Dart,dodge-dart,21551,1
+29,"المركبات > سيارات > Dodge",Neon,would_add,"Would create «Neon» under parent id 21551",-27322,Neon,Neon,dodge-neon,21551,1
+30,"المركبات > سيارات > Dodge",Viper,would_add,"Would create «Viper» under parent id 21551",-27323,Viper,Viper,dodge-viper,21551,1
+31,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Coolray,would_add,"Would create «Coolray» under parent id -27295",-27324,Coolray,Coolray,Off-Road-SUV-Pickup-Trucks-geely-coolray,-27295,1
+32,"المركبات > سيارات > Geely","Geometry C",would_add,"Would create «Geometry C» under parent id 21633",-27325,"Geometry C","Geometry C",geely-geometry-c,21633,1
+33,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Monjaro,would_add,"Would create «Monjaro» under parent id -27295",-27326,Monjaro,Monjaro,Off-Road-SUV-Pickup-Trucks-geely-monjaro,-27295,1
+34,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Okavango,would_add,"Would create «Okavango» under parent id -27295",-27327,Okavango,Okavango,Off-Road-SUV-Pickup-Trucks-geely-okavango,-27295,1
+35,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Tugella,would_add,"Would create «Tugella» under parent id -27295",-27328,Tugella,Tugella,Off-Road-SUV-Pickup-Trucks-geely-tugella,-27295,1
+36,"المركبات > سيارات > Honda",Insight,would_add,"Would create «Insight» under parent id 21638",-27329,Insight,Insight,honda-insight,21638,1
+37,"المركبات > سيارات > Hyundai",Azera,would_add,"Would create «Azera» under parent id 21769",-27330,Azera,Azera,hyundai-azera,21769,1
+38,"المركبات > سيارات > Hyundai","Ioniq 6",would_add,"Would create «Ioniq 6» under parent id 21769",-27331,"Ioniq 6","Ioniq 6",hyundai-ioniq-6,21769,1
+39,"المركبات > سيارات > Hyundai",Lantra,would_add,"Would create «Lantra» under parent id 21769",-27332,Lantra,Lantra,hyundai-lantra,21769,1
+40,"المركبات > سيارات > Hyundai",Veloster,would_add,"Would create «Veloster» under parent id 21769",-27333,Veloster,Veloster,hyundai-veloster,21769,1
+41,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti",EX,would_add,"Would create «EX» under parent id 34009",-27334,EX,EX,infiniti-Off-Road-SUV-Pickup-Trucks-ex,34009,1
+42,"المركبات > سيارات > Infiniti",Q60,would_add,"Would create «Q60» under parent id 21913",-27335,Q60,Q60,infiniti-q60,21913,1
+43,"المركبات > سيارات > Infiniti",Q70,would_add,"Would create «Q70» under parent id 21913",-27336,Q70,Q70,infiniti-q70,21913,1
+44,"المركبات > سيارات > Kia",Forte,would_add,"Would create «Forte» under parent id 21939",-27337,Forte,Forte,kia-forte,21939,1
+45,"المركبات > سيارات > Kia",K5,would_add,"Would create «K5» under parent id 21939",-27338,K5,K5,kia-k5,21939,1
+46,"المركبات > سيارات > Kia",K8,would_add,"Would create «K8» under parent id 21939",-27339,K8,K8,kia-k8,21939,1
+47,"المركبات > سيارات > Kia",K9,would_add,"Would create «K9» under parent id 21939",-27340,K9,K9,kia-k9,21939,1
+48,"المركبات > سيارات دفع رباعي وبيك آب > Lexus",GX,would_add,"Would create «GX» under parent id 34019",-27341,GX,GX,lexus-Off-Road-SUV-Pickup-Trucks-gx,34019,1
+49,"المركبات > سيارات > Lexus",LC,would_add,"Would create «LC» under parent id 22104",-27342,LC,LC,lexus-lc,22104,1
+50,"المركبات > سيارات دفع رباعي وبيك آب > Lexus",UX,would_add,"Would create «UX» under parent id 34019",-27343,UX,UX,lexus-Off-Road-SUV-Pickup-Trucks-ux,34019,1
+51,"المركبات > سيارات > MG",MG5,would_add,"Would create «MG5» under parent id 22711",-27344,MG5,MG5,mg-mg5,22711,1
+52,"المركبات > سيارات > MG",MG6,would_add,"Would create «MG6» under parent id 22711",-27345,MG6,MG6,mg-mg6,22711,1
+53,"المركبات > سيارات دفع رباعي وبيك آب > MG",RX5,would_add,"Would create «RX5» under parent id 34026",-27346,RX5,RX5,mg-Off-Road-SUV-Pickup-Trucks-rx5,34026,1
+54,"المركبات > سيارات > MINI",Cabrio,would_add,"Would create «Cabrio» under parent id 22722",-27347,Cabrio,Cabrio,mini-cabrio,22722,1
+55,"المركبات > سيارات > Nissan",Leaf,would_add,"Would create «Leaf» under parent id 22779",-27348,Leaf,Leaf,nissan-leaf,22779,1
+56,"المركبات > سيارات > Nissan",Sentra,would_add,"Would create «Sentra» under parent id 22779",-27349,Sentra,Sentra,nissan-sentra,22779,1
+57,"المركبات > سيارات > Nissan",Sylphy,would_add,"Would create «Sylphy» under parent id 22779",-27350,Sylphy,Sylphy,nissan-sylphy,22779,1
+58,"المركبات > سيارات > Nissan",Teana,would_add,"Would create «Teana» under parent id 22779",-27351,Teana,Teana,nissan-teana,22779,1
+59,"المركبات > سيارات > Nissan",Versa,would_add,"Would create «Versa» under parent id 22779",-27352,Versa,Versa,nissan-versa,22779,1
+60,"المركبات > سيارات > Peugeot",108,would_add,"Would create «108» under parent id 22865",-27353,108,108,peugeot-108,22865,1
+61,"المركبات > سيارات > Suzuki",Celerio,would_add,"Would create «Celerio» under parent id 23101",-27354,Celerio,Celerio,suzuki-celerio,23101,1
+62,"المركبات > سيارات دفع رباعي وبيك آب > Tesla",Cybertruck,would_add,"Would create «Cybertruck» under parent id 44720",-27355,Cybertruck,Cybertruck,Off-Road-SUV-Pickup-Trucks-tesla-cybertruck,44720,1
+63,"المركبات > سيارات > Tesla",Roadster,would_add,"Would create «Roadster» under parent id 23103",-27356,Roadster,Roadster,tesla-roadster,23103,1
+64,"المركبات > سيارات > Toyota",Avalon,would_add,"Would create «Avalon» under parent id 23221",-27357,Avalon,Avalon,toyota-avalon,23221,1
+65,"المركبات > سيارات > Toyota",Aygo,would_add,"Would create «Aygo» under parent id 23221",-27358,Aygo,Aygo,toyota-aygo,23221,1
+66,"المركبات > سيارات > Toyota",Celica,would_add,"Would create «Celica» under parent id 23221",-27359,Celica,Celica,toyota-celica,23221,1
+67,"المركبات > سيارات > Toyota",Crown,would_add,"Would create «Crown» under parent id 23221",-27360,Crown,Crown,toyota-crown,23221,1
+68,"المركبات > سيارات > Toyota",GR86,would_add,"Would create «GR86» under parent id 23221",-27361,GR86,GR86,toyota-gr86,23221,1
+69,"المركبات > سيارات > Toyota",Matrix,would_add,"Would create «Matrix» under parent id 23221",-27362,Matrix,Matrix,toyota-matrix,23221,1
+70,"المركبات > سيارات > Toyota",Mirai,would_add,"Would create «Mirai» under parent id 23221",-27363,Mirai,Mirai,toyota-mirai,23221,1
+71,"المركبات > سيارات > Toyota",Sienna,would_add,"Would create «Sienna» under parent id 23221",-27364,Sienna,Sienna,toyota-sienna,23221,1
+72,"المركبات > سيارات دفع رباعي وبيك آب > Volvo",XC70,would_add,"Would create «XC70» under parent id 34047",-27365,XC70,XC70,volvo-Off-Road-SUV-Pickup-Trucks-xc70,34047,1
+73,"المركبات > سيارات دفع رباعي وبيك آب > Volvo",XC90,would_add,"Would create «XC90» under parent id 34047",-27366,XC90,XC90,volvo-Off-Road-SUV-Pickup-Trucks-xc90,34047,1
+74,"المركبات > سيارات دفع رباعي وبيك آب > BYD","Leopard 5",would_add,"Would create «Leopard 5» under parent id 33984",-27367,"Leopard 5","Leopard 5",byd-Off-Road-SUV-Pickup-Trucks-leopard-5,33984,1
+75,"المركبات > سيارات دفع رباعي وبيك آب > BYD","Song Pro",would_add,"Would create «Song Pro» under parent id 33984",-27368,"Song Pro","Song Pro",byd-Off-Road-SUV-Pickup-Trucks-song-pro,33984,1
+76,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac",XT4,would_add,"Would create «XT4» under parent id 33985",-27369,XT4,XT4,cadillac-Off-Road-SUV-Pickup-Trucks-xt4,33985,1
+77,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac",XT5,would_add,"Would create «XT5» under parent id 33985",-27370,XT5,XT5,cadillac-Off-Road-SUV-Pickup-Trucks-xt5,33985,1
+78,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac",XT6,would_add,"Would create «XT6» under parent id 33985",-27371,XT6,XT6,cadillac-Off-Road-SUV-Pickup-Trucks-xt6,33985,1
+79,"المركبات > سيارات دفع رباعي وبيك آب > Chery","Tiggo 4 Pro",would_add,"Would create «Tiggo 4 Pro» under parent id 33986",-27372,"Tiggo 4 Pro","Tiggo 4 Pro",chery-Off-Road-SUV-Pickup-Trucks-tiggo-4-pro,33986,1
+80,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Colorado,would_add,"Would create «Colorado» under parent id 33987",-27373,Colorado,Colorado,chevrolet-Off-Road-SUV-Pickup-Trucks-colorado,33987,1
+81,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Tracker,would_add,"Would create «Tracker» under parent id 33987",-27374,Tracker,Tracker,chevrolet-Off-Road-SUV-Pickup-Trucks-tracker,33987,1
+82,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Trailblazer,would_add,"Would create «Trailblazer» under parent id 33987",-27375,Trailblazer,Trailblazer,chevrolet-Off-Road-SUV-Pickup-Trucks-trailblazer,33987,1
+83,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Traverse,would_add,"Would create «Traverse» under parent id 33987",-27376,Traverse,Traverse,chevrolet-Off-Road-SUV-Pickup-Trucks-traverse,33987,1
+84,"المركبات > سيارات دفع رباعي وبيك آب > Ford",Everest,would_add,"Would create «Everest» under parent id 34000",-27377,Everest,Everest,ford-Off-Road-SUV-Pickup-Trucks-everest,34000,1
+85,"المركبات > سيارات دفع رباعي وبيك آب > Ford",Maverick,would_add,"Would create «Maverick» under parent id 34000",-27378,Maverick,Maverick,ford-Off-Road-SUV-Pickup-Trucks-maverick,34000,1
+86,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Azkarra,would_add,"Would create «Azkarra» under parent id -27295",-27379,Azkarra,Azkarra,Off-Road-SUV-Pickup-Trucks-geely-azkarra,-27295,1
+87,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Boyue,would_add,"Would create «Boyue» under parent id -27295",-27380,Boyue,Boyue,Off-Road-SUV-Pickup-Trucks-geely-boyue,-27295,1
+88,"المركبات > سيارات دفع رباعي وبيك آب > Geely","Radar RD6",would_add,"Would create «Radar RD6» under parent id -27295",-27381,"Radar RD6","Radar RD6",Off-Road-SUV-Pickup-Trucks-geely-radar-rd6,-27295,1
+89,"المركبات > سيارات دفع رباعي وبيك آب > Honda",Passport,would_add,"Would create «Passport» under parent id 34005",-27382,Passport,Passport,honda-Off-Road-SUV-Pickup-Trucks-passport,34005,1
+90,"المركبات > سيارات دفع رباعي وبيك آب > Honda",Pilot,would_add,"Would create «Pilot» under parent id 34005",-27383,Pilot,Pilot,honda-Off-Road-SUV-Pickup-Trucks-pilot,34005,1
+91,"المركبات > سيارات دفع رباعي وبيك آب > Honda",Ridgeline,would_add,"Would create «Ridgeline» under parent id 34005",-27384,Ridgeline,Ridgeline,honda-Off-Road-SUV-Pickup-Trucks-ridgeline,34005,1
+92,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai",Creta,would_add,"Would create «Creta» under parent id 34008",-27385,Creta,Creta,hyundai-Off-Road-SUV-Pickup-Trucks-creta,34008,1
+93,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai","Ioniq 7",would_add,"Would create «Ioniq 7» under parent id 34008",-27386,"Ioniq 7","Ioniq 7",hyundai-Off-Road-SUV-Pickup-Trucks-ioniq-7,34008,1
+94,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai",Palisade,would_add,"Would create «Palisade» under parent id 34008",-27387,Palisade,Palisade,hyundai-Off-Road-SUV-Pickup-Trucks-palisade,34008,1
+95,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai",Venue,would_add,"Would create «Venue» under parent id 34008",-27388,Venue,Venue,hyundai-Off-Road-SUV-Pickup-Trucks-venue,34008,1
+96,"المركبات > سيارات دفع رباعي وبيك آب > Jeep",Gladiator,would_add,"Would create «Gladiator» under parent id 34013",-27389,Gladiator,Gladiator,jeep-Off-Road-SUV-Pickup-Trucks-gladiator,34013,1
+97,"المركبات > سيارات دفع رباعي وبيك آب > Kia",EV5,would_add,"Would create «EV5» under parent id 34015",-27390,EV5,EV5,kia-Off-Road-SUV-Pickup-Trucks-ev5,34015,1
+98,"المركبات > سيارات دفع رباعي وبيك آب > Kia",Seltos,would_add,"Would create «Seltos» under parent id 34015",-27391,Seltos,Seltos,kia-Off-Road-SUV-Pickup-Trucks-seltos,34015,1
+99,"المركبات > سيارات دفع رباعي وبيك آب > Kia",Telluride,would_add,"Would create «Telluride» under parent id 34015",-27392,Telluride,Telluride,kia-Off-Road-SUV-Pickup-Trucks-telluride,34015,1
+100,"المركبات > سيارات دفع رباعي وبيك آب > Lexus",TX,would_add,"Would create «TX» under parent id 34019",-27393,TX,TX,lexus-Off-Road-SUV-Pickup-Trucks-tx,34019,1
+101,"المركبات > سيارات دفع رباعي وبيك آب > MG",RX8,would_add,"Would create «RX8» under parent id 34026",-27394,RX8,RX8,mg-Off-Road-SUV-Pickup-Trucks-rx8,34026,1
+102,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",BT-50,would_add,"Would create «BT-50» under parent id 34024",-27395,BT-50,BT-50,mazda-Off-Road-SUV-Pickup-Trucks-bt-50,34024,1
+103,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-30,would_add,"Would create «CX-30» under parent id 34024",-27396,CX-30,CX-30,mazda-Off-Road-SUV-Pickup-Trucks-cx-30,34024,1
+104,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-50,would_add,"Would create «CX-50» under parent id 34024",-27397,CX-50,CX-50,mazda-Off-Road-SUV-Pickup-Trucks-cx-50,34024,1
+105,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-60,would_add,"Would create «CX-60» under parent id 34024",-27398,CX-60,CX-60,mazda-Off-Road-SUV-Pickup-Trucks-cx-60,34024,1
+106,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-90,would_add,"Would create «CX-90» under parent id 34024",-27399,CX-90,CX-90,mazda-Off-Road-SUV-Pickup-Trucks-cx-90,34024,1
+107,"المركبات > سيارات دفع رباعي وبيك آب > Mitsubishi","Pajero Sport",would_add,"Would create «Pajero Sport» under parent id 34028",-27400,"Pajero Sport","Pajero Sport",mitsubishi-Off-Road-SUV-Pickup-Trucks-pajero-sport,34028,1
+108,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Ariya,would_add,"Would create «Ariya» under parent id 34029",-27401,Ariya,Ariya,nissan-Off-Road-SUV-Pickup-Trucks-ariya,34029,1
+109,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Armada,would_add,"Would create «Armada» under parent id 34029",-27402,Armada,Armada,nissan-Off-Road-SUV-Pickup-Trucks-armada,34029,1
+110,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Frontier,would_add,"Would create «Frontier» under parent id 34029",-27403,Frontier,Frontier,nissan-Off-Road-SUV-Pickup-Trucks-frontier,34029,1
+111,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Kicks,would_add,"Would create «Kicks» under parent id 34029",-27404,Kicks,Kicks,nissan-Off-Road-SUV-Pickup-Trucks-kicks,34029,1
+112,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Rogue,would_add,"Would create «Rogue» under parent id 34029",-27405,Rogue,Rogue,nissan-Off-Road-SUV-Pickup-Trucks-rogue,34029,1
+113,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Titan,would_add,"Would create «Titan» under parent id 34029",-27406,Titan,Titan,nissan-Off-Road-SUV-Pickup-Trucks-titan,34029,1
+114,"المركبات > سيارات دفع رباعي وبيك آب > Peugeot",4008,would_add,"Would create «4008» under parent id 34031",-27407,4008,4008,peugeot-Off-Road-SUV-Pickup-Trucks-4008,34031,1
+115,"المركبات > سيارات دفع رباعي وبيك آب > Renault",Arkana,would_add,"Would create «Arkana» under parent id 34033",-27408,Arkana,Arkana,renault-Off-Road-SUV-Pickup-Trucks-arkana,34033,1
+116,"المركبات > سيارات دفع رباعي وبيك آب > Subaru",Ascent,would_add,"Would create «Ascent» under parent id 34040",-27409,Ascent,Ascent,subaru-Off-Road-SUV-Pickup-Trucks-ascent,34040,1
+117,"المركبات > سيارات دفع رباعي وبيك آب > Suzuki",Ertiga,would_add,"Would create «Ertiga» under parent id 34041",-27410,Ertiga,Ertiga,suzuki-Off-Road-SUV-Pickup-Trucks-ertiga,34041,1
+118,"المركبات > سيارات دفع رباعي وبيك آب > Suzuki",XL7,would_add,"Would create «XL7» under parent id 34041",-27411,XL7,XL7,suzuki-Off-Road-SUV-Pickup-Trucks-xl7,34041,1
+119,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Highlander,would_add,"Would create «Highlander» under parent id 34045",-27412,Highlander,Highlander,toyota-Off-Road-SUV-Pickup-Trucks-highlander,34045,1
+120,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Sequoia,would_add,"Would create «Sequoia» under parent id 34045",-27413,Sequoia,Sequoia,toyota-Off-Road-SUV-Pickup-Trucks-sequoia,34045,1
+121,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Tacoma,would_add,"Would create «Tacoma» under parent id 34045",-27414,Tacoma,Tacoma,toyota-Off-Road-SUV-Pickup-Trucks-tacoma,34045,1
+122,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Tundra,would_add,"Would create «Tundra» under parent id 34045",-27415,Tundra,Tundra,toyota-Off-Road-SUV-Pickup-Trucks-tundra,34045,1
+123,"المركبات > سيارات دفع رباعي وبيك آب > Volkswagen",Atlas,would_add,"Would create «Atlas» under parent id 34046",-27416,Atlas,Atlas,volkswagen-Off-Road-SUV-Pickup-Trucks-atlas,34046,1
+124,"المركبات > سيارات دفع رباعي وبيك آب > Volkswagen",Taos,would_add,"Would create «Taos» under parent id 34046",-27417,Taos,Taos,volkswagen-Off-Road-SUV-Pickup-Trucks-taos,34046,1
+125,"المركبات > سيارات دفع رباعي وبيك آب > Volkswagen",Teramont,would_add,"Would create «Teramont» under parent id 34046",-27418,Teramont,Teramont,volkswagen-Off-Road-SUV-Pickup-Trucks-teramont,34046,1
+126,"المركبات > سيارات دفع رباعي وبيك آب > Volvo",EX90,would_add,"Would create «EX90» under parent id 34047",-27419,EX90,EX90,volvo-Off-Road-SUV-Pickup-Trucks-ex90,34047,1
+127,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Chevrolet",N300,would_add,"Would create «N300» under parent id -27296",-27420,N300,N300,trucks-light-trucks-chevrolet-n300,-27296,1
+128,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Chevrolet",N400,would_add,"Would create «N400» under parent id -27296",-27421,N400,N400,trucks-light-trucks-chevrolet-n400,-27296,1
+129,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Citroën",Jumpy,would_add,"Would create «Jumpy» under parent id 38814",-27422,Jumpy,Jumpy,citroen-trucks-light-trucks-jumpy,38814,1
+130,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Citroën",Spacetourer,would_add,"Would create «Spacetourer» under parent id 38814",-27423,Spacetourer,Spacetourer,citroen-trucks-light-trucks-spacetourer,38814,1
+131,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Doblo,would_add,"Would create «Doblo» under parent id 38822",-27424,Doblo,Doblo,fiat-trucks-light-trucks-doblo,38822,1
+132,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Fiorino,would_add,"Would create «Fiorino» under parent id 38822",-27425,Fiorino,Fiorino,fiat-trucks-light-trucks-fiorino,38822,1
+133,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Scudo,would_add,"Would create «Scudo» under parent id 38822",-27426,Scudo,Scudo,fiat-trucks-light-trucks-scudo,38822,1
+134,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Talento,would_add,"Would create «Talento» under parent id 38822",-27427,Talento,Talento,fiat-trucks-light-trucks-talento,38822,1
+135,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","E Series",would_add,"Would create «E Series» under parent id 38824",-27428,"E Series","E Series",ford-trucks-trucks-light-trucks-e-series,38824,1
+136,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","E-Tourneo Courier",would_add,"Would create «E-Tourneo Courier» under parent id 38824",-27429,"E-Tourneo Courier","E-Tourneo Courier",ford-trucks-trucks-light-trucks-e-tourneo-courier,38824,1
+137,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","E-Tourneo Custom",would_add,"Would create «E-Tourneo Custom» under parent id 38824",-27430,"E-Tourneo Custom","E-Tourneo Custom",ford-trucks-trucks-light-trucks-e-tourneo-custom,38824,1
+138,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Fiesta Van",would_add,"Would create «Fiesta Van» under parent id 38824",-27431,"Fiesta Van","Fiesta Van",ford-trucks-trucks-light-trucks-fiesta-van,38824,1
+139,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Tourneo Connect",would_add,"Would create «Tourneo Connect» under parent id 38824",-27432,"Tourneo Connect","Tourneo Connect",ford-trucks-trucks-light-trucks-tourneo-connect,38824,1
+140,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Tourneo Courier",would_add,"Would create «Tourneo Courier» under parent id 38824",-27433,"Tourneo Courier","Tourneo Courier",ford-trucks-trucks-light-trucks-tourneo-courier,38824,1
+141,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Tourneo Custom",would_add,"Would create «Tourneo Custom» under parent id 38824",-27434,"Tourneo Custom","Tourneo Custom",ford-trucks-trucks-light-trucks-tourneo-custom,38824,1
+142,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford",Windstar,would_add,"Would create «Windstar» under parent id 38824",-27435,Windstar,Windstar,ford-trucks-trucks-light-trucks-windstar,38824,1
+143,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Hyundai",Staria,would_add,"Would create «Staria» under parent id 38828",-27436,Staria,Staria,hyundai-trucks-light-trucks-staria,38828,1
+144,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia",Pregio,would_add,"Would create «Pregio» under parent id 38831",-27437,Pregio,Pregio,kia-trucks-light-trucks-pregio,38831,1
+145,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Citan,would_add,"Would create «Citan» under parent id 38836",-27438,Citan,Citan,mercedes-benz-trucks-light-trucks-citan,38836,1
+146,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Sprinter,skipped_exists,"Subcategory already exists under parent (id 39276)",39276,sprinter,Sprinter,sprinter-mercedes-benz-trucks-light-trucks,38836,1
+147,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Viano,would_add,"Would create «Viano» under parent id 38836",-27439,Viano,Viano,mercedes-benz-trucks-light-trucks-viano,38836,1
+148,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Vito,would_add,"Would create «Vito» under parent id 38836",-27440,Vito,Vito,mercedes-benz-trucks-light-trucks-vito,38836,1
+149,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mitsubishi Temsa",Canter,would_add,"Would create «Canter» under parent id 38837",-27441,Canter,Canter,mitsubishi-temsa-trucks-light-trucks-canter,38837,1
+150,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",Cabstar,would_add,"Would create «Cabstar» under parent id 38839",-27442,Cabstar,Cabstar,nissan-trucks-light-trucks-cabstar,38839,1
+151,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",NV200,would_add,"Would create «NV200» under parent id 38839",-27443,NV200,NV200,nissan-trucks-light-trucks-nv200,38839,1
+152,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",NV300,would_add,"Would create «NV300» under parent id 38839",-27444,NV300,NV300,nissan-trucks-light-trucks-nv300,38839,1
+153,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",NV350,would_add,"Would create «NV350» under parent id 38839",-27445,NV350,NV350,nissan-trucks-light-trucks-nv350,38839,1
+154,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",Urvan,would_add,"Would create «Urvan» under parent id 38839",-27446,Urvan,Urvan,nissan-trucks-light-trucks-urvan,38839,1
+155,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel",Combo,would_add,"Would create «Combo» under parent id 38840",-27447,Combo,Combo,opel-trucks-light-trucks-combo,38840,1
+156,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel",Movano,skipped_exists,"Subcategory already exists under parent (id 39421)",39421,movano,Movano,movano-opel-trucks-light-trucks,38840,1
+157,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel",Vivaro,would_add,"Would create «Vivaro» under parent id 38840",-27448,Vivaro,Vivaro,opel-trucks-light-trucks-vivaro,38840,1
+158,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel","Zafira Life",would_add,"Would create «Zafira Life» under parent id 38840",-27449,"Zafira Life","Zafira Life",opel-trucks-light-trucks-zafira-life,38840,1
+159,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Expert,would_add,"Would create «Expert» under parent id 38843",-27450,Expert,Expert,peugeot-trucks-light-trucks-expert,38843,1
+160,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Partner,would_add,"Would create «Partner» under parent id 38843",-27451,Partner,Partner,peugeot-trucks-light-trucks-partner,38843,1
+161,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Traveller,would_add,"Would create «Traveller» under parent id 38843",-27452,Traveller,Traveller,peugeot-trucks-light-trucks-traveller,38843,1
+162,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Renault",Express,would_add,"Would create «Express» under parent id 38848",-27453,Express,Express,renault-trucks-trucks-light-trucks-express,38848,1
+163,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Renault",Kangoo,would_add,"Would create «Kangoo» under parent id 38848",-27454,Kangoo,Kangoo,renault-trucks-trucks-light-trucks-kangoo,38848,1
+164,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Renault",Trafic,would_add,"Would create «Trafic» under parent id 38848",-27455,Trafic,Trafic,renault-trucks-trucks-light-trucks-trafic,38848,1
+165,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Toyota",Coaster,would_add,"Would create «Coaster» under parent id 38857",-27456,Coaster,Coaster,toyota-trucks-light-trucks-coaster,38857,1
+166,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Toyota",Hiace,would_add,"Would create «Hiace» under parent id 38857",-27457,Hiace,Hiace,toyota-trucks-light-trucks-hiace,38857,1
+167,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",Caddy,would_add,"Would create «Caddy» under parent id 38858",-27458,Caddy,Caddy,volkswagen-trucks-light-trucks-caddy,38858,1
+168,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",California,would_add,"Would create «California» under parent id 38858",-27459,California,California,volkswagen-trucks-light-trucks-california,38858,1
+169,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",Caravelle,would_add,"Would create «Caravelle» under parent id 38858",-27460,Caravelle,Caravelle,volkswagen-trucks-light-trucks-caravelle,38858,1
+170,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",Multivan,would_add,"Would create «Multivan» under parent id 38858",-27461,Multivan,Multivan,volkswagen-trucks-light-trucks-multivan,38858,1
+171,"المركبات > سيارات > Audi > RS Series",RS5,would_add,"Would create «RS5» under parent id 20745",-27462,RS5,RS5,audi-rs-rs5,20745,1
+172,"المركبات > سيارات > Audi > S Series",S4,would_add,"Would create «S4» under parent id 20746",-27463,S4,S4,audi-s-series-s4,20746,1
+173,"المركبات > سيارات > BMW > M Series",M2,would_add,"Would create «M2» under parent id -27299",-27464,M2,M2,bmw-m-series-m2,-27299,1
+174,"المركبات > سيارات > BMW > M Series","M2 Competition",would_add,"Would create «M2 Competition» under parent id -27299",-27465,"M2 Competition","M2 Competition",bmw-m-series-m2-competition,-27299,1
+175,"المركبات > سيارات > BMW > M Series",M235i,would_add,"Would create «M235i» under parent id -27299",-27466,M235i,M235i,bmw-m-series-m235i,-27299,1
+176,"المركبات > سيارات > BMW > M Series","M235i xDrive",would_add,"Would create «M235i xDrive» under parent id -27299",-27467,"M235i xDrive","M235i xDrive",bmw-m-series-m235i-xdrive,-27299,1
+177,"المركبات > سيارات > BMW > M Series","M240i xDrive",would_add,"Would create «M240i xDrive» under parent id -27299",-27468,"M240i xDrive","M240i xDrive",bmw-m-series-m240i-xdrive,-27299,1
+178,"المركبات > سيارات > BMW > M Series",M3,would_add,"Would create «M3» under parent id -27299",-27469,M3,M3,bmw-m-series-m3,-27299,1
+179,"المركبات > سيارات > BMW > M Series","M3 CSL",would_add,"Would create «M3 CSL» under parent id -27299",-27470,"M3 CSL","M3 CSL",bmw-m-series-m3-csl,-27299,1
+180,"المركبات > سيارات > BMW > M Series","M3 Cabrio",would_add,"Would create «M3 Cabrio» under parent id -27299",-27471,"M3 Cabrio","M3 Cabrio",bmw-m-series-m3-cabrio,-27299,1
+181,"المركبات > سيارات > BMW > M Series","M3 Competition",would_add,"Would create «M3 Competition» under parent id -27299",-27472,"M3 Competition","M3 Competition",bmw-m-series-m3-competition,-27299,1
+182,"المركبات > سيارات > BMW > M Series","M3 Coupe",would_add,"Would create «M3 Coupe» under parent id -27299",-27473,"M3 Coupe","M3 Coupe",bmw-m-series-m3-coupe,-27299,1
+183,"المركبات > سيارات > BMW > M Series","M3 Touring",would_add,"Would create «M3 Touring» under parent id -27299",-27474,"M3 Touring","M3 Touring",bmw-m-series-m3-touring,-27299,1
+184,"المركبات > سيارات > BMW > M Series",M4,would_add,"Would create «M4» under parent id -27299",-27475,M4,M4,bmw-m-series-m4,-27299,1
+185,"المركبات > سيارات > BMW > M Series","M4 CS",would_add,"Would create «M4 CS» under parent id -27299",-27476,"M4 CS","M4 CS",bmw-m-series-m4-cs,-27299,1
+186,"المركبات > سيارات > BMW > M Series","M4 Competition",would_add,"Would create «M4 Competition» under parent id -27299",-27477,"M4 Competition","M4 Competition",bmw-m-series-m4-competition,-27299,1
+187,"المركبات > سيارات > BMW > M Series","M440i xDrive",would_add,"Would create «M440i xDrive» under parent id -27299",-27478,"M440i xDrive","M440i xDrive",bmw-m-series-m440i-xdrive,-27299,1
+188,"المركبات > سيارات > BMW > M Series",M5,would_add,"Would create «M5» under parent id -27299",-27479,M5,M5,bmw-m-series-m5,-27299,1
+189,"المركبات > سيارات > BMW > M Series","M5 Competition",would_add,"Would create «M5 Competition» under parent id -27299",-27480,"M5 Competition","M5 Competition",bmw-m-series-m5-competition,-27299,1
+190,"المركبات > سيارات > BMW > M Series","M5 Touring",would_add,"Would create «M5 Touring» under parent id -27299",-27481,"M5 Touring","M5 Touring",bmw-m-series-m5-touring,-27299,1
+191,"المركبات > سيارات > BMW > M Series",M6,would_add,"Would create «M6» under parent id -27299",-27482,M6,M6,bmw-m-series-m6,-27299,1
+192,"المركبات > سيارات > BMW > M Series","M6 Cabrio",would_add,"Would create «M6 Cabrio» under parent id -27299",-27483,"M6 Cabrio","M6 Cabrio",bmw-m-series-m6-cabrio,-27299,1
+193,"المركبات > سيارات > BMW > M Series","M6 Gran Coupe",would_add,"Would create «M6 Gran Coupe» under parent id -27299",-27484,"M6 Gran Coupe","M6 Gran Coupe",bmw-m-series-m6-gran-coupe,-27299,1
+194,"المركبات > سيارات > BMW > M Series","M760e xDrive",would_add,"Would create «M760e xDrive» under parent id -27299",-27485,"M760e xDrive","M760e xDrive",bmw-m-series-m760e-xdrive,-27299,1
+195,"المركبات > سيارات > BMW > M Series","M760i Long xDrive",would_add,"Would create «M760i Long xDrive» under parent id -27299",-27486,"M760i Long xDrive","M760i Long xDrive",bmw-m-series-m760i-long-xdrive,-27299,1
+196,"المركبات > سيارات > BMW > M Series","M8 Coupe xDrive Competition",would_add,"Would create «M8 Coupe xDrive Competition» under parent id -27299",-27487,"M8 Coupe xDrive Competition","M8 Coupe xDrive Competition",bmw-m-series-m8-coupe-xdrive-competition,-27299,1
+197,"المركبات > سيارات > BMW > M Series","M8 Gran Coupe xDrive Competition",would_add,"Would create «M8 Gran Coupe xDrive Competition» under parent id -27299",-27488,"M8 Gran Coupe xDrive Competition","M8 Gran Coupe xDrive Competition",bmw-m-series-m8-gran-coupe-xdrive-competition,-27299,1
+198,"المركبات > سيارات > BMW > M Series","Z3 M Cabrio",would_add,"Would create «Z3 M Cabrio» under parent id -27299",-27489,"Z3 M Cabrio","Z3 M Cabrio",bmw-m-series-z3-m-cabrio,-27299,1
+199,"المركبات > سيارات > BMW > Z Series",Z1,would_add,"Would create «Z1» under parent id -27300",-27490,Z1,Z1,bmw-z-series-z1,-27300,1
+200,"المركبات > سيارات > BMW > Z Series",Z3,would_add,"Would create «Z3» under parent id -27300",-27491,Z3,Z3,bmw-z-series-z3,-27300,1
+201,"المركبات > سيارات > BMW > Z Series",Z4,would_add,"Would create «Z4» under parent id -27300",-27492,Z4,Z4,bmw-z-series-z4,-27300,1
+202,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Citroën",Berlingo,would_add,"Would create «Berlingo» under parent id 38814",-27493,Berlingo,Berlingo,citroen-trucks-light-trucks-berlingo,38814,1
+203,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Dacia",Dokker,would_add,"Would create «Dokker» under parent id 38815",-27494,Dokker,Dokker,dacia-trucks-light-trucks-dokker,38815,1
+204,"المركبات > سيارات > Fiat > 500 Family",500,would_add,"Would create «500» under parent id 21591",-27495,500,500,fiat-500-ailesi-500,21591,1
+205,"المركبات > سيارات > Fiat > 500 Family",500L,would_add,"Would create «500L» under parent id 21591",-27496,500L,500L,fiat-500-ailesi-500l,21591,1
+206,"المركبات > سيارات > Hyundai > i20","i20 Active",would_add,"Would create «i20 Active» under parent id 21880",-27497,"i20 Active","i20 Active",hyundai-i20-i20-active,21880,1
+207,"المركبات > سيارات > Hyundai > i20","i20 N",would_add,"Would create «i20 N» under parent id 21880",-27498,"i20 N","i20 N",hyundai-i20-i20-n,21880,1
+208,"المركبات > سيارات > Hyundai > i20","i20 Troy",would_add,"Would create «i20 Troy» under parent id 21880",-27499,"i20 Troy","i20 Troy",hyundai-i20-i20-troy,21880,1
+209,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX30,would_add,"Would create «QX30» under parent id 35150",-27500,QX30,QX30,qx-qx30,35150,1
+210,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX50,would_add,"Would create «QX50» under parent id 35150",-27501,QX50,QX50,qx-qx50,35150,1
+211,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX60,would_add,"Would create «QX60» under parent id 35150",-27502,QX60,QX60,qx-qx60,35150,1
+212,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX70,skipped_exists,"Subcategory already exists under parent (id 35157)",35157,QX70,QX70,qx70,35150,1
+213,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX80,would_add,"Would create «QX80» under parent id 35150",-27503,QX80,QX80,qx-qx80,35150,1
+214,"المركبات > سيارات > Kia > Picanto","1.1 EX",would_add,"Would create «1.1 EX» under parent id 22032",-27504,"1.1 EX","1.1 EX",kia-picanto-11-ex,22032,1
+215,"المركبات > سيارات > Kia > Picanto","1.1 EX Advance",would_add,"Would create «1.1 EX Advance» under parent id 22032",-27505,"1.1 EX Advance","1.1 EX Advance",kia-picanto-11-ex-advance,22032,1
+216,"المركبات > سيارات > Kia > Picanto","1.1 EX Comfort",would_add,"Would create «1.1 EX Comfort» under parent id 22032",-27506,"1.1 EX Comfort","1.1 EX Comfort",kia-picanto-11-ex-comfort,22032,1
+217,"المركبات > سيارات > Kia > Picanto","1.1 Hiper",would_add,"Would create «1.1 Hiper» under parent id 22032",-27507,"1.1 Hiper","1.1 Hiper",kia-picanto-11-hiper,22032,1
+218,"المركبات > سيارات > Kia > Picanto","1.2 Cool",would_add,"Would create «1.2 Cool» under parent id 22032",-27508,"1.2 Cool","1.2 Cool",kia-picanto-12-cool,22032,1
+219,"المركبات > سيارات > Kia > Picanto","1.2 Feel",would_add,"Would create «1.2 Feel» under parent id 22032",-27509,"1.2 Feel","1.2 Feel",kia-picanto-12-feel,22032,1
+220,"المركبات > سيارات > Kia > Picanto","1.25 EX",would_add,"Would create «1.25 EX» under parent id 22032",-27510,"1.25 EX","1.25 EX",kia-picanto-125-ex,22032,1
+221,"المركبات > سيارات > Kia > Picanto","1.25 MPI Comfort",would_add,"Would create «1.25 MPI Comfort» under parent id 22032",-27511,"1.25 MPI Comfort","1.25 MPI Comfort",kia-picanto-125-mpi-comfort,22032,1
+222,"المركبات > سيارات > Kia > Rio","1.0 TGDI",would_add,"Would create «1.0 TGDI» under parent id 22050",-27512,"1.0 TGDI","1.0 TGDI",kia-rio-10-tgdi,22050,1
+223,"المركبات > سيارات > Kia > Rio","1.25 CVVT",would_add,"Would create «1.25 CVVT» under parent id 22050",-27513,"1.25 CVVT","1.25 CVVT",kia-rio-125-cvvt,22050,1
+224,"المركبات > سيارات > Kia > Rio",1.3,would_add,"Would create «1.3» under parent id 22050",-27514,1.3,1.3,kia-rio-13,22050,1
+225,"المركبات > سيارات > Kia > Rio","1.4 CRDi",would_add,"Would create «1.4 CRDi» under parent id 22050",-27515,"1.4 CRDi","1.4 CRDi",kia-rio-14-crdi,22050,1
+226,"المركبات > سيارات > Kia > Rio","1.4 CVVT",would_add,"Would create «1.4 CVVT» under parent id 22050",-27516,"1.4 CVVT","1.4 CVVT",kia-rio-14-cvvt,22050,1
+227,"المركبات > سيارات > Kia > Rio","1.4 EX",would_add,"Would create «1.4 EX» under parent id 22050",-27517,"1.4 EX","1.4 EX",kia-rio-14-ex,22050,1
+228,"المركبات > سيارات > Kia > Rio","1.4 GSL",would_add,"Would create «1.4 GSL» under parent id 22050",-27518,"1.4 GSL","1.4 GSL",kia-rio-14-gsl,22050,1
+229,"المركبات > سيارات > Kia > Rio","1.4 WGT CRDI",would_add,"Would create «1.4 WGT CRDI» under parent id 22050",-27519,"1.4 WGT CRDI","1.4 WGT CRDI",kia-rio-14-wgt-crdi,22050,1
+230,"المركبات > سيارات > Kia > Rio","1.4L MPI",would_add,"Would create «1.4L MPI» under parent id 22050",-27520,"1.4L MPI","1.4L MPI",kia-rio-14l-mpi,22050,1
+231,"المركبات > سيارات > Kia > Rio",1.5,would_add,"Would create «1.5» under parent id 22050",-27521,1.5,1.5,kia-rio-15,22050,1
+232,"المركبات > سيارات > Mazda > MX",MX-5,skipped_exists,"Subcategory already exists under parent (id 22173)",22173,MX-5,MX-5,mazda-mx-mx-5,22147,1
+233,"المركبات > سيارات > Mazda > RX",RX-7,skipped_exists,"Subcategory already exists under parent (id 22184)",22184,RX-7,RX-7,mazda-rx-rx-7,22154,1
+234,"المركبات > سيارات > Mazda > RX",RX-8,skipped_exists,"Subcategory already exists under parent (id 22185)",22185,RX-8,RX-8,mazda-rx-rx-8,22154,1
+235,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Rifter,would_add,"Would create «Rifter» under parent id 38843",-27522,Rifter,Rifter,peugeot-trucks-light-trucks-rifter,38843,1
+236,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Toyota",Proace,would_add,"Would create «Proace» under parent id 38857",-27523,Proace,Proace,toyota-trucks-light-trucks-proace,38857,1
+237,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac > Escalade",ESV,would_add,"Would create «ESV» under parent id 34398",-27524,ESV,ESV,escalade-esv,34398,1
+238,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX55,would_add,"Would create «QX55» under parent id 35150",-27525,QX55,QX55,qx-qx55,35150,1
+239,"المركبات > سيارات دفع رباعي وبيك آب > Mercedes-Benz > GLS",Maybach,would_add,"Would create «Maybach» under parent id 36001",-27526,Maybach,Maybach,gls-mercedes-benz-Off-Road-SUV-Pickup-Trucks-maybach,36001,1
+240,"المركبات > سيارات دفع رباعي وبيك آب > Nissan > Patrol","Super Safari",would_add,"Would create «Super Safari» under parent id 36254",-27527,"Super Safari","Super Safari",patrol-super-safari,36254,1
+241,"المركبات > سيارات دفع رباعي وبيك آب > Nissan > Patrol",Y61,would_add,"Would create «Y61» under parent id 36254",-27528,Y61,Y61,patrol-y61,36254,1
+242,"المركبات > سيارات دفع رباعي وبيك آب > Nissan > Patrol",Y62,would_add,"Would create «Y62» under parent id 36254",-27529,Y62,Y62,patrol-y62,36254,1
+243,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Hilux",Revo,would_add,"Would create «Revo» under parent id 37150",-27530,Revo,Revo,hilux-revo,37150,1
+244,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Hilux",Vigo,would_add,"Would create «Vigo» under parent id 37150",-27531,Vigo,Vigo,hilux-vigo,37150,1
+245,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser","200 Series",would_add,"Would create «200 Series» under parent id 37151",-27532,"200 Series","200 Series",land-cruiser-200-series,37151,1
+246,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser","300 Series",would_add,"Would create «300 Series» under parent id 37151",-27533,"300 Series","300 Series",land-cruiser-300-series,37151,1
+247,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser","70 Series",would_add,"Would create «70 Series» under parent id 37151",-27534,"70 Series","70 Series",land-cruiser-70-series,37151,1
+248,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser Prado",120,would_add,"Would create «120» under parent id 37152",-27535,120,120,land-cruiser-prado-120,37152,1
+249,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser Prado",150,would_add,"Would create «150» under parent id 37152",-27536,150,150,land-cruiser-prado-150,37152,1
+250,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > E-Transit","Chassis Cab",would_add,"Would create «Chassis Cab» under parent id 39023",-27537,"Chassis Cab","Chassis Cab",e-transit-ford-trucks-trucks-light-trucks-chassis-cab,39023,1
+251,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > E-Transit",Custom,would_add,"Would create «Custom» under parent id 39023",-27538,Custom,Custom,e-transit-ford-trucks-trucks-light-trucks-custom,39023,1
+252,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > E-Transit",Van,would_add,"Would create «Van» under parent id 39023",-27539,Van,Van,e-transit-ford-trucks-trucks-light-trucks-van,39023,1
+253,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit","Chassis Cab",would_add,"Would create «Chassis Cab» under parent id 39027",-27540,"Chassis Cab","Chassis Cab",transit-ford-trucks-trucks-light-trucks-chassis-cab,39027,1
+254,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Connect,would_add,"Would create «Connect» under parent id 39027",-27541,Connect,Connect,transit-ford-trucks-trucks-light-trucks-connect,39027,1
+255,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Courier,would_add,"Would create «Courier» under parent id 39027",-27542,Courier,Courier,transit-ford-trucks-trucks-light-trucks-courier,39027,1
+256,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Custom,would_add,"Would create «Custom» under parent id 39027",-27543,Custom,Custom,transit-ford-trucks-trucks-light-trucks-custom,39027,1
+257,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Minibus,would_add,"Would create «Minibus» under parent id 39027",-27544,Minibus,Minibus,transit-ford-trucks-trucks-light-trucks-minibus,39027,1
+258,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Van,would_add,"Would create «Van» under parent id 39027",-27545,Van,Van,transit-ford-trucks-trucks-light-trucks-van,39027,1
+259,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Hyundai > H Series",H-1,would_add,"Would create «H-1» under parent id 39042",-27546,H-1,H-1,h-hyundai-trucks-light-trucks-h-1,39042,1
+260,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia > K Series",K2500,would_add,"Would create «K2500» under parent id 39186",-27547,K2500,K2500,k-k2500,39186,1
+261,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia > K Series",K2700,would_add,"Would create «K2700» under parent id 39186",-27548,K2700,K2700,k-k2700,39186,1
+262,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia > K Series",K2900,would_add,"Would create «K2900» under parent id 39186",-27549,K2900,K2900,k-k2900,39186,1

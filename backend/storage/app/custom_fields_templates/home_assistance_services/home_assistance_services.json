@@ -1,0 +1,436 @@
+{
+  "version": 1,
+  "description": "حقول إعلانات خدمات المساعدة المنزلية (رعاية أطفال، كبار سن، تنظيف ومساعدة)",
+  "fields": [
+    {
+      "id": "ad_title",
+      "type": "text",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "عنوان الإعلان",
+        "en": "Listing Title",
+        "tr": "İlan Başlığı"
+      }
+    },
+    {
+      "id": "description",
+      "type": "textarea",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "الوصف",
+        "en": "Description",
+        "tr": "Açıklama"
+      }
+    },
+    {
+      "id": "ad_type",
+      "type": "select",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "نوع الإعلان",
+        "en": "Listing Type",
+        "tr": "İlan Türü"
+      },
+      "options": [
+        {
+          "ar": "أبحث عن مساعدة",
+          "en": "Looking for Help",
+          "tr": "Yardım Arıyorum"
+        },
+        {
+          "ar": "أقدم خدمة",
+          "en": "Offering a Service",
+          "tr": "Hizmet Sunuyorum"
+        }
+      ]
+    },
+    {
+      "id": "work_schedule",
+      "type": "select",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "طبيعة العمل",
+        "en": "Work Schedule",
+        "tr": "Çalışma Düzeni"
+      },
+      "options": [
+        {
+          "ar": "دوام كامل",
+          "en": "Full-time",
+          "tr": "Tam Zamanlı"
+        },
+        {
+          "ar": "دوام جزئي",
+          "en": "Part-time",
+          "tr": "Yarı Zamanlı"
+        },
+        {
+          "ar": "مؤقت",
+          "en": "Temporary",
+          "tr": "Geçici"
+        },
+        {
+          "ar": "مبيت دائم",
+          "en": "Live-in (Full-time)",
+          "tr": "Yatılı (Tam Zamanlı)"
+        },
+        {
+          "ar": "مبيت جزئي",
+          "en": "Live-in (Part-time)",
+          "tr": "Yatılı (Yarı Zamanlı)"
+        }
+      ]
+    },
+    {
+      "id": "work_location",
+      "type": "select",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "نظام العمل",
+        "en": "Work Location",
+        "tr": "Çalışma Yeri"
+      },
+      "options": [
+        {
+          "ar": "في المنزل",
+          "en": "At Home",
+          "tr": "Evde"
+        },
+        {
+          "ar": "مرافقة خارج المنزل",
+          "en": "Out-of-Home Support",
+          "tr": "Ev Dışında Refakat"
+        },
+        {
+          "ar": "داخل وخارج المنزل",
+          "en": "In-Home & Out-of-Home",
+          "tr": "Ev İçi ve Dışı"
+        }
+      ]
+    },
+    {
+      "id": "expected_pay",
+      "type": "text",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "الأجر / الراتب المتوقع",
+        "en": "Expected Pay",
+        "tr": "Beklenen Ücret"
+      }
+    },
+    {
+      "id": "currency",
+      "type": "select",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "العملة",
+        "en": "Currency",
+        "tr": "Para Birimi"
+      },
+      "options": [
+        {
+          "ar": "دولار",
+          "en": "US Dollar",
+          "tr": "ABD Doları"
+        },
+        {
+          "ar": "ليرة سورية",
+          "en": "Syrian Pound",
+          "tr": "Suriye Lirası"
+        },
+        {
+          "ar": "ليرة تركية",
+          "en": "Turkish Lira",
+          "tr": "Türk Lirası"
+        }
+      ]
+    },
+    {
+      "id": "pay_period",
+      "type": "select",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "فترة الدفع",
+        "en": "Pay Period",
+        "tr": "Ödeme Periyodu"
+      },
+      "options": [
+        {
+          "ar": "شهري",
+          "en": "Monthly",
+          "tr": "Aylık"
+        },
+        {
+          "ar": "أسبوعي",
+          "en": "Weekly",
+          "tr": "Haftalık"
+        },
+        {
+          "ar": "يومي",
+          "en": "Daily",
+          "tr": "Günlük"
+        },
+        {
+          "ar": "بالساعة",
+          "en": "Hourly",
+          "tr": "Saatlik"
+        },
+        {
+          "ar": "حسب الاتفاق",
+          "en": "Negotiable",
+          "tr": "Anlaşmaya Göre"
+        }
+      ]
+    },
+    {
+      "id": "work_hours",
+      "type": "text",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "عدد ساعات العمل",
+        "en": "Working Hours",
+        "tr": "Çalışma Saatleri"
+      }
+    },
+    {
+      "id": "work_days",
+      "type": "text",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "أيام العمل",
+        "en": "Work Days",
+        "tr": "Çalışma Günleri"
+      }
+    },
+    {
+      "id": "live_in",
+      "type": "select",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "الإقامة",
+        "en": "Live-in Arrangement",
+        "tr": "Konaklama Durumu"
+      },
+      "options": [
+        {
+          "ar": "بدون مبيت",
+          "en": "No Live-in",
+          "tr": "Yatılı Değil"
+        },
+        {
+          "ar": "مع مبيت",
+          "en": "Live-in",
+          "tr": "Yatılı"
+        },
+        {
+          "ar": "حسب الاتفاق",
+          "en": "Negotiable",
+          "tr": "Anlaşmaya Göre"
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "type": "select",
+      "required": false,
+      "is_active": true,
+      "label": {
+        "ar": "الخبرة",
+        "en": "Experience",
+        "tr": "Deneyim"
+      },
+      "options": [
+        {
+          "ar": "غير مطلوبة",
+          "en": "Not Required",
+          "tr": "Gerekli Değil"
+        },
+        {
+          "ar": "أقل من سنة",
+          "en": "Less than 1 Year",
+          "tr": "1 Yıldan Az"
+        },
+        {
+          "ar": "سنة - 3 سنوات",
+          "en": "1–3 Years",
+          "tr": "1–3 Yıl"
+        },
+        {
+          "ar": "أكثر من 3 سنوات",
+          "en": "Over 3 Years",
+          "tr": "3 Yıldan Fazla"
+        }
+      ]
+    },
+    {
+      "id": "services",
+      "type": "select",
+      "required": false,
+      "is_active": true,
+      "multiple": true,
+      "label": {
+        "ar": "المهام / الخدمات",
+        "en": "Tasks & Services",
+        "tr": "Görevler ve Hizmetler"
+      },
+      "options": [
+        {
+          "ar": "رعاية أطفال",
+          "en": "Childcare",
+          "tr": "Çocuk Bakımı"
+        },
+        {
+          "ar": "رعاية كبار سن",
+          "en": "Elderly Care",
+          "tr": "Yaşlı Bakımı"
+        },
+        {
+          "ar": "رعاية مريض",
+          "en": "Patient Care",
+          "tr": "Hasta Bakımı"
+        },
+        {
+          "ar": "تنظيف",
+          "en": "Cleaning",
+          "tr": "Temizlik"
+        },
+        {
+          "ar": "طبخ",
+          "en": "Cooking",
+          "tr": "Yemek Pişirme"
+        },
+        {
+          "ar": "غسيل وكي",
+          "en": "Laundry & Ironing",
+          "tr": "Çamaşır ve Ütü"
+        },
+        {
+          "ar": "مرافقة",
+          "en": "Companionship",
+          "tr": "Refakat"
+        },
+        {
+          "ar": "شراء مستلزمات",
+          "en": "Grocery Shopping",
+          "tr": "Alışveriş"
+        },
+        {
+          "ar": "حسب الاتفاق",
+          "en": "As Agreed",
+          "tr": "Anlaşmaya Göre"
+        }
+      ]
+    },
+    {
+      "id": "benefits",
+      "type": "select",
+      "required": false,
+      "is_active": true,
+      "multiple": true,
+      "label": {
+        "ar": "مزايا إضافية",
+        "en": "Additional Benefits",
+        "tr": "Ek Avantajlar"
+      },
+      "options": [
+        {
+          "ar": "سكن",
+          "en": "Housing",
+          "tr": "Konaklama"
+        },
+        {
+          "ar": "طعام",
+          "en": "Meals",
+          "tr": "Yemek"
+        },
+        {
+          "ar": "مواصلات",
+          "en": "Transportation",
+          "tr": "Ulaşım"
+        },
+        {
+          "ar": "مكافآت",
+          "en": "Bonuses",
+          "tr": "Primler"
+        },
+        {
+          "ar": "لا يوجد",
+          "en": "None",
+          "tr": "Yok"
+        }
+      ]
+    },
+    {
+      "id": "client_type",
+      "type": "select",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "صفة طالب الخدمة",
+        "en": "Posted By",
+        "tr": "İlan Sahibi"
+      },
+      "options": [
+        {
+          "ar": "عائلة",
+          "en": "Family",
+          "tr": "Aile"
+        },
+        {
+          "ar": "فرد",
+          "en": "Individual",
+          "tr": "Birey"
+        },
+        {
+          "ar": "مقدم/مقدمة خدمة",
+          "en": "Service Provider",
+          "tr": "Hizmet Sağlayıcı"
+        },
+        {
+          "ar": "مكتب خدمات",
+          "en": "Agency",
+          "tr": "Hizmet Bürosu"
+        },
+        {
+          "ar": "شركة",
+          "en": "Company",
+          "tr": "Şirket"
+        }
+      ]
+    },
+    {
+      "id": "negotiable",
+      "type": "select",
+      "required": true,
+      "is_active": true,
+      "label": {
+        "ar": "قابل للتفاوض",
+        "en": "Price Negotiable",
+        "tr": "Pazarlık Payı"
+      },
+      "options": [
+        {
+          "ar": "نعم",
+          "en": "Yes",
+          "tr": "Evet"
+        },
+        {
+          "ar": "لا",
+          "en": "No",
+          "tr": "Hayır"
+        }
+      ]
+    }
+  ]
+}

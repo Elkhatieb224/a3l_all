@@ -1,0 +1,263 @@
+row_num,csv_parent_path,csv_name,status,message,subcategory_id,db_name_ar,db_name_en,slug,parent_subcategory_id,category_id
+1,"المركبات > سيارات دفع رباعي وبيك آب",Geely,added,"Created subcategory id 44721",44721,Geely,Geely,Off-Road-SUV-Pickup-Trucks-geely,32704,1
+2,"المركبات > سيارات دفع رباعي وبيك آب",Tesla,skipped_exists,"Subcategory already exists under parent (id 44720)",44720,Tesla,Tesla,Off-Road-SUV-Pickup-Trucks-tesla,32704,1
+3,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة",Chevrolet,added,"Created subcategory id 44722",44722,Chevrolet,Chevrolet,trucks-light-trucks-chevrolet,38078,1
+4,"المركبات > سيارات > Audi",200,added,"Created subcategory id 44723",44723,200,200,audi-200,20346,1
+5,"المركبات > سيارات > Audi",90,added,"Created subcategory id 44724",44724,90,90,audi-90,20346,1
+6,"المركبات > سيارات > BMW","M Series",added,"Created subcategory id 44725",44725,"M Series","M Series",bmw-m-series,20794,1
+7,"المركبات > سيارات > BMW","Z Series",added,"Created subcategory id 44726",44726,"Z Series","Z Series",bmw-z-series,20794,1
+8,"المركبات > سيارات > BYD","Qin Plus",added,"Created subcategory id 44727",44727,"Qin Plus","Qin Plus",byd-qin-plus,21403,1
+9,"المركبات > سيارات > BYD",Seagull,added,"Created subcategory id 44728",44728,Seagull,Seagull,byd-seagull,21403,1
+10,"المركبات > سيارات دفع رباعي وبيك آب > BYD","Song Plus",added,"Created subcategory id 44729",44729,"Song Plus","Song Plus",byd-Off-Road-SUV-Pickup-Trucks-song-plus,33984,1
+11,"المركبات > سيارات > Cadillac",ATS,added,"Created subcategory id 44730",44730,ATS,ATS,cadillac-ats,21409,1
+12,"المركبات > سيارات > Cadillac",CT4,added,"Created subcategory id 44731",44731,CT4,CT4,cadillac-ct4,21409,1
+13,"المركبات > سيارات > Cadillac",CT5,added,"Created subcategory id 44732",44732,CT5,CT5,cadillac-ct5,21409,1
+14,"المركبات > سيارات > Cadillac",XTS,added,"Created subcategory id 44733",44733,XTS,XTS,cadillac-xts,21409,1
+15,"المركبات > سيارات > Chery","Arrizo 5",added,"Created subcategory id 44734",44734,"Arrizo 5","Arrizo 5",chery-arrizo-5,21421,1
+16,"المركبات > سيارات > Chery","Arrizo 6",added,"Created subcategory id 44735",44735,"Arrizo 6","Arrizo 6",chery-arrizo-6,21421,1
+17,"المركبات > سيارات > Chery","Arrizo 8",added,"Created subcategory id 44736",44736,"Arrizo 8","Arrizo 8",chery-arrizo-8,21421,1
+18,"المركبات > سيارات دفع رباعي وبيك آب > Chery","Tiggo 2",added,"Created subcategory id 44737",44737,"Tiggo 2","Tiggo 2",chery-Off-Road-SUV-Pickup-Trucks-tiggo-2,33986,1
+19,"المركبات > سيارات دفع رباعي وبيك آب > Chery","Tiggo 4",added,"Created subcategory id 44738",44738,"Tiggo 4","Tiggo 4",chery-Off-Road-SUV-Pickup-Trucks-tiggo-4,33986,1
+20,"المركبات > سيارات > Chevrolet",Cobalt,added,"Created subcategory id 44739",44739,Cobalt,Cobalt,chevrolet-cobalt,21426,1
+21,"المركبات > سيارات > Chevrolet",Malibu,added,"Created subcategory id 44740",44740,Malibu,Malibu,chevrolet-malibu,21426,1
+22,"المركبات > سيارات > Chevrolet",Nubira,added,"Created subcategory id 44741",44741,Nubira,Nubira,chevrolet-nubira,21426,1
+23,"المركبات > سيارات > Chevrolet",Optra,added,"Created subcategory id 44742",44742,Optra,Optra,chevrolet-optra,21426,1
+24,"المركبات > سيارات > Chevrolet",Sail,added,"Created subcategory id 44743",44743,Sail,Sail,chevrolet-sail,21426,1
+25,"المركبات > سيارات > Chevrolet",Sonic,added,"Created subcategory id 44744",44744,Sonic,Sonic,chevrolet-sonic,21426,1
+26,"المركبات > سيارات > Dacia",Spring,added,"Created subcategory id 44745",44745,Spring,Spring,dacia-spring,21527,1
+27,"المركبات > سيارات > Dodge",Caliber,added,"Created subcategory id 44746",44746,Caliber,Caliber,dodge-caliber,21551,1
+28,"المركبات > سيارات > Dodge",Dart,added,"Created subcategory id 44747",44747,Dart,Dart,dodge-dart,21551,1
+29,"المركبات > سيارات > Dodge",Neon,added,"Created subcategory id 44748",44748,Neon,Neon,dodge-neon,21551,1
+30,"المركبات > سيارات > Dodge",Viper,added,"Created subcategory id 44749",44749,Viper,Viper,dodge-viper,21551,1
+31,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Coolray,added,"Created subcategory id 44750",44750,Coolray,Coolray,Off-Road-SUV-Pickup-Trucks-geely-coolray,44721,1
+32,"المركبات > سيارات > Geely","Geometry C",added,"Created subcategory id 44751",44751,"Geometry C","Geometry C",geely-geometry-c,21633,1
+33,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Monjaro,added,"Created subcategory id 44752",44752,Monjaro,Monjaro,Off-Road-SUV-Pickup-Trucks-geely-monjaro,44721,1
+34,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Okavango,added,"Created subcategory id 44753",44753,Okavango,Okavango,Off-Road-SUV-Pickup-Trucks-geely-okavango,44721,1
+35,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Tugella,added,"Created subcategory id 44754",44754,Tugella,Tugella,Off-Road-SUV-Pickup-Trucks-geely-tugella,44721,1
+36,"المركبات > سيارات > Honda",Insight,added,"Created subcategory id 44755",44755,Insight,Insight,honda-insight,21638,1
+37,"المركبات > سيارات > Hyundai",Azera,added,"Created subcategory id 44756",44756,Azera,Azera,hyundai-azera,21769,1
+38,"المركبات > سيارات > Hyundai","Ioniq 6",added,"Created subcategory id 44757",44757,"Ioniq 6","Ioniq 6",hyundai-ioniq-6,21769,1
+39,"المركبات > سيارات > Hyundai",Lantra,added,"Created subcategory id 44758",44758,Lantra,Lantra,hyundai-lantra,21769,1
+40,"المركبات > سيارات > Hyundai",Veloster,added,"Created subcategory id 44759",44759,Veloster,Veloster,hyundai-veloster,21769,1
+41,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti",EX,added,"Created subcategory id 44760",44760,EX,EX,infiniti-Off-Road-SUV-Pickup-Trucks-ex,34009,1
+42,"المركبات > سيارات > Infiniti",Q60,added,"Created subcategory id 44761",44761,Q60,Q60,infiniti-q60,21913,1
+43,"المركبات > سيارات > Infiniti",Q70,added,"Created subcategory id 44762",44762,Q70,Q70,infiniti-q70,21913,1
+44,"المركبات > سيارات > Kia",Forte,added,"Created subcategory id 44763",44763,Forte,Forte,kia-forte,21939,1
+45,"المركبات > سيارات > Kia",K5,added,"Created subcategory id 44764",44764,K5,K5,kia-k5,21939,1
+46,"المركبات > سيارات > Kia",K8,added,"Created subcategory id 44765",44765,K8,K8,kia-k8,21939,1
+47,"المركبات > سيارات > Kia",K9,added,"Created subcategory id 44766",44766,K9,K9,kia-k9,21939,1
+48,"المركبات > سيارات دفع رباعي وبيك آب > Lexus",GX,added,"Created subcategory id 44767",44767,GX,GX,lexus-Off-Road-SUV-Pickup-Trucks-gx,34019,1
+49,"المركبات > سيارات > Lexus",LC,added,"Created subcategory id 44768",44768,LC,LC,lexus-lc,22104,1
+50,"المركبات > سيارات دفع رباعي وبيك آب > Lexus",UX,added,"Created subcategory id 44769",44769,UX,UX,lexus-Off-Road-SUV-Pickup-Trucks-ux,34019,1
+51,"المركبات > سيارات > MG",MG5,added,"Created subcategory id 44770",44770,MG5,MG5,mg-mg5,22711,1
+52,"المركبات > سيارات > MG",MG6,added,"Created subcategory id 44771",44771,MG6,MG6,mg-mg6,22711,1
+53,"المركبات > سيارات دفع رباعي وبيك آب > MG",RX5,added,"Created subcategory id 44772",44772,RX5,RX5,mg-Off-Road-SUV-Pickup-Trucks-rx5,34026,1
+54,"المركبات > سيارات > MINI",Cabrio,added,"Created subcategory id 44773",44773,Cabrio,Cabrio,mini-cabrio,22722,1
+55,"المركبات > سيارات > Nissan",Leaf,added,"Created subcategory id 44774",44774,Leaf,Leaf,nissan-leaf,22779,1
+56,"المركبات > سيارات > Nissan",Sentra,added,"Created subcategory id 44775",44775,Sentra,Sentra,nissan-sentra,22779,1
+57,"المركبات > سيارات > Nissan",Sylphy,added,"Created subcategory id 44776",44776,Sylphy,Sylphy,nissan-sylphy,22779,1
+58,"المركبات > سيارات > Nissan",Teana,added,"Created subcategory id 44777",44777,Teana,Teana,nissan-teana,22779,1
+59,"المركبات > سيارات > Nissan",Versa,added,"Created subcategory id 44778",44778,Versa,Versa,nissan-versa,22779,1
+60,"المركبات > سيارات > Peugeot",108,added,"Created subcategory id 44779",44779,108,108,peugeot-108,22865,1
+61,"المركبات > سيارات > Suzuki",Celerio,added,"Created subcategory id 44780",44780,Celerio,Celerio,suzuki-celerio,23101,1
+62,"المركبات > سيارات دفع رباعي وبيك آب > Tesla",Cybertruck,added,"Created subcategory id 44781",44781,Cybertruck,Cybertruck,Off-Road-SUV-Pickup-Trucks-tesla-cybertruck,44720,1
+63,"المركبات > سيارات > Tesla",Roadster,added,"Created subcategory id 44782",44782,Roadster,Roadster,tesla-roadster,23103,1
+64,"المركبات > سيارات > Toyota",Avalon,added,"Created subcategory id 44783",44783,Avalon,Avalon,toyota-avalon,23221,1
+65,"المركبات > سيارات > Toyota",Aygo,added,"Created subcategory id 44784",44784,Aygo,Aygo,toyota-aygo,23221,1
+66,"المركبات > سيارات > Toyota",Celica,added,"Created subcategory id 44785",44785,Celica,Celica,toyota-celica,23221,1
+67,"المركبات > سيارات > Toyota",Crown,added,"Created subcategory id 44786",44786,Crown,Crown,toyota-crown,23221,1
+68,"المركبات > سيارات > Toyota",GR86,added,"Created subcategory id 44787",44787,GR86,GR86,toyota-gr86,23221,1
+69,"المركبات > سيارات > Toyota",Matrix,added,"Created subcategory id 44788",44788,Matrix,Matrix,toyota-matrix,23221,1
+70,"المركبات > سيارات > Toyota",Mirai,added,"Created subcategory id 44789",44789,Mirai,Mirai,toyota-mirai,23221,1
+71,"المركبات > سيارات > Toyota",Sienna,added,"Created subcategory id 44790",44790,Sienna,Sienna,toyota-sienna,23221,1
+72,"المركبات > سيارات دفع رباعي وبيك آب > Volvo",XC70,added,"Created subcategory id 44791",44791,XC70,XC70,volvo-Off-Road-SUV-Pickup-Trucks-xc70,34047,1
+73,"المركبات > سيارات دفع رباعي وبيك آب > Volvo",XC90,added,"Created subcategory id 44792",44792,XC90,XC90,volvo-Off-Road-SUV-Pickup-Trucks-xc90,34047,1
+74,"المركبات > سيارات دفع رباعي وبيك آب > BYD","Leopard 5",added,"Created subcategory id 44793",44793,"Leopard 5","Leopard 5",byd-Off-Road-SUV-Pickup-Trucks-leopard-5,33984,1
+75,"المركبات > سيارات دفع رباعي وبيك آب > BYD","Song Pro",added,"Created subcategory id 44794",44794,"Song Pro","Song Pro",byd-Off-Road-SUV-Pickup-Trucks-song-pro,33984,1
+76,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac",XT4,added,"Created subcategory id 44795",44795,XT4,XT4,cadillac-Off-Road-SUV-Pickup-Trucks-xt4,33985,1
+77,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac",XT5,added,"Created subcategory id 44796",44796,XT5,XT5,cadillac-Off-Road-SUV-Pickup-Trucks-xt5,33985,1
+78,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac",XT6,added,"Created subcategory id 44797",44797,XT6,XT6,cadillac-Off-Road-SUV-Pickup-Trucks-xt6,33985,1
+79,"المركبات > سيارات دفع رباعي وبيك آب > Chery","Tiggo 4 Pro",added,"Created subcategory id 44798",44798,"Tiggo 4 Pro","Tiggo 4 Pro",chery-Off-Road-SUV-Pickup-Trucks-tiggo-4-pro,33986,1
+80,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Colorado,added,"Created subcategory id 44799",44799,Colorado,Colorado,chevrolet-Off-Road-SUV-Pickup-Trucks-colorado,33987,1
+81,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Tracker,added,"Created subcategory id 44800",44800,Tracker,Tracker,chevrolet-Off-Road-SUV-Pickup-Trucks-tracker,33987,1
+82,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Trailblazer,added,"Created subcategory id 44801",44801,Trailblazer,Trailblazer,chevrolet-Off-Road-SUV-Pickup-Trucks-trailblazer,33987,1
+83,"المركبات > سيارات دفع رباعي وبيك آب > Chevrolet",Traverse,added,"Created subcategory id 44802",44802,Traverse,Traverse,chevrolet-Off-Road-SUV-Pickup-Trucks-traverse,33987,1
+84,"المركبات > سيارات دفع رباعي وبيك آب > Ford",Everest,added,"Created subcategory id 44803",44803,Everest,Everest,ford-Off-Road-SUV-Pickup-Trucks-everest,34000,1
+85,"المركبات > سيارات دفع رباعي وبيك آب > Ford",Maverick,added,"Created subcategory id 44804",44804,Maverick,Maverick,ford-Off-Road-SUV-Pickup-Trucks-maverick,34000,1
+86,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Azkarra,added,"Created subcategory id 44805",44805,Azkarra,Azkarra,Off-Road-SUV-Pickup-Trucks-geely-azkarra,44721,1
+87,"المركبات > سيارات دفع رباعي وبيك آب > Geely",Boyue,added,"Created subcategory id 44806",44806,Boyue,Boyue,Off-Road-SUV-Pickup-Trucks-geely-boyue,44721,1
+88,"المركبات > سيارات دفع رباعي وبيك آب > Geely","Radar RD6",added,"Created subcategory id 44807",44807,"Radar RD6","Radar RD6",Off-Road-SUV-Pickup-Trucks-geely-radar-rd6,44721,1
+89,"المركبات > سيارات دفع رباعي وبيك آب > Honda",Passport,added,"Created subcategory id 44808",44808,Passport,Passport,honda-Off-Road-SUV-Pickup-Trucks-passport,34005,1
+90,"المركبات > سيارات دفع رباعي وبيك آب > Honda",Pilot,added,"Created subcategory id 44809",44809,Pilot,Pilot,honda-Off-Road-SUV-Pickup-Trucks-pilot,34005,1
+91,"المركبات > سيارات دفع رباعي وبيك آب > Honda",Ridgeline,added,"Created subcategory id 44810",44810,Ridgeline,Ridgeline,honda-Off-Road-SUV-Pickup-Trucks-ridgeline,34005,1
+92,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai",Creta,added,"Created subcategory id 44811",44811,Creta,Creta,hyundai-Off-Road-SUV-Pickup-Trucks-creta,34008,1
+93,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai","Ioniq 7",added,"Created subcategory id 44812",44812,"Ioniq 7","Ioniq 7",hyundai-Off-Road-SUV-Pickup-Trucks-ioniq-7,34008,1
+94,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai",Palisade,added,"Created subcategory id 44813",44813,Palisade,Palisade,hyundai-Off-Road-SUV-Pickup-Trucks-palisade,34008,1
+95,"المركبات > سيارات دفع رباعي وبيك آب > Hyundai",Venue,added,"Created subcategory id 44814",44814,Venue,Venue,hyundai-Off-Road-SUV-Pickup-Trucks-venue,34008,1
+96,"المركبات > سيارات دفع رباعي وبيك آب > Jeep",Gladiator,added,"Created subcategory id 44815",44815,Gladiator,Gladiator,jeep-Off-Road-SUV-Pickup-Trucks-gladiator,34013,1
+97,"المركبات > سيارات دفع رباعي وبيك آب > Kia",EV5,added,"Created subcategory id 44816",44816,EV5,EV5,kia-Off-Road-SUV-Pickup-Trucks-ev5,34015,1
+98,"المركبات > سيارات دفع رباعي وبيك آب > Kia",Seltos,added,"Created subcategory id 44817",44817,Seltos,Seltos,kia-Off-Road-SUV-Pickup-Trucks-seltos,34015,1
+99,"المركبات > سيارات دفع رباعي وبيك آب > Kia",Telluride,added,"Created subcategory id 44818",44818,Telluride,Telluride,kia-Off-Road-SUV-Pickup-Trucks-telluride,34015,1
+100,"المركبات > سيارات دفع رباعي وبيك آب > Lexus",TX,added,"Created subcategory id 44819",44819,TX,TX,lexus-Off-Road-SUV-Pickup-Trucks-tx,34019,1
+101,"المركبات > سيارات دفع رباعي وبيك آب > MG",RX8,added,"Created subcategory id 44820",44820,RX8,RX8,mg-Off-Road-SUV-Pickup-Trucks-rx8,34026,1
+102,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",BT-50,added,"Created subcategory id 44821",44821,BT-50,BT-50,mazda-Off-Road-SUV-Pickup-Trucks-bt-50,34024,1
+103,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-30,added,"Created subcategory id 44822",44822,CX-30,CX-30,mazda-Off-Road-SUV-Pickup-Trucks-cx-30,34024,1
+104,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-50,added,"Created subcategory id 44823",44823,CX-50,CX-50,mazda-Off-Road-SUV-Pickup-Trucks-cx-50,34024,1
+105,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-60,added,"Created subcategory id 44824",44824,CX-60,CX-60,mazda-Off-Road-SUV-Pickup-Trucks-cx-60,34024,1
+106,"المركبات > سيارات دفع رباعي وبيك آب > Mazda",CX-90,added,"Created subcategory id 44825",44825,CX-90,CX-90,mazda-Off-Road-SUV-Pickup-Trucks-cx-90,34024,1
+107,"المركبات > سيارات دفع رباعي وبيك آب > Mitsubishi","Pajero Sport",added,"Created subcategory id 44826",44826,"Pajero Sport","Pajero Sport",mitsubishi-Off-Road-SUV-Pickup-Trucks-pajero-sport,34028,1
+108,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Ariya,added,"Created subcategory id 44827",44827,Ariya,Ariya,nissan-Off-Road-SUV-Pickup-Trucks-ariya,34029,1
+109,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Armada,added,"Created subcategory id 44828",44828,Armada,Armada,nissan-Off-Road-SUV-Pickup-Trucks-armada,34029,1
+110,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Frontier,added,"Created subcategory id 44829",44829,Frontier,Frontier,nissan-Off-Road-SUV-Pickup-Trucks-frontier,34029,1
+111,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Kicks,added,"Created subcategory id 44830",44830,Kicks,Kicks,nissan-Off-Road-SUV-Pickup-Trucks-kicks,34029,1
+112,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Rogue,added,"Created subcategory id 44831",44831,Rogue,Rogue,nissan-Off-Road-SUV-Pickup-Trucks-rogue,34029,1
+113,"المركبات > سيارات دفع رباعي وبيك آب > Nissan",Titan,added,"Created subcategory id 44832",44832,Titan,Titan,nissan-Off-Road-SUV-Pickup-Trucks-titan,34029,1
+114,"المركبات > سيارات دفع رباعي وبيك آب > Peugeot",4008,added,"Created subcategory id 44833",44833,4008,4008,peugeot-Off-Road-SUV-Pickup-Trucks-4008,34031,1
+115,"المركبات > سيارات دفع رباعي وبيك آب > Renault",Arkana,added,"Created subcategory id 44834",44834,Arkana,Arkana,renault-Off-Road-SUV-Pickup-Trucks-arkana,34033,1
+116,"المركبات > سيارات دفع رباعي وبيك آب > Subaru",Ascent,added,"Created subcategory id 44835",44835,Ascent,Ascent,subaru-Off-Road-SUV-Pickup-Trucks-ascent,34040,1
+117,"المركبات > سيارات دفع رباعي وبيك آب > Suzuki",Ertiga,added,"Created subcategory id 44836",44836,Ertiga,Ertiga,suzuki-Off-Road-SUV-Pickup-Trucks-ertiga,34041,1
+118,"المركبات > سيارات دفع رباعي وبيك آب > Suzuki",XL7,added,"Created subcategory id 44837",44837,XL7,XL7,suzuki-Off-Road-SUV-Pickup-Trucks-xl7,34041,1
+119,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Highlander,added,"Created subcategory id 44838",44838,Highlander,Highlander,toyota-Off-Road-SUV-Pickup-Trucks-highlander,34045,1
+120,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Sequoia,added,"Created subcategory id 44839",44839,Sequoia,Sequoia,toyota-Off-Road-SUV-Pickup-Trucks-sequoia,34045,1
+121,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Tacoma,added,"Created subcategory id 44840",44840,Tacoma,Tacoma,toyota-Off-Road-SUV-Pickup-Trucks-tacoma,34045,1
+122,"المركبات > سيارات دفع رباعي وبيك آب > Toyota",Tundra,added,"Created subcategory id 44841",44841,Tundra,Tundra,toyota-Off-Road-SUV-Pickup-Trucks-tundra,34045,1
+123,"المركبات > سيارات دفع رباعي وبيك آب > Volkswagen",Atlas,added,"Created subcategory id 44842",44842,Atlas,Atlas,volkswagen-Off-Road-SUV-Pickup-Trucks-atlas,34046,1
+124,"المركبات > سيارات دفع رباعي وبيك آب > Volkswagen",Taos,added,"Created subcategory id 44843",44843,Taos,Taos,volkswagen-Off-Road-SUV-Pickup-Trucks-taos,34046,1
+125,"المركبات > سيارات دفع رباعي وبيك آب > Volkswagen",Teramont,added,"Created subcategory id 44844",44844,Teramont,Teramont,volkswagen-Off-Road-SUV-Pickup-Trucks-teramont,34046,1
+126,"المركبات > سيارات دفع رباعي وبيك آب > Volvo",EX90,added,"Created subcategory id 44845",44845,EX90,EX90,volvo-Off-Road-SUV-Pickup-Trucks-ex90,34047,1
+127,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Chevrolet",N300,added,"Created subcategory id 44846",44846,N300,N300,trucks-light-trucks-chevrolet-n300,44722,1
+128,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Chevrolet",N400,added,"Created subcategory id 44847",44847,N400,N400,trucks-light-trucks-chevrolet-n400,44722,1
+129,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Citroën",Jumpy,added,"Created subcategory id 44848",44848,Jumpy,Jumpy,citroen-trucks-light-trucks-jumpy,38814,1
+130,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Citroën",Spacetourer,added,"Created subcategory id 44849",44849,Spacetourer,Spacetourer,citroen-trucks-light-trucks-spacetourer,38814,1
+131,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Doblo,added,"Created subcategory id 44850",44850,Doblo,Doblo,fiat-trucks-light-trucks-doblo,38822,1
+132,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Fiorino,added,"Created subcategory id 44851",44851,Fiorino,Fiorino,fiat-trucks-light-trucks-fiorino,38822,1
+133,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Scudo,added,"Created subcategory id 44852",44852,Scudo,Scudo,fiat-trucks-light-trucks-scudo,38822,1
+134,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Fiat",Talento,added,"Created subcategory id 44853",44853,Talento,Talento,fiat-trucks-light-trucks-talento,38822,1
+135,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","E Series",added,"Created subcategory id 44854",44854,"E Series","E Series",ford-trucks-trucks-light-trucks-e-series,38824,1
+136,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","E-Tourneo Courier",added,"Created subcategory id 44855",44855,"E-Tourneo Courier","E-Tourneo Courier",ford-trucks-trucks-light-trucks-e-tourneo-courier,38824,1
+137,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","E-Tourneo Custom",added,"Created subcategory id 44856",44856,"E-Tourneo Custom","E-Tourneo Custom",ford-trucks-trucks-light-trucks-e-tourneo-custom,38824,1
+138,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Fiesta Van",added,"Created subcategory id 44857",44857,"Fiesta Van","Fiesta Van",ford-trucks-trucks-light-trucks-fiesta-van,38824,1
+139,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Tourneo Connect",added,"Created subcategory id 44858",44858,"Tourneo Connect","Tourneo Connect",ford-trucks-trucks-light-trucks-tourneo-connect,38824,1
+140,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Tourneo Courier",added,"Created subcategory id 44859",44859,"Tourneo Courier","Tourneo Courier",ford-trucks-trucks-light-trucks-tourneo-courier,38824,1
+141,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford","Tourneo Custom",added,"Created subcategory id 44860",44860,"Tourneo Custom","Tourneo Custom",ford-trucks-trucks-light-trucks-tourneo-custom,38824,1
+142,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford",Windstar,added,"Created subcategory id 44861",44861,Windstar,Windstar,ford-trucks-trucks-light-trucks-windstar,38824,1
+143,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Hyundai",Staria,added,"Created subcategory id 44862",44862,Staria,Staria,hyundai-trucks-light-trucks-staria,38828,1
+144,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia",Pregio,added,"Created subcategory id 44863",44863,Pregio,Pregio,kia-trucks-light-trucks-pregio,38831,1
+145,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Citan,added,"Created subcategory id 44864",44864,Citan,Citan,mercedes-benz-trucks-light-trucks-citan,38836,1
+146,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Sprinter,skipped_exists,"Subcategory already exists under parent (id 39276)",39276,sprinter,Sprinter,sprinter-mercedes-benz-trucks-light-trucks,38836,1
+147,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Viano,added,"Created subcategory id 44865",44865,Viano,Viano,mercedes-benz-trucks-light-trucks-viano,38836,1
+148,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mercedes-Benz",Vito,added,"Created subcategory id 44866",44866,Vito,Vito,mercedes-benz-trucks-light-trucks-vito,38836,1
+149,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Mitsubishi Temsa",Canter,added,"Created subcategory id 44867",44867,Canter,Canter,mitsubishi-temsa-trucks-light-trucks-canter,38837,1
+150,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",Cabstar,added,"Created subcategory id 44868",44868,Cabstar,Cabstar,nissan-trucks-light-trucks-cabstar,38839,1
+151,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",NV200,added,"Created subcategory id 44869",44869,NV200,NV200,nissan-trucks-light-trucks-nv200,38839,1
+152,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",NV300,added,"Created subcategory id 44870",44870,NV300,NV300,nissan-trucks-light-trucks-nv300,38839,1
+153,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",NV350,added,"Created subcategory id 44871",44871,NV350,NV350,nissan-trucks-light-trucks-nv350,38839,1
+154,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Nissan",Urvan,added,"Created subcategory id 44872",44872,Urvan,Urvan,nissan-trucks-light-trucks-urvan,38839,1
+155,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel",Combo,added,"Created subcategory id 44873",44873,Combo,Combo,opel-trucks-light-trucks-combo,38840,1
+156,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel",Movano,skipped_exists,"Subcategory already exists under parent (id 39421)",39421,movano,Movano,movano-opel-trucks-light-trucks,38840,1
+157,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel",Vivaro,added,"Created subcategory id 44874",44874,Vivaro,Vivaro,opel-trucks-light-trucks-vivaro,38840,1
+158,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Opel","Zafira Life",added,"Created subcategory id 44875",44875,"Zafira Life","Zafira Life",opel-trucks-light-trucks-zafira-life,38840,1
+159,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Expert,added,"Created subcategory id 44876",44876,Expert,Expert,peugeot-trucks-light-trucks-expert,38843,1
+160,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Partner,added,"Created subcategory id 44877",44877,Partner,Partner,peugeot-trucks-light-trucks-partner,38843,1
+161,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Traveller,added,"Created subcategory id 44878",44878,Traveller,Traveller,peugeot-trucks-light-trucks-traveller,38843,1
+162,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Renault",Express,added,"Created subcategory id 44879",44879,Express,Express,renault-trucks-trucks-light-trucks-express,38848,1
+163,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Renault",Kangoo,added,"Created subcategory id 44880",44880,Kangoo,Kangoo,renault-trucks-trucks-light-trucks-kangoo,38848,1
+164,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Renault",Trafic,added,"Created subcategory id 44881",44881,Trafic,Trafic,renault-trucks-trucks-light-trucks-trafic,38848,1
+165,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Toyota",Coaster,added,"Created subcategory id 44882",44882,Coaster,Coaster,toyota-trucks-light-trucks-coaster,38857,1
+166,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Toyota",Hiace,added,"Created subcategory id 44883",44883,Hiace,Hiace,toyota-trucks-light-trucks-hiace,38857,1
+167,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",Caddy,added,"Created subcategory id 44884",44884,Caddy,Caddy,volkswagen-trucks-light-trucks-caddy,38858,1
+168,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",California,added,"Created subcategory id 44885",44885,California,California,volkswagen-trucks-light-trucks-california,38858,1
+169,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",Caravelle,added,"Created subcategory id 44886",44886,Caravelle,Caravelle,volkswagen-trucks-light-trucks-caravelle,38858,1
+170,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Volkswagen",Multivan,added,"Created subcategory id 44887",44887,Multivan,Multivan,volkswagen-trucks-light-trucks-multivan,38858,1
+171,"المركبات > سيارات > Audi > RS Series",RS5,added,"Created subcategory id 44888",44888,RS5,RS5,audi-rs-rs5,20745,1
+172,"المركبات > سيارات > Audi > S Series",S4,added,"Created subcategory id 44889",44889,S4,S4,audi-s-series-s4,20746,1
+173,"المركبات > سيارات > BMW > M Series",M2,added,"Created subcategory id 44890",44890,M2,M2,bmw-m-series-m2,44725,1
+174,"المركبات > سيارات > BMW > M Series","M2 Competition",added,"Created subcategory id 44891",44891,"M2 Competition","M2 Competition",bmw-m-series-m2-competition,44725,1
+175,"المركبات > سيارات > BMW > M Series",M235i,added,"Created subcategory id 44892",44892,M235i,M235i,bmw-m-series-m235i,44725,1
+176,"المركبات > سيارات > BMW > M Series","M235i xDrive",added,"Created subcategory id 44893",44893,"M235i xDrive","M235i xDrive",bmw-m-series-m235i-xdrive,44725,1
+177,"المركبات > سيارات > BMW > M Series","M240i xDrive",added,"Created subcategory id 44894",44894,"M240i xDrive","M240i xDrive",bmw-m-series-m240i-xdrive,44725,1
+178,"المركبات > سيارات > BMW > M Series",M3,added,"Created subcategory id 44895",44895,M3,M3,bmw-m-series-m3,44725,1
+179,"المركبات > سيارات > BMW > M Series","M3 CSL",added,"Created subcategory id 44896",44896,"M3 CSL","M3 CSL",bmw-m-series-m3-csl,44725,1
+180,"المركبات > سيارات > BMW > M Series","M3 Cabrio",added,"Created subcategory id 44897",44897,"M3 Cabrio","M3 Cabrio",bmw-m-series-m3-cabrio,44725,1
+181,"المركبات > سيارات > BMW > M Series","M3 Competition",added,"Created subcategory id 44898",44898,"M3 Competition","M3 Competition",bmw-m-series-m3-competition,44725,1
+182,"المركبات > سيارات > BMW > M Series","M3 Coupe",added,"Created subcategory id 44899",44899,"M3 Coupe","M3 Coupe",bmw-m-series-m3-coupe,44725,1
+183,"المركبات > سيارات > BMW > M Series","M3 Touring",added,"Created subcategory id 44900",44900,"M3 Touring","M3 Touring",bmw-m-series-m3-touring,44725,1
+184,"المركبات > سيارات > BMW > M Series",M4,added,"Created subcategory id 44901",44901,M4,M4,bmw-m-series-m4,44725,1
+185,"المركبات > سيارات > BMW > M Series","M4 CS",added,"Created subcategory id 44902",44902,"M4 CS","M4 CS",bmw-m-series-m4-cs,44725,1
+186,"المركبات > سيارات > BMW > M Series","M4 Competition",added,"Created subcategory id 44903",44903,"M4 Competition","M4 Competition",bmw-m-series-m4-competition,44725,1
+187,"المركبات > سيارات > BMW > M Series","M440i xDrive",added,"Created subcategory id 44904",44904,"M440i xDrive","M440i xDrive",bmw-m-series-m440i-xdrive,44725,1
+188,"المركبات > سيارات > BMW > M Series",M5,added,"Created subcategory id 44905",44905,M5,M5,bmw-m-series-m5,44725,1
+189,"المركبات > سيارات > BMW > M Series","M5 Competition",added,"Created subcategory id 44906",44906,"M5 Competition","M5 Competition",bmw-m-series-m5-competition,44725,1
+190,"المركبات > سيارات > BMW > M Series","M5 Touring",added,"Created subcategory id 44907",44907,"M5 Touring","M5 Touring",bmw-m-series-m5-touring,44725,1
+191,"المركبات > سيارات > BMW > M Series",M6,added,"Created subcategory id 44908",44908,M6,M6,bmw-m-series-m6,44725,1
+192,"المركبات > سيارات > BMW > M Series","M6 Cabrio",added,"Created subcategory id 44909",44909,"M6 Cabrio","M6 Cabrio",bmw-m-series-m6-cabrio,44725,1
+193,"المركبات > سيارات > BMW > M Series","M6 Gran Coupe",added,"Created subcategory id 44910",44910,"M6 Gran Coupe","M6 Gran Coupe",bmw-m-series-m6-gran-coupe,44725,1
+194,"المركبات > سيارات > BMW > M Series","M760e xDrive",added,"Created subcategory id 44911",44911,"M760e xDrive","M760e xDrive",bmw-m-series-m760e-xdrive,44725,1
+195,"المركبات > سيارات > BMW > M Series","M760i Long xDrive",added,"Created subcategory id 44912",44912,"M760i Long xDrive","M760i Long xDrive",bmw-m-series-m760i-long-xdrive,44725,1
+196,"المركبات > سيارات > BMW > M Series","M8 Coupe xDrive Competition",added,"Created subcategory id 44913",44913,"M8 Coupe xDrive Competition","M8 Coupe xDrive Competition",bmw-m-series-m8-coupe-xdrive-competition,44725,1
+197,"المركبات > سيارات > BMW > M Series","M8 Gran Coupe xDrive Competition",added,"Created subcategory id 44914",44914,"M8 Gran Coupe xDrive Competition","M8 Gran Coupe xDrive Competition",bmw-m-series-m8-gran-coupe-xdrive-competition,44725,1
+198,"المركبات > سيارات > BMW > M Series","Z3 M Cabrio",added,"Created subcategory id 44915",44915,"Z3 M Cabrio","Z3 M Cabrio",bmw-m-series-z3-m-cabrio,44725,1
+199,"المركبات > سيارات > BMW > Z Series",Z1,added,"Created subcategory id 44916",44916,Z1,Z1,bmw-z-series-z1,44726,1
+200,"المركبات > سيارات > BMW > Z Series",Z3,added,"Created subcategory id 44917",44917,Z3,Z3,bmw-z-series-z3,44726,1
+201,"المركبات > سيارات > BMW > Z Series",Z4,added,"Created subcategory id 44918",44918,Z4,Z4,bmw-z-series-z4,44726,1
+202,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Citroën",Berlingo,added,"Created subcategory id 44919",44919,Berlingo,Berlingo,citroen-trucks-light-trucks-berlingo,38814,1
+203,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Dacia",Dokker,added,"Created subcategory id 44920",44920,Dokker,Dokker,dacia-trucks-light-trucks-dokker,38815,1
+204,"المركبات > سيارات > Fiat > 500 Family",500,added,"Created subcategory id 44921",44921,500,500,fiat-500-ailesi-500,21591,1
+205,"المركبات > سيارات > Fiat > 500 Family",500L,added,"Created subcategory id 44922",44922,500L,500L,fiat-500-ailesi-500l,21591,1
+206,"المركبات > سيارات > Hyundai > i20","i20 Active",added,"Created subcategory id 44923",44923,"i20 Active","i20 Active",hyundai-i20-i20-active,21880,1
+207,"المركبات > سيارات > Hyundai > i20","i20 N",added,"Created subcategory id 44924",44924,"i20 N","i20 N",hyundai-i20-i20-n,21880,1
+208,"المركبات > سيارات > Hyundai > i20","i20 Troy",added,"Created subcategory id 44925",44925,"i20 Troy","i20 Troy",hyundai-i20-i20-troy,21880,1
+209,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX30,added,"Created subcategory id 44926",44926,QX30,QX30,qx-qx30,35150,1
+210,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX50,added,"Created subcategory id 44927",44927,QX50,QX50,qx-qx50,35150,1
+211,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX60,added,"Created subcategory id 44928",44928,QX60,QX60,qx-qx60,35150,1
+212,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX70,skipped_exists,"Subcategory already exists under parent (id 35157)",35157,QX70,QX70,qx70,35150,1
+213,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX80,added,"Created subcategory id 44929",44929,QX80,QX80,qx-qx80,35150,1
+214,"المركبات > سيارات > Kia > Picanto","1.1 EX",added,"Created subcategory id 44930",44930,"1.1 EX","1.1 EX",kia-picanto-11-ex,22032,1
+215,"المركبات > سيارات > Kia > Picanto","1.1 EX Advance",added,"Created subcategory id 44931",44931,"1.1 EX Advance","1.1 EX Advance",kia-picanto-11-ex-advance,22032,1
+216,"المركبات > سيارات > Kia > Picanto","1.1 EX Comfort",added,"Created subcategory id 44932",44932,"1.1 EX Comfort","1.1 EX Comfort",kia-picanto-11-ex-comfort,22032,1
+217,"المركبات > سيارات > Kia > Picanto","1.1 Hiper",added,"Created subcategory id 44933",44933,"1.1 Hiper","1.1 Hiper",kia-picanto-11-hiper,22032,1
+218,"المركبات > سيارات > Kia > Picanto","1.2 Cool",added,"Created subcategory id 44934",44934,"1.2 Cool","1.2 Cool",kia-picanto-12-cool,22032,1
+219,"المركبات > سيارات > Kia > Picanto","1.2 Feel",added,"Created subcategory id 44935",44935,"1.2 Feel","1.2 Feel",kia-picanto-12-feel,22032,1
+220,"المركبات > سيارات > Kia > Picanto","1.25 EX",added,"Created subcategory id 44936",44936,"1.25 EX","1.25 EX",kia-picanto-125-ex,22032,1
+221,"المركبات > سيارات > Kia > Picanto","1.25 MPI Comfort",added,"Created subcategory id 44937",44937,"1.25 MPI Comfort","1.25 MPI Comfort",kia-picanto-125-mpi-comfort,22032,1
+222,"المركبات > سيارات > Kia > Rio","1.0 TGDI",added,"Created subcategory id 44938",44938,"1.0 TGDI","1.0 TGDI",kia-rio-10-tgdi,22050,1
+223,"المركبات > سيارات > Kia > Rio","1.25 CVVT",added,"Created subcategory id 44939",44939,"1.25 CVVT","1.25 CVVT",kia-rio-125-cvvt,22050,1
+224,"المركبات > سيارات > Kia > Rio",1.3,added,"Created subcategory id 44940",44940,1.3,1.3,kia-rio-13,22050,1
+225,"المركبات > سيارات > Kia > Rio","1.4 CRDi",added,"Created subcategory id 44941",44941,"1.4 CRDi","1.4 CRDi",kia-rio-14-crdi,22050,1
+226,"المركبات > سيارات > Kia > Rio","1.4 CVVT",added,"Created subcategory id 44942",44942,"1.4 CVVT","1.4 CVVT",kia-rio-14-cvvt,22050,1
+227,"المركبات > سيارات > Kia > Rio","1.4 EX",added,"Created subcategory id 44943",44943,"1.4 EX","1.4 EX",kia-rio-14-ex,22050,1
+228,"المركبات > سيارات > Kia > Rio","1.4 GSL",added,"Created subcategory id 44944",44944,"1.4 GSL","1.4 GSL",kia-rio-14-gsl,22050,1
+229,"المركبات > سيارات > Kia > Rio","1.4 WGT CRDI",added,"Created subcategory id 44945",44945,"1.4 WGT CRDI","1.4 WGT CRDI",kia-rio-14-wgt-crdi,22050,1
+230,"المركبات > سيارات > Kia > Rio","1.4L MPI",added,"Created subcategory id 44946",44946,"1.4L MPI","1.4L MPI",kia-rio-14l-mpi,22050,1
+231,"المركبات > سيارات > Kia > Rio",1.5,added,"Created subcategory id 44947",44947,1.5,1.5,kia-rio-15,22050,1
+232,"المركبات > سيارات > Mazda > MX",MX-5,skipped_exists,"Subcategory already exists under parent (id 22173)",22173,MX-5,MX-5,mazda-mx-mx-5,22147,1
+233,"المركبات > سيارات > Mazda > RX",RX-7,skipped_exists,"Subcategory already exists under parent (id 22184)",22184,RX-7,RX-7,mazda-rx-rx-7,22154,1
+234,"المركبات > سيارات > Mazda > RX",RX-8,skipped_exists,"Subcategory already exists under parent (id 22185)",22185,RX-8,RX-8,mazda-rx-rx-8,22154,1
+235,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Peugeot",Rifter,added,"Created subcategory id 44948",44948,Rifter,Rifter,peugeot-trucks-light-trucks-rifter,38843,1
+236,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Toyota",Proace,added,"Created subcategory id 44949",44949,Proace,Proace,toyota-trucks-light-trucks-proace,38857,1
+237,"المركبات > سيارات دفع رباعي وبيك آب > Cadillac > Escalade",ESV,added,"Created subcategory id 44950",44950,ESV,ESV,escalade-esv,34398,1
+238,"المركبات > سيارات دفع رباعي وبيك آب > Infiniti > QX",QX55,added,"Created subcategory id 44951",44951,QX55,QX55,qx-qx55,35150,1
+239,"المركبات > سيارات دفع رباعي وبيك آب > Mercedes-Benz > GLS",Maybach,added,"Created subcategory id 44952",44952,Maybach,Maybach,gls-mercedes-benz-Off-Road-SUV-Pickup-Trucks-maybach,36001,1
+240,"المركبات > سيارات دفع رباعي وبيك آب > Nissan > Patrol","Super Safari",added,"Created subcategory id 44953",44953,"Super Safari","Super Safari",patrol-super-safari,36254,1
+241,"المركبات > سيارات دفع رباعي وبيك آب > Nissan > Patrol",Y61,added,"Created subcategory id 44954",44954,Y61,Y61,patrol-y61,36254,1
+242,"المركبات > سيارات دفع رباعي وبيك آب > Nissan > Patrol",Y62,added,"Created subcategory id 44955",44955,Y62,Y62,patrol-y62,36254,1
+243,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Hilux",Revo,added,"Created subcategory id 44956",44956,Revo,Revo,hilux-revo,37150,1
+244,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Hilux",Vigo,added,"Created subcategory id 44957",44957,Vigo,Vigo,hilux-vigo,37150,1
+245,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser","200 Series",added,"Created subcategory id 44958",44958,"200 Series","200 Series",land-cruiser-200-series,37151,1
+246,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser","300 Series",added,"Created subcategory id 44959",44959,"300 Series","300 Series",land-cruiser-300-series,37151,1
+247,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser","70 Series",added,"Created subcategory id 44960",44960,"70 Series","70 Series",land-cruiser-70-series,37151,1
+248,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser Prado",120,added,"Created subcategory id 44961",44961,120,120,land-cruiser-prado-120,37152,1
+249,"المركبات > سيارات دفع رباعي وبيك آب > Toyota > Land Cruiser Prado",150,added,"Created subcategory id 44962",44962,150,150,land-cruiser-prado-150,37152,1
+250,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > E-Transit","Chassis Cab",added,"Created subcategory id 44963",44963,"Chassis Cab","Chassis Cab",e-transit-ford-trucks-trucks-light-trucks-chassis-cab,39023,1
+251,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > E-Transit",Custom,added,"Created subcategory id 44964",44964,Custom,Custom,e-transit-ford-trucks-trucks-light-trucks-custom,39023,1
+252,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > E-Transit",Van,added,"Created subcategory id 44965",44965,Van,Van,e-transit-ford-trucks-trucks-light-trucks-van,39023,1
+253,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit","Chassis Cab",added,"Created subcategory id 44966",44966,"Chassis Cab","Chassis Cab",transit-ford-trucks-trucks-light-trucks-chassis-cab,39027,1
+254,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Connect,added,"Created subcategory id 44967",44967,Connect,Connect,transit-ford-trucks-trucks-light-trucks-connect,39027,1
+255,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Courier,added,"Created subcategory id 44968",44968,Courier,Courier,transit-ford-trucks-trucks-light-trucks-courier,39027,1
+256,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Custom,added,"Created subcategory id 44969",44969,Custom,Custom,transit-ford-trucks-trucks-light-trucks-custom,39027,1
+257,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Minibus,added,"Created subcategory id 44970",44970,Minibus,Minibus,transit-ford-trucks-trucks-light-trucks-minibus,39027,1
+258,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Ford > Transit",Van,added,"Created subcategory id 44971",44971,Van,Van,transit-ford-trucks-trucks-light-trucks-van,39027,1
+259,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Hyundai > H Series",H-1,added,"Created subcategory id 44972",44972,H-1,H-1,h-hyundai-trucks-light-trucks-h-1,39042,1
+260,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia > K Series",K2500,added,"Created subcategory id 44973",44973,K2500,K2500,k-k2500,39186,1
+261,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia > K Series",K2700,added,"Created subcategory id 44974",44974,K2700,K2700,k-k2700,39186,1
+262,"المركبات > المركبات التجارية > شاحنات وشاحنات خفيفة > Kia > K Series",K2900,added,"Created subcategory id 44975",44975,K2900,K2900,k-k2900,39186,1

@@ -1,0 +1,223 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات الإكسسوارات والمعدات والأعلاف والطعام",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "product_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المنتج",
+                "en": "Condition",
+                "tr": "Ürün Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعمل بحالة جيدة",
+                    "en": "Used — Good Condition",
+                    "tr": "İyi Durumda İkinci El"
+                },
+                {
+                    "ar": "يحتاج صيانة",
+                    "en": "Needs Repair",
+                    "tr": "Bakım Gerekiyor"
+                }
+            ]
+        },
+        {
+            "id": "size",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المقاس / الحجم",
+                "en": "Size",
+                "tr": "Beden / Boyut"
+            },
+            "options": [
+                {
+                    "ar": "صغير",
+                    "en": "Small",
+                    "tr": "Küçük"
+                },
+                {
+                    "ar": "متوسط",
+                    "en": "Medium",
+                    "tr": "Orta"
+                },
+                {
+                    "ar": "كبير",
+                    "en": "Large",
+                    "tr": "Büyük"
+                },
+                {
+                    "ar": "متعدد المقاسات",
+                    "en": "Multiple Sizes",
+                    "tr": "Çoklu Beden"
+                },
+                {
+                    "ar": "لا ينطبق",
+                    "en": "Not Applicable",
+                    "tr": "Uygulanmaz"
+                }
+            ]
+        },
+        {
+            "id": "quantity",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الكمية",
+                "en": "Quantity",
+                "tr": "Miktar"
+            }
+        },
+        {
+            "id": "delivery_method",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "طريقة التسليم",
+                "en": "Delivery Method",
+                "tr": "Teslim Yöntemi"
+            },
+            "options": [
+                {
+                    "ar": "استلام من البائع",
+                    "en": "Pickup from Seller",
+                    "tr": "Satıcıdan Teslim"
+                },
+                {
+                    "ar": "توصيل داخل المدينة",
+                    "en": "City Delivery",
+                    "tr": "Şehir İçi Teslimat"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "محل / متجر",
+                    "en": "Shop / Store",
+                    "tr": "Mağaza"
+                },
+                {
+                    "ar": "مربي",
+                    "en": "Breeder",
+                    "tr": "Üretici / Yetiştirici"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,754 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات تأجير السيارات",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "model_year",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "سنة الصنع",
+                "en": "Model Year",
+                "tr": "Model Yılı"
+            },
+            "options": [
+                {
+                    "ar": "2026",
+                    "en": "2026",
+                    "tr": "2026"
+                },
+                {
+                    "ar": "2025",
+                    "en": "2025",
+                    "tr": "2025"
+                },
+                {
+                    "ar": "2024",
+                    "en": "2024",
+                    "tr": "2024"
+                },
+                {
+                    "ar": "2023",
+                    "en": "2023",
+                    "tr": "2023"
+                },
+                {
+                    "ar": "2022",
+                    "en": "2022",
+                    "tr": "2022"
+                },
+                {
+                    "ar": "2021",
+                    "en": "2021",
+                    "tr": "2021"
+                },
+                {
+                    "ar": "2020",
+                    "en": "2020",
+                    "tr": "2020"
+                },
+                {
+                    "ar": "2019",
+                    "en": "2019",
+                    "tr": "2019"
+                },
+                {
+                    "ar": "2018",
+                    "en": "2018",
+                    "tr": "2018"
+                },
+                {
+                    "ar": "2017",
+                    "en": "2017",
+                    "tr": "2017"
+                },
+                {
+                    "ar": "2016",
+                    "en": "2016",
+                    "tr": "2016"
+                },
+                {
+                    "ar": "2015",
+                    "en": "2015",
+                    "tr": "2015"
+                },
+                {
+                    "ar": "2014",
+                    "en": "2014",
+                    "tr": "2014"
+                },
+                {
+                    "ar": "2013",
+                    "en": "2013",
+                    "tr": "2013"
+                },
+                {
+                    "ar": "2012",
+                    "en": "2012",
+                    "tr": "2012"
+                },
+                {
+                    "ar": "2011",
+                    "en": "2011",
+                    "tr": "2011"
+                },
+                {
+                    "ar": "2010",
+                    "en": "2010",
+                    "tr": "2010"
+                },
+                {
+                    "ar": "2009",
+                    "en": "2009",
+                    "tr": "2009"
+                },
+                {
+                    "ar": "2008",
+                    "en": "2008",
+                    "tr": "2008"
+                },
+                {
+                    "ar": "2007",
+                    "en": "2007",
+                    "tr": "2007"
+                },
+                {
+                    "ar": "2006",
+                    "en": "2006",
+                    "tr": "2006"
+                },
+                {
+                    "ar": "2005",
+                    "en": "2005",
+                    "tr": "2005"
+                },
+                {
+                    "ar": "2004",
+                    "en": "2004",
+                    "tr": "2004"
+                },
+                {
+                    "ar": "2003",
+                    "en": "2003",
+                    "tr": "2003"
+                },
+                {
+                    "ar": "2002",
+                    "en": "2002",
+                    "tr": "2002"
+                },
+                {
+                    "ar": "2001",
+                    "en": "2001",
+                    "tr": "2001"
+                },
+                {
+                    "ar": "2000",
+                    "en": "2000",
+                    "tr": "2000"
+                },
+                {
+                    "ar": "قبل 2000",
+                    "en": "Before 2000",
+                    "tr": "2000 Öncesi"
+                }
+            ]
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "pricing_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع التسعير",
+                "en": "Pricing Type",
+                "tr": "Fiyatlandırma Türü"
+            },
+            "options": [
+                {
+                    "ar": "بالساعة",
+                    "en": "Hourly",
+                    "tr": "Saatlik"
+                },
+                {
+                    "ar": "يومي",
+                    "en": "Daily",
+                    "tr": "Günlük"
+                },
+                {
+                    "ar": "أسبوعي",
+                    "en": "Weekly",
+                    "tr": "Haftalık"
+                },
+                {
+                    "ar": "شهري",
+                    "en": "Monthly",
+                    "tr": "Aylık"
+                },
+                {
+                    "ar": "طويل الأمد",
+                    "en": "Long-Term",
+                    "tr": "Uzun Süreli"
+                }
+            ]
+        },
+        {
+            "id": "rental_duration_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مدة التأجير المتاحة",
+                "en": "Available Rental Periods",
+                "tr": "Mevcut Kiralama Süreleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "يوم واحد",
+                    "en": "One Day",
+                    "tr": "Bir Gün"
+                },
+                {
+                    "ar": "عدة أيام",
+                    "en": "Several Days",
+                    "tr": "Birkaç Gün"
+                },
+                {
+                    "ar": "أسبوع",
+                    "en": "One Week",
+                    "tr": "Bir Hafta"
+                },
+                {
+                    "ar": "شهر",
+                    "en": "One Month",
+                    "tr": "Bir Ay"
+                },
+                {
+                    "ar": "طويل الأمد",
+                    "en": "Long-Term",
+                    "tr": "Uzun Süreli"
+                }
+            ]
+        },
+        {
+            "id": "with_driver",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مع سائق",
+                "en": "With Driver",
+                "tr": "Şoförlü"
+            },
+            "options": [
+                {
+                    "ar": "بدون سائق",
+                    "en": "Without Driver",
+                    "tr": "Şoförsüz"
+                },
+                {
+                    "ar": "مع سائق",
+                    "en": "مع سائق",
+                    "tr": "مع سائق"
+                },
+                {
+                    "ar": "متوفر الخياران",
+                    "en": "Both Options Available",
+                    "tr": "Her İki Seçenek Mevcut"
+                }
+            ]
+        },
+        {
+            "id": "transmission",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ناقل الحركة",
+                "en": "Transmission",
+                "tr": "Vites"
+            },
+            "options": [
+                {
+                    "ar": "عادي",
+                    "en": "Manual",
+                    "tr": "Manuel"
+                },
+                {
+                    "ar": "أوتوماتيك",
+                    "en": "Automatic",
+                    "tr": "Otomatik"
+                },
+                {
+                    "ar": "نصف أوتوماتيك",
+                    "en": "Semi-Automatic",
+                    "tr": "Yarı Otomatik"
+                }
+            ]
+        },
+        {
+            "id": "fuel_type",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الوقود",
+                "en": "Fuel Type",
+                "tr": "Yakıt Tipi"
+            },
+            "options": [
+                {
+                    "ar": "بنزين",
+                    "en": "Petrol",
+                    "tr": "Benzin"
+                },
+                {
+                    "ar": "ديزل",
+                    "en": "Diesel",
+                    "tr": "Dizel"
+                },
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                },
+                {
+                    "ar": "هايبرد",
+                    "en": "Hybrid",
+                    "tr": "Hibrit"
+                },
+                {
+                    "ar": "غاز",
+                    "en": "Gas Stove",
+                    "tr": "Gaz Ocağı"
+                }
+            ]
+        },
+        {
+            "id": "seats",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "عدد المقاعد",
+                "en": "Seats",
+                "tr": "Koltuk Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5",
+                    "en": "5",
+                    "tr": "5"
+                },
+                {
+                    "ar": "6",
+                    "en": "6",
+                    "tr": "6"
+                },
+                {
+                    "ar": "7",
+                    "en": "7",
+                    "tr": "7"
+                },
+                {
+                    "ar": "8",
+                    "en": "8",
+                    "tr": "8"
+                },
+                {
+                    "ar": "9",
+                    "en": "9",
+                    "tr": "9"
+                },
+                {
+                    "ar": "أكثر من 9",
+                    "en": "Over 9",
+                    "tr": "9 Üzeri"
+                }
+            ]
+        },
+        {
+            "id": "vehicle_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المركبة",
+                "en": "Vehicle Condition",
+                "tr": "Araç Durumu"
+            },
+            "options": [
+                {
+                    "ar": "ممتازة",
+                    "en": "Excellent",
+                    "tr": "Mükemmel"
+                },
+                {
+                    "ar": "جيدة جدًا",
+                    "en": "Very Good",
+                    "tr": "Çok İyi"
+                },
+                {
+                    "ar": "جيدة",
+                    "en": "Good",
+                    "tr": "İyi"
+                },
+                {
+                    "ar": "تحتاج صيانة بسيطة",
+                    "en": "Needs Minor Maintenance",
+                    "tr": "Hafif Bakım Gerekiyor"
+                }
+            ]
+        },
+        {
+            "id": "deposit_insurance",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "التأمين / العربون",
+                "en": "Deposit / Insurance",
+                "tr": "Depozito / Sigorta"
+            },
+            "options": [
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "يوجد تأمين",
+                    "en": "Insurance Required",
+                    "tr": "Sigorta Var"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "mileage_limit",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "حد الكيلومترات",
+                "en": "Mileage Limit",
+                "tr": "Kilometre Limiti"
+            },
+            "options": [
+                {
+                    "ar": "بدون حد",
+                    "en": "Unlimited",
+                    "tr": "Limitsiz"
+                },
+                {
+                    "ar": "حد يومي",
+                    "en": "Daily Limit",
+                    "tr": "Günlük Limit"
+                },
+                {
+                    "ar": "حد أسبوعي",
+                    "en": "Weekly Limit",
+                    "tr": "Haftalık Limit"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "inter_city_travel",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "إمكانية السفر بين المدن",
+                "en": "Inter-City Travel",
+                "tr": "Şehirler Arası Seyahat"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "delivery_method",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "طريقة التسليم",
+                "en": "Handover Method",
+                "tr": "Teslim Yöntemi"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "استلام من المكتب",
+                    "en": "Pickup from Office",
+                    "tr": "Ofisten Teslim"
+                },
+                {
+                    "ar": "تسليم ضمن المدينة",
+                    "en": "City Delivery",
+                    "tr": "Şehir İçi Teslimat"
+                },
+                {
+                    "ar": "تسليم في المطار",
+                    "en": "Airport Delivery",
+                    "tr": "Havalimanı Teslimatı"
+                },
+                {
+                    "ar": "تسليم حسب الاتفاق",
+                    "en": "Delivery as Agreed",
+                    "tr": "Anlaşmaya Göre Teslimat"
+                }
+            ]
+        },
+        {
+            "id": "rental_requirements",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "شروط الاستئجار",
+                "en": "Rental Requirements",
+                "tr": "Kiralama Şartları"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "رخصة قيادة سارية",
+                    "en": "Valid Driving License",
+                    "tr": "Geçerli Sürücü Belgesi"
+                },
+                {
+                    "ar": "هوية شخصية",
+                    "en": "National ID",
+                    "tr": "Kimlik Kartı"
+                },
+                {
+                    "ar": "جواز سفر",
+                    "en": "Passport",
+                    "tr": "Pasaport"
+                },
+                {
+                    "ar": "عمر 21+",
+                    "en": "Age 21+",
+                    "tr": "21 Yaş Üstü"
+                },
+                {
+                    "ar": "عمر 25+",
+                    "en": "Age 25+",
+                    "tr": "25 Yaş Üstü"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "vehicle_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات المركبة",
+                "en": "Vehicle Features",
+                "tr": "Araç Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مكيف",
+                    "en": "Air Conditioning",
+                    "tr": "Klima"
+                },
+                {
+                    "ar": "بلوتوث",
+                    "en": "Bluetooth",
+                    "tr": "Bluetooth"
+                },
+                {
+                    "ar": "شاشة",
+                    "en": "Infotainment Screen",
+                    "tr": "Ekran"
+                },
+                {
+                    "ar": "كاميرا خلفية",
+                    "en": "Rear Camera",
+                    "tr": "Geri Vites Kamerası"
+                },
+                {
+                    "ar": "حساسات",
+                    "en": "Parking Sensors",
+                    "tr": "Park Sensörleri"
+                },
+                {
+                    "ar": "GPS",
+                    "en": "GPS",
+                    "tr": "GPS"
+                },
+                {
+                    "ar": "مقعد أطفال",
+                    "en": "Child Seat",
+                    "tr": "Çocuk Koltuğu"
+                },
+                {
+                    "ar": "مساحة أمتعة كبيرة",
+                    "en": "Large Luggage Space",
+                    "tr": "Geniş Bagaj Alanı"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "مكتب تأجير",
+                    "en": "Rental Office",
+                    "tr": "Kiralama Ofisi"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

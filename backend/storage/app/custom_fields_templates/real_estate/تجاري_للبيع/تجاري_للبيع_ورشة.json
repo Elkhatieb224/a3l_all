@@ -1,0 +1,665 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات عقارات > تجاري > للبيع > ورشة",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "total_area_sqm",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "المساحة الإجمالية (م²)",
+                "en": "Total Area (m²)",
+                "tr": "Toplam Alan (m²)"
+            }
+        },
+        {
+            "id": "closed_area_sqm",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "المساحة المغلقة (م²)",
+                "en": "Closed Area (m²)",
+                "tr": "Kapalı Alan (m²)"
+            }
+        },
+        {
+            "id": "open_area_sqm",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المساحة المفتوحة (م²)",
+                "en": "Open Area (m²)",
+                "tr": "Açık Alan (m²)"
+            }
+        },
+        {
+            "id": "land_area_sqm",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مساحة الأرض (م²)",
+                "en": "Land Area (m²)",
+                "tr": "Arsa Alanı (m²)"
+            }
+        },
+        {
+            "id": "ceiling_height",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ارتفاع السقف",
+                "en": "Ceiling Height",
+                "tr": "Tavan Yüksekliği"
+            },
+            "options": [
+                {
+                    "ar": "أقل من 3 م",
+                    "en": "Under 3 m",
+                    "tr": "3 m Altı"
+                },
+                {
+                    "ar": "3-5 م",
+                    "en": "3–5 m",
+                    "tr": "3–5 m"
+                },
+                {
+                    "ar": "5-8 م",
+                    "en": "5–8 m",
+                    "tr": "5–8 m"
+                },
+                {
+                    "ar": "أكثر من 8 م",
+                    "en": "Over 8 m",
+                    "tr": "8 m Üzeri"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "truck_entrance",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مدخل شاحنات",
+                "en": "Truck Entrance",
+                "tr": "Kamyon Girişi"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "loading_unloading_area",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "منطقة تحميل وتنزيل",
+                "en": "Loading / Unloading Area",
+                "tr": "Yükleme / Boşaltma Alanı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "industrial_electricity",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "كهرباء صناعية",
+                "en": "Industrial Electricity",
+                "tr": "Sanayi Elektriği"
+            },
+            "options": [
+                {
+                    "ar": "متوفرة",
+                    "en": "Available",
+                    "tr": "Mevcut"
+                },
+                {
+                    "ar": "غير متوفرة",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "water_sewage",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ماء / صرف صحي",
+                "en": "Water / Sewage",
+                "tr": "Su / Kanalizasyon"
+            },
+            "options": [
+                {
+                    "ar": "متوفر",
+                    "en": "Available",
+                    "tr": "Mevcut"
+                },
+                {
+                    "ar": "غير متوفر",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "admin_office_section",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "قسم إداري / مكتب",
+                "en": "Admin / Office Section",
+                "tr": "İdari / Ofis Bölümü"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "bathroom_wc",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حمام / WC",
+                "en": "Bathroom / WC",
+                "tr": "Banyo / WC"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "floors_count",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الطوابق",
+                "en": "Number of Floors",
+                "tr": "Kat Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "1",
+                    "en": "1",
+                    "tr": "1"
+                },
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5+",
+                    "en": "5+",
+                    "tr": "5+"
+                }
+            ]
+        },
+        {
+            "id": "property_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة العقار",
+                "en": "Property Condition",
+                "tr": "Mülk Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "شبه جديد",
+                    "en": "Like New",
+                    "tr": "Sıfıra Yakın"
+                },
+                {
+                    "ar": "جيد",
+                    "en": "Good",
+                    "tr": "İyi"
+                },
+                {
+                    "ar": "يحتاج صيانة",
+                    "en": "Needs Maintenance",
+                    "tr": "Bakım Gerekiyor"
+                },
+                {
+                    "ar": "قيد الإنشاء",
+                    "en": "Under Construction",
+                    "tr": "İnşaat Halinde"
+                }
+            ]
+        },
+        {
+            "id": "commercial_license_status",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "حالة الترخيص التجاري",
+                "en": "Commercial License Status",
+                "tr": "Ticari Ruhsat Durumu"
+            },
+            "options": [
+                {
+                    "ar": "مرخص",
+                    "en": "Licensed",
+                    "tr": "Ruhsatlı"
+                },
+                {
+                    "ar": "غير مرخص",
+                    "en": "Unlicensed",
+                    "tr": "Ruhsatsız"
+                },
+                {
+                    "ar": "قابل للترخيص",
+                    "en": "Licensable",
+                    "tr": "Ruhsatlandırılabilir"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "title_deed_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع سند الملكية",
+                "en": "Title Deed Type",
+                "tr": "Tapu Türü"
+            },
+            "options": [
+                {
+                    "ar": "طابو أخضر / سند ملكية",
+                    "en": "Green Title Deed",
+                    "tr": "Yeşil Tapu"
+                },
+                {
+                    "ar": "وكالة كاتب عدل",
+                    "en": "Notary Power of Attorney",
+                    "tr": "Noter Vekaleti"
+                },
+                {
+                    "ar": "حكم محكمة",
+                    "en": "Court Ruling",
+                    "tr": "Mahkeme Kararı"
+                },
+                {
+                    "ar": "عقد بيع",
+                    "en": "Sale Contract",
+                    "tr": "Satış Sözleşmesi"
+                },
+                {
+                    "ar": "إفراز غير مكتمل",
+                    "en": "Incomplete Subdivision",
+                    "tr": "Tamamlanmamış İfraz"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Advertiser Type",
+                "tr": "İlan Sahibi Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Owner",
+                    "tr": "Mal Sahibi"
+                },
+                {
+                    "ar": "مكتب عقاري",
+                    "en": "Real Estate Office",
+                    "tr": "Emlak Ofisi"
+                },
+                {
+                    "ar": "شركة إنشاءات",
+                    "en": "Construction Company",
+                    "tr": "İnşaat Şirketi"
+                },
+                {
+                    "ar": "وكيل / مندوب",
+                    "en": "Agent / Representative",
+                    "tr": "Temsilci / Acente"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "delivery_available",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "إمكانية الداكيش",
+                "en": "Delivery Available",
+                "tr": "Teslimat Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "suitable_uses",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "استخدامات مناسبة",
+                "en": "Suitable Uses",
+                "tr": "Uygun Kullanımlar"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "تخزين",
+                    "en": "Storage",
+                    "tr": "Depolama"
+                },
+                {
+                    "ar": "إنتاج",
+                    "en": "Production",
+                    "tr": "Üretim"
+                },
+                {
+                    "ar": "ورشة",
+                    "en": "Workshop",
+                    "tr": "Atölye"
+                },
+                {
+                    "ar": "إنتاج غذائي",
+                    "en": "Food Production",
+                    "tr": "Gıda Üretimi"
+                },
+                {
+                    "ar": "نسيج",
+                    "en": "Textile",
+                    "tr": "Tekstil"
+                },
+                {
+                    "ar": "سيارات",
+                    "en": "Automotive",
+                    "tr": "Otomotiv"
+                },
+                {
+                    "ar": "لوجستيك",
+                    "en": "Logistics",
+                    "tr": "Lojistik"
+                },
+                {
+                    "ar": "تخزين مبرد",
+                    "en": "Cold Storage",
+                    "tr": "Soğuk Depolama"
+                }
+            ]
+        },
+        {
+            "id": "infrastructure_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات البنية التحتية",
+                "en": "Infrastructure Features",
+                "tr": "Altyapı Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مولدة",
+                    "en": "Generator",
+                    "tr": "Jeneratör"
+                },
+                {
+                    "ar": "خزان ماء",
+                    "en": "Water Tank",
+                    "tr": "Su Deposu"
+                },
+                {
+                    "ar": "نظام إطفاء",
+                    "en": "Fire Suppression",
+                    "tr": "Yangın Söndürme"
+                },
+                {
+                    "ar": "تهوية",
+                    "en": "Ventilation",
+                    "tr": "Havalandırma"
+                },
+                {
+                    "ar": "أمن",
+                    "en": "Security",
+                    "tr": "Güvenlik"
+                },
+                {
+                    "ar": "كاميرات مراقبة",
+                    "en": "CCTV",
+                    "tr": "Güvenlik Kamerası"
+                },
+                {
+                    "ar": "رامب تحميل",
+                    "en": "Loading Ramp",
+                    "tr": "Yükleme Rampası"
+                }
+            ]
+        },
+        {
+            "id": "access_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات الوصول",
+                "en": "Access Features",
+                "tr": "Erişim Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "دخول شاحنات",
+                    "en": "Truck Access",
+                    "tr": "Kamyon Girişi"
+                },
+                {
+                    "ar": "على طريق رئيسي",
+                    "en": "On Main Road",
+                    "tr": "Ana Yolda"
+                },
+                {
+                    "ar": "منطقة صناعية",
+                    "en": "Industrial Zone",
+                    "tr": "Sanayi Bölgesi"
+                },
+                {
+                    "ar": "موقف سيارات",
+                    "en": "موقف سيارات",
+                    "tr": "موقف سيارات"
+                },
+                {
+                    "ar": "باب تحميل",
+                    "en": "Loading Door",
+                    "tr": "Yükleme Kapısı"
+                }
+            ]
+        }
+    ]
+}

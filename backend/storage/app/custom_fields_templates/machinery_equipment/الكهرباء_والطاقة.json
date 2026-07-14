@@ -1,0 +1,369 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات الكهرباء والطاقة",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "product_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المنتج / المعدة",
+                "en": "Product / Equipment Condition",
+                "tr": "Ürün / Ekipman Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعمل بحالة جيدة",
+                    "en": "Used — Good Condition",
+                    "tr": "İyi Durumda İkinci El"
+                },
+                {
+                    "ar": "يحتاج صيانة",
+                    "en": "Needs Maintenance",
+                    "tr": "Bakım Gerekiyor"
+                }
+            ]
+        },
+        {
+            "id": "power_rating",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الاستطاعة / القدرة",
+                "en": "Power Rating",
+                "tr": "Güç / Kapasite"
+            }
+        },
+        {
+            "id": "voltage",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الجهد الكهربائي",
+                "en": "Voltage",
+                "tr": "Voltaj"
+            },
+            "options": [
+                {
+                    "ar": "12V",
+                    "en": "12V",
+                    "tr": "12V"
+                },
+                {
+                    "ar": "24V",
+                    "en": "24V",
+                    "tr": "24V"
+                },
+                {
+                    "ar": "110V",
+                    "en": "110V",
+                    "tr": "110V"
+                },
+                {
+                    "ar": "220V",
+                    "en": "220V",
+                    "tr": "220V"
+                },
+                {
+                    "ar": "380V",
+                    "en": "380V",
+                    "tr": "380V"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "electrical_phase",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الطور الكهربائي",
+                "en": "Electrical Phase",
+                "tr": "Elektrik Fazı"
+            },
+            "options": [
+                {
+                    "ar": "أحادي الطور",
+                    "en": "Single Phase",
+                    "tr": "Tek Faz"
+                },
+                {
+                    "ar": "ثلاثي الطور",
+                    "en": "Three Phase",
+                    "tr": "Üç Faz"
+                },
+                {
+                    "ar": "لا ينطبق",
+                    "en": "Not Applicable",
+                    "tr": "Uygulanmaz"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "product_origin",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مصدر المنتج / المعدة",
+                "en": "Product / Equipment Origin",
+                "tr": "Ürün / Ekipman Menşei"
+            },
+            "options": [
+                {
+                    "ar": "محلي",
+                    "en": "Local",
+                    "tr": "Yerli"
+                },
+                {
+                    "ar": "وارد كوريا",
+                    "en": "Imported from Korea",
+                    "tr": "Kore İthal"
+                },
+                {
+                    "ar": "وارد من الخليج",
+                    "en": "Imported from Gulf",
+                    "tr": "Körfez İthal"
+                },
+                {
+                    "ar": "وارد من أوروبا",
+                    "en": "Imported from Europe",
+                    "tr": "Avrupa İthal"
+                },
+                {
+                    "ar": "وارد من أمريكا",
+                    "en": "Imported from USA",
+                    "tr": "ABD İthal"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "technical_specs",
+            "type": "textarea",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المواصفات الفنية",
+                "en": "Technical Specifications",
+                "tr": "Teknik Özellikler"
+            }
+        },
+        {
+            "id": "warranty",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الكفالة",
+                "en": "Warranty",
+                "tr": "Garanti"
+            },
+            "options": [
+                {
+                    "ar": "يوجد",
+                    "en": "Yes",
+                    "tr": "Var"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "additional_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات إضافية",
+                "en": "Additional Features",
+                "tr": "Ek Özellikler"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "جاهز للتركيب",
+                    "en": "Ready to Install",
+                    "tr": "Montaja Hazır"
+                },
+                {
+                    "ar": "مع كفالة",
+                    "en": "With Warranty",
+                    "tr": "Garantili"
+                },
+                {
+                    "ar": "صيانة متوفرة",
+                    "en": "Maintenance Available",
+                    "tr": "Bakım Mevcut"
+                },
+                {
+                    "ar": "قطع غيار متوفرة",
+                    "en": "Spare Parts Available",
+                    "tr": "Yedek Parça Mevcut"
+                },
+                {
+                    "ar": "مناسب للاستخدام المنزلي",
+                    "en": "Suitable for Home Use",
+                    "tr": "Ev Kullanımına Uygun"
+                },
+                {
+                    "ar": "مناسب للاستخدام التجاري / الصناعي",
+                    "en": "Suitable for Commercial / Industrial Use",
+                    "tr": "Ticari / Endüstriyel Kullanıma Uygun"
+                },
+                {
+                    "ar": "موفر للطاقة",
+                    "en": "Energy Efficient",
+                    "tr": "Enerji Tasarruflu"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك مباشر",
+                    "en": "Direct Owner",
+                    "tr": "Doğrudan Sahip"
+                },
+                {
+                    "ar": "تاجر / محل",
+                    "en": "Shop / Dealer",
+                    "tr": "Mağaza / Tüccar"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}

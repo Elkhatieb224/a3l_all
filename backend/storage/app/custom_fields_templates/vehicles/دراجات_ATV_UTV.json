@@ -1,0 +1,711 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات الدراجات النارية و ATV و UTV",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "vehicle_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع المركبة",
+                "en": "Vehicle Type",
+                "tr": "Araç Tipi"
+            },
+            "options": [
+                {
+                    "ar": "دراجة نارية",
+                    "en": "Motorcycle",
+                    "tr": "Motosiklet"
+                },
+                {
+                    "ar": "ATV",
+                    "en": "ATV",
+                    "tr": "ATV"
+                },
+                {
+                    "ar": "UTV",
+                    "en": "UTV",
+                    "tr": "UTV"
+                },
+                {
+                    "ar": "سكوتر",
+                    "en": "Scooter",
+                    "tr": "Scooter"
+                },
+                {
+                    "ar": "دراجة كهربائية",
+                    "en": "E-Bike",
+                    "tr": "Elektrikli Bisiklet"
+                }
+            ]
+        },
+        {
+            "id": "model_year",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "سنة الصنع",
+                "en": "Model Year",
+                "tr": "Model Yılı"
+            },
+            "options": [
+                {
+                    "ar": "2026",
+                    "en": "2026",
+                    "tr": "2026"
+                },
+                {
+                    "ar": "2025",
+                    "en": "2025",
+                    "tr": "2025"
+                },
+                {
+                    "ar": "2024",
+                    "en": "2024",
+                    "tr": "2024"
+                },
+                {
+                    "ar": "2023",
+                    "en": "2023",
+                    "tr": "2023"
+                },
+                {
+                    "ar": "2022",
+                    "en": "2022",
+                    "tr": "2022"
+                },
+                {
+                    "ar": "2021",
+                    "en": "2021",
+                    "tr": "2021"
+                },
+                {
+                    "ar": "2020",
+                    "en": "2020",
+                    "tr": "2020"
+                },
+                {
+                    "ar": "2019",
+                    "en": "2019",
+                    "tr": "2019"
+                },
+                {
+                    "ar": "2018",
+                    "en": "2018",
+                    "tr": "2018"
+                },
+                {
+                    "ar": "2017",
+                    "en": "2017",
+                    "tr": "2017"
+                },
+                {
+                    "ar": "2016",
+                    "en": "2016",
+                    "tr": "2016"
+                },
+                {
+                    "ar": "2015",
+                    "en": "2015",
+                    "tr": "2015"
+                },
+                {
+                    "ar": "2014",
+                    "en": "2014",
+                    "tr": "2014"
+                },
+                {
+                    "ar": "2013",
+                    "en": "2013",
+                    "tr": "2013"
+                },
+                {
+                    "ar": "2012",
+                    "en": "2012",
+                    "tr": "2012"
+                },
+                {
+                    "ar": "2011",
+                    "en": "2011",
+                    "tr": "2011"
+                },
+                {
+                    "ar": "2010",
+                    "en": "2010",
+                    "tr": "2010"
+                },
+                {
+                    "ar": "2009",
+                    "en": "2009",
+                    "tr": "2009"
+                },
+                {
+                    "ar": "2008",
+                    "en": "2008",
+                    "tr": "2008"
+                },
+                {
+                    "ar": "2007",
+                    "en": "2007",
+                    "tr": "2007"
+                },
+                {
+                    "ar": "2006",
+                    "en": "2006",
+                    "tr": "2006"
+                },
+                {
+                    "ar": "2005",
+                    "en": "2005",
+                    "tr": "2005"
+                },
+                {
+                    "ar": "2004",
+                    "en": "2004",
+                    "tr": "2004"
+                },
+                {
+                    "ar": "2003",
+                    "en": "2003",
+                    "tr": "2003"
+                },
+                {
+                    "ar": "2002",
+                    "en": "2002",
+                    "tr": "2002"
+                },
+                {
+                    "ar": "2001",
+                    "en": "2001",
+                    "tr": "2001"
+                },
+                {
+                    "ar": "2000",
+                    "en": "2000",
+                    "tr": "2000"
+                },
+                {
+                    "ar": "قبل 2000",
+                    "en": "Before 2000",
+                    "tr": "2000 Öncesi"
+                }
+            ]
+        },
+        {
+            "id": "mileage",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الكيلومترات",
+                "en": "Mileage",
+                "tr": "Kilometre"
+            }
+        },
+        {
+            "id": "vehicle_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة الدراجة",
+                "en": "Bike Condition",
+                "tr": "Motosiklet Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديدة",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعملة",
+                    "en": "Used",
+                    "tr": "İkinci El"
+                }
+            ]
+        },
+        {
+            "id": "registration_status",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة التسجيل",
+                "en": "Registration Status",
+                "tr": "Tescil Durumu"
+            },
+            "options": [
+                {
+                    "ar": "مسجلة في سوريا",
+                    "en": "Registered in Syria",
+                    "tr": "Suriye Tescilli"
+                },
+                {
+                    "ar": "مسجلة في تركيا",
+                    "en": "Registered in Turkey",
+                    "tr": "Türkiye Tescilli"
+                },
+                {
+                    "ar": "غير مسجلة",
+                    "en": "Unregistered",
+                    "tr": "Tescilsiz"
+                },
+                {
+                    "ar": "إدخال جمركي",
+                    "en": "Customs Import",
+                    "tr": "Gümrük Girişli"
+                },
+                {
+                    "ar": "لوحة مؤقتة",
+                    "en": "Temporary Plates",
+                    "tr": "Geçici Plaka"
+                },
+                {
+                    "ar": "لوحة أجنبية",
+                    "en": "Foreign Plates",
+                    "tr": "Yabancı Plaka"
+                },
+                {
+                    "ar": "قيد التسجيل",
+                    "en": "Registration Pending",
+                    "tr": "Tescil Sürecinde"
+                }
+            ]
+        },
+        {
+            "id": "license_inspection_status",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "حالة الترخيص / الفحص",
+                "en": "License / Inspection",
+                "tr": "Ruhsat / Muayene"
+            },
+            "options": [
+                {
+                    "ar": "ساري",
+                    "en": "Valid",
+                    "tr": "Geçerli"
+                },
+                {
+                    "ar": "منتهي",
+                    "en": "Expired",
+                    "tr": "Süresi Dolmuş"
+                },
+                {
+                    "ar": "غير متوفر",
+                    "en": "Not Available",
+                    "tr": "Mevcut Değil"
+                }
+            ]
+        },
+        {
+            "id": "vehicle_source",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مصدر الدراجة",
+                "en": "Bike Origin",
+                "tr": "Motosiklet Menşei"
+            },
+            "options": [
+                {
+                    "ar": "محلية",
+                    "en": "Local",
+                    "tr": "Yerli"
+                },
+                {
+                    "ar": "واردة من كوريا",
+                    "en": "Imported from Korea",
+                    "tr": "Kore İthal"
+                },
+                {
+                    "ar": "واردة من الخليج",
+                    "en": "Imported from Gulf",
+                    "tr": "Körfez İthal"
+                },
+                {
+                    "ar": "واردة من أوروبا",
+                    "en": "Imported from Europe",
+                    "tr": "Avrupa İthal"
+                },
+                {
+                    "ar": "واردة من أمريكا",
+                    "en": "Imported from USA",
+                    "tr": "ABD İthal"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "fuel_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع الوقود",
+                "en": "Fuel Type",
+                "tr": "Yakıt Tipi"
+            },
+            "options": [
+                {
+                    "ar": "بنزين",
+                    "en": "Petrol",
+                    "tr": "Benzin"
+                },
+                {
+                    "ar": "كهرباء",
+                    "en": "Electric",
+                    "tr": "Elektrik"
+                }
+            ]
+        },
+        {
+            "id": "transmission",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "ناقل الحركة",
+                "en": "Transmission",
+                "tr": "Vites"
+            },
+            "options": [
+                {
+                    "ar": "عادي",
+                    "en": "Manual",
+                    "tr": "Manuel"
+                },
+                {
+                    "ar": "أوتوماتيك",
+                    "en": "Automatic",
+                    "tr": "Otomatik"
+                },
+                {
+                    "ar": "نصف أوتوماتيك",
+                    "en": "Semi-Automatic",
+                    "tr": "Yarı Otomatik"
+                }
+            ]
+        },
+        {
+            "id": "engine_capacity",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "سعة المحرك",
+                "en": "Engine Size",
+                "tr": "Motor Hacmi"
+            },
+            "options": [
+                {
+                    "ar": "أقل من 100 cc",
+                    "en": "Under 100 cc",
+                    "tr": "100 cc Altı"
+                },
+                {
+                    "ar": "100 - 250 cc",
+                    "en": "100–250 cc",
+                    "tr": "100–250 cc"
+                },
+                {
+                    "ar": "251 - 500 cc",
+                    "en": "251–500 cc",
+                    "tr": "251–500 cc"
+                },
+                {
+                    "ar": "501 - 750 cc",
+                    "en": "501–750 cc",
+                    "tr": "501–750 cc"
+                },
+                {
+                    "ar": "أكثر من 750 cc",
+                    "en": "Over 750 cc",
+                    "tr": "750 cc Üzeri"
+                },
+                {
+                    "ar": "كهربائي",
+                    "en": "Electric",
+                    "tr": "Elektrikli"
+                }
+            ]
+        },
+        {
+            "id": "color",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "لون الدراجة",
+                "en": "Color",
+                "tr": "Renk"
+            },
+            "options": [
+                {
+                    "ar": "أبيض",
+                    "en": "White",
+                    "tr": "Beyaz"
+                },
+                {
+                    "ar": "أسود",
+                    "en": "Black",
+                    "tr": "Siyah"
+                },
+                {
+                    "ar": "فضي",
+                    "en": "Silver",
+                    "tr": "Gümüş"
+                },
+                {
+                    "ar": "رمادي",
+                    "en": "Gray",
+                    "tr": "Gri"
+                },
+                {
+                    "ar": "أحمر",
+                    "en": "Red",
+                    "tr": "Kırmızı"
+                },
+                {
+                    "ar": "أزرق",
+                    "en": "Blue",
+                    "tr": "Mavi"
+                },
+                {
+                    "ar": "كحلي",
+                    "en": "Navy",
+                    "tr": "Lacivert"
+                },
+                {
+                    "ar": "بيج",
+                    "en": "Beige",
+                    "tr": "Bej"
+                },
+                {
+                    "ar": "بني",
+                    "en": "Brown",
+                    "tr": "Kahverengi"
+                },
+                {
+                    "ar": "أخضر",
+                    "en": "Green",
+                    "tr": "Yeşil"
+                },
+                {
+                    "ar": "أصفر",
+                    "en": "Yellow",
+                    "tr": "Sarı"
+                },
+                {
+                    "ar": "برتقالي",
+                    "en": "Orange",
+                    "tr": "Turuncu"
+                },
+                {
+                    "ar": "لون آخر",
+                    "en": "Other Color",
+                    "tr": "Diğer Renk"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Private Seller",
+                    "tr": "Sahibinden"
+                },
+                {
+                    "ar": "معرض سيارات",
+                    "en": "Dealership",
+                    "tr": "Galeri"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "delivery_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "إمكانية الداكيش",
+                "en": "Delivery Available",
+                "tr": "Teslimat Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "bike_features",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ميزات الدراجة",
+                "en": "Bike Features",
+                "tr": "Motosiklet Özellikleri"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "ABS",
+                    "en": "ABS",
+                    "tr": "ABS"
+                },
+                {
+                    "ar": "حقيبة خلفية",
+                    "en": "Top Case",
+                    "tr": "Arka Çanta"
+                },
+                {
+                    "ar": "حماية جانبية",
+                    "en": "Side Guards",
+                    "tr": "Yan Koruma"
+                },
+                {
+                    "ar": "شاشة رقمية",
+                    "en": "Digital Display",
+                    "tr": "Dijital Ekran"
+                },
+                {
+                    "ar": "إضاءة LED",
+                    "en": "LED Lighting",
+                    "tr": "LED Aydınlatma"
+                },
+                {
+                    "ar": "تشغيل كهربائي",
+                    "en": "Electric Start",
+                    "tr": "Elektrikli Marş"
+                },
+                {
+                    "ar": "نظام مانع سرقة",
+                    "en": "Anti-Theft System",
+                    "tr": "Hırsızlık Önleme"
+                }
+            ]
+        }
+    ]
+}

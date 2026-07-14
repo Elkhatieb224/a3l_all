@@ -1,0 +1,376 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات قطع الغيار والملحقات",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "part_name",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "اسم القطعة / الملحق",
+                "en": "Part / Accessory Name",
+                "tr": "Parça / Aksesuar Adı"
+            }
+        },
+        {
+            "id": "product_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع المنتج",
+                "en": "Product Type",
+                "tr": "Ürün Tipi"
+            },
+            "options": [
+                {
+                    "ar": "قطعة غيار",
+                    "en": "Spare Part",
+                    "tr": "Yedek Parça"
+                },
+                {
+                    "ar": "ملحق",
+                    "en": "Accessory",
+                    "tr": "Aksesuar"
+                },
+                {
+                    "ar": "عدة / أداة",
+                    "en": "Tool / Equipment",
+                    "tr": "Alet / Ekipman"
+                },
+                {
+                    "ar": "مستهلكات تشغيل",
+                    "en": "Consumables",
+                    "tr": "Sarf Malzemeleri"
+                },
+                {
+                    "ar": "غير ذلك",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "product_condition",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة المنتج",
+                "en": "Product Condition",
+                "tr": "Ürün Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جديد",
+                    "en": "New",
+                    "tr": "Sıfır"
+                },
+                {
+                    "ar": "مستعمل بحالة جيدة",
+                    "en": "Used — Good Condition",
+                    "tr": "İyi Durumda İkinci El"
+                },
+                {
+                    "ar": "يحتاج صيانة",
+                    "en": "Needs Maintenance",
+                    "tr": "Bakım Gerekiyor"
+                }
+            ]
+        },
+        {
+            "id": "part_type",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "نوع القطعة",
+                "en": "Part Type",
+                "tr": "Parça Tipi"
+            },
+            "options": [
+                {
+                    "ar": "أصلية",
+                    "en": "Original (OEM)",
+                    "tr": "Orijinal (OEM)"
+                },
+                {
+                    "ar": "تجارية",
+                    "en": "Aftermarket",
+                    "tr": "Yan Sanayi"
+                },
+                {
+                    "ar": "مجددة",
+                    "en": "Refurbished",
+                    "tr": "Yenilenmiş"
+                },
+                {
+                    "ar": "مستعملة أصلية",
+                    "en": "Used Original",
+                    "tr": "Kullanılmış Orijinal"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "compatible_with",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "متوافق مع",
+                "en": "Compatible With",
+                "tr": "Uyumlu Olduğu"
+            }
+        },
+        {
+            "id": "part_number",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "رقم القطعة",
+                "en": "Part Number",
+                "tr": "Parça Numarası"
+            }
+        },
+        {
+            "id": "manufacturer",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الشركة المصنعة / الماركة",
+                "en": "Manufacturer / Brand",
+                "tr": "Üretici / Marka"
+            }
+        },
+        {
+            "id": "product_origin",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "مصدر المنتج",
+                "en": "Product Origin",
+                "tr": "Ürün Menşei"
+            },
+            "options": [
+                {
+                    "ar": "محلي",
+                    "en": "Local",
+                    "tr": "Yerli"
+                },
+                {
+                    "ar": "وارد كوريا",
+                    "en": "Imported from Korea",
+                    "tr": "Kore İthal"
+                },
+                {
+                    "ar": "وارد أوروبا",
+                    "en": "وارد أوروبا",
+                    "tr": "وارد أوروبا"
+                },
+                {
+                    "ar": "وارد أمريكا",
+                    "en": "وارد أمريكا",
+                    "tr": "وارد أمريكا"
+                },
+                {
+                    "ar": "وارد الصين",
+                    "en": "Imported from China",
+                    "tr": "Çin İthal"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "available_quantity",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الكمية المتوفرة",
+                "en": "Available Quantity",
+                "tr": "Mevcut Miktar"
+            }
+        },
+        {
+            "id": "warranty",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "ضمان",
+                "en": "Warranty",
+                "tr": "Garanti"
+            },
+            "options": [
+                {
+                    "ar": "يوجد ضمان",
+                    "en": "Under Warranty",
+                    "tr": "Garantili"
+                },
+                {
+                    "ar": "لا يوجد ضمان",
+                    "en": "No Warranty",
+                    "tr": "Garantisiz"
+                }
+            ]
+        },
+        {
+            "id": "shipping_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للشحن",
+                "en": "Shipping Available",
+                "tr": "Kargo Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "حسب الاتفاق",
+                    "en": "As Agreed",
+                    "tr": "Anlaşmaya Göre"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Seller Type",
+                "tr": "Satıcı Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك / بائع مباشر",
+                    "en": "Direct Seller",
+                    "tr": "Doğrudan Satıcı"
+                },
+                {
+                    "ar": "شركة",
+                    "en": "Company",
+                    "tr": "Şirket"
+                },
+                {
+                    "ar": "تاجر قطع",
+                    "en": "Parts Dealer",
+                    "tr": "Parça Tüccarı"
+                },
+                {
+                    "ar": "ورشة / مركز صيانة",
+                    "en": "Workshop / Service Center",
+                    "tr": "Atölye / Servis Merkezi"
+                }
+            ]
+        }
+    ]
+}

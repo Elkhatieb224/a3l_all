@@ -1,0 +1,705 @@
+{
+    "version": 1,
+    "description": "حقول إعلانات عقارات > تملك زمني > للبيع",
+    "fields": [
+        {
+            "id": "ad_title",
+            "type": "text",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عنوان الإعلان",
+                "en": "Listing Title",
+                "tr": "İlan Başlığı"
+            }
+        },
+        {
+            "id": "description",
+            "type": "textarea",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "الوصف",
+                "en": "Description",
+                "tr": "Açıklama"
+            }
+        },
+        {
+            "id": "price",
+            "type": "number",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "السعر",
+                "en": "Price",
+                "tr": "Fiyat"
+            }
+        },
+        {
+            "id": "currency",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "العملة",
+                "en": "Currency",
+                "tr": "Para Birimi"
+            },
+            "options": [
+                {
+                    "ar": "دولار أمريكي",
+                    "en": "US Dollar",
+                    "tr": "ABD Doları"
+                },
+                {
+                    "ar": "ليرة سورية",
+                    "en": "Syrian Pound",
+                    "tr": "Suriye Lirası"
+                },
+                {
+                    "ar": "ليرة تركية",
+                    "en": "Turkish Lira",
+                    "tr": "Türk Lirası"
+                }
+            ]
+        },
+        {
+            "id": "property_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع العقار",
+                "en": "Property Type",
+                "tr": "Mülk Tipi"
+            },
+            "options": [
+                {
+                    "ar": "شقة",
+                    "en": "شقة",
+                    "tr": "شقة"
+                },
+                {
+                    "ar": "ريزيدنس",
+                    "en": "Residence",
+                    "tr": "Rezidans"
+                },
+                {
+                    "ar": "فيلا",
+                    "en": "فيلا",
+                    "tr": "فيلا"
+                },
+                {
+                    "ar": "شاليه",
+                    "en": "Chalet",
+                    "tr": "Şale"
+                },
+                {
+                    "ar": "غرفة فندقية",
+                    "en": "Hotel Room",
+                    "tr": "Otel Odası"
+                },
+                {
+                    "ar": "منتجع / قرية سياحية",
+                    "en": "Resort / Tourist Village",
+                    "tr": "Tatil Köyü / Turistik Köy"
+                }
+            ]
+        },
+        {
+            "id": "project_resort_name",
+            "type": "text",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "اسم المشروع / المنتجع",
+                "en": "Project / Resort Name",
+                "tr": "Proje / Tatil Köyü Adı"
+            }
+        },
+        {
+            "id": "annual_usage_period",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "فترة الاستخدام السنوية",
+                "en": "Annual Usage Period",
+                "tr": "Yıllık Kullanım Periyodu"
+            },
+            "options": [
+                {
+                    "ar": "أسبوع",
+                    "en": "1 Week",
+                    "tr": "1 Hafta"
+                },
+                {
+                    "ar": "أسبوعان",
+                    "en": "2 Weeks",
+                    "tr": "2 Hafta"
+                },
+                {
+                    "ar": "شهر",
+                    "en": "One Month",
+                    "tr": "Bir Ay"
+                },
+                {
+                    "ar": "موسم كامل",
+                    "en": "Full Season",
+                    "tr": "Tam Sezon"
+                },
+                {
+                    "ar": "تاريخ محدد",
+                    "en": "Fixed Date",
+                    "tr": "Belirli Tarih"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "usage_duration",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مدة الاستخدام",
+                "en": "Usage Duration",
+                "tr": "Kullanım Süresi"
+            },
+            "options": [
+                {
+                    "ar": "7 أيام",
+                    "en": "7 Days",
+                    "tr": "7 Gün"
+                },
+                {
+                    "ar": "14 يوم",
+                    "en": "14 Days",
+                    "tr": "14 Gün"
+                },
+                {
+                    "ar": "30 يوم",
+                    "en": "30 Days",
+                    "tr": "30 Gün"
+                },
+                {
+                    "ar": "60 يوم",
+                    "en": "60 Days",
+                    "tr": "60 Gün"
+                },
+                {
+                    "ar": "90 يوم",
+                    "en": "90 Days",
+                    "tr": "90 Gün"
+                },
+                {
+                    "ar": "أخرى",
+                    "en": "Other",
+                    "tr": "Diğer"
+                }
+            ]
+        },
+        {
+            "id": "usage_month_season",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "شهر / موسم الاستخدام",
+                "en": "Usage Month / Season",
+                "tr": "Kullanım Ayı / Mevsimi"
+            },
+            "options": [
+                {
+                    "ar": "يناير",
+                    "en": "January",
+                    "tr": "Ocak"
+                },
+                {
+                    "ar": "فبراير",
+                    "en": "February",
+                    "tr": "Şubat"
+                },
+                {
+                    "ar": "مارس",
+                    "en": "March",
+                    "tr": "Mart"
+                },
+                {
+                    "ar": "أبريل",
+                    "en": "April",
+                    "tr": "Nisan"
+                },
+                {
+                    "ar": "مايو",
+                    "en": "May",
+                    "tr": "Mayıs"
+                },
+                {
+                    "ar": "يونيو",
+                    "en": "June",
+                    "tr": "Haziran"
+                },
+                {
+                    "ar": "يوليو",
+                    "en": "July",
+                    "tr": "Temmuz"
+                },
+                {
+                    "ar": "أغسطس",
+                    "en": "August",
+                    "tr": "Ağustos"
+                },
+                {
+                    "ar": "سبتمبر",
+                    "en": "September",
+                    "tr": "Eylül"
+                },
+                {
+                    "ar": "أكتوبر",
+                    "en": "October",
+                    "tr": "Ekim"
+                },
+                {
+                    "ar": "نوفمبر",
+                    "en": "November",
+                    "tr": "Kasım"
+                },
+                {
+                    "ar": "ديسمبر",
+                    "en": "December",
+                    "tr": "Aralık"
+                },
+                {
+                    "ar": "موسم الصيف",
+                    "en": "Summer Season",
+                    "tr": "Yaz Sezonu"
+                },
+                {
+                    "ar": "موسم الشتاء",
+                    "en": "Winter Season",
+                    "tr": "Kış Sezonu"
+                },
+                {
+                    "ar": "الأعياد والعطل",
+                    "en": "Holidays",
+                    "tr": "Tatiller"
+                },
+                {
+                    "ar": "مرن حسب الاتفاق",
+                    "en": "Flexible by Agreement",
+                    "tr": "Anlaşmaya Göre Esnek"
+                }
+            ]
+        },
+        {
+            "id": "rooms_count",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الغرف",
+                "en": "Number of Rooms",
+                "tr": "Oda Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "استوديو",
+                    "en": "Studio",
+                    "tr": "Stüdyo"
+                },
+                {
+                    "ar": "1+1",
+                    "en": "1+1",
+                    "tr": "1+1"
+                },
+                {
+                    "ar": "2+1",
+                    "en": "2+1",
+                    "tr": "2+1"
+                },
+                {
+                    "ar": "3+1",
+                    "en": "3+1",
+                    "tr": "3+1"
+                },
+                {
+                    "ar": "4+1",
+                    "en": "4+1",
+                    "tr": "4+1"
+                },
+                {
+                    "ar": "5+1",
+                    "en": "5+1",
+                    "tr": "5+1"
+                },
+                {
+                    "ar": "6+",
+                    "en": "6+",
+                    "tr": "6+"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "bathrooms_count",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "عدد الحمامات",
+                "en": "Number of Bathrooms",
+                "tr": "Banyo Sayısı"
+            },
+            "options": [
+                {
+                    "ar": "1",
+                    "en": "1",
+                    "tr": "1"
+                },
+                {
+                    "ar": "2",
+                    "en": "2",
+                    "tr": "2"
+                },
+                {
+                    "ar": "3",
+                    "en": "3",
+                    "tr": "3"
+                },
+                {
+                    "ar": "4",
+                    "en": "4",
+                    "tr": "4"
+                },
+                {
+                    "ar": "5+",
+                    "en": "5+",
+                    "tr": "5+"
+                },
+                {
+                    "ar": "غير محدد",
+                    "en": "Not Specified",
+                    "tr": "Belirtilmemiş"
+                }
+            ]
+        },
+        {
+            "id": "furnished",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "مفروش",
+                "en": "Furnished",
+                "tr": "Eşyalı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                },
+                {
+                    "ar": "جزئيًا",
+                    "en": "Partially",
+                    "tr": "Kısmen"
+                }
+            ]
+        },
+        {
+            "id": "kitchen_type",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "المطبخ",
+                "en": "Kitchen",
+                "tr": "Mutfak"
+            },
+            "options": [
+                {
+                    "ar": "مطبخ مفتوح",
+                    "en": "Open Kitchen",
+                    "tr": "Açık Mutfak"
+                },
+                {
+                    "ar": "مطبخ منفصل",
+                    "en": "Separate Kitchen",
+                    "tr": "Ayrı Mutfak"
+                },
+                {
+                    "ar": "مطبخ صغير",
+                    "en": "Small Kitchen",
+                    "tr": "Küçük Mutfak"
+                },
+                {
+                    "ar": "لا يوجد",
+                    "en": "None",
+                    "tr": "Yok"
+                }
+            ]
+        },
+        {
+            "id": "utilities_facilities",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الخدمات والمرافق",
+                "en": "Utilities & Facilities",
+                "tr": "Altyapı ve Olanaklar"
+            },
+            "multiple": true,
+            "options": [
+                {
+                    "ar": "مسبح",
+                    "en": "مسبح",
+                    "tr": "مسبح"
+                },
+                {
+                    "ar": "موقف سيارة",
+                    "en": "موقف سيارة",
+                    "tr": "موقف سيارة"
+                },
+                {
+                    "ar": "حديقة",
+                    "en": "Garden",
+                    "tr": "Bahçe"
+                },
+                {
+                    "ar": "إنترنت",
+                    "en": "Internet",
+                    "tr": "İnternet"
+                },
+                {
+                    "ar": "تكييف / تدفئة",
+                    "en": "تكييف / تدفئة",
+                    "tr": "تكييف / تدفئة"
+                },
+                {
+                    "ar": "أمن",
+                    "en": "Security",
+                    "tr": "Güvenlik"
+                },
+                {
+                    "ar": "استقبال",
+                    "en": "Reception",
+                    "tr": "Resepsiyon"
+                },
+                {
+                    "ar": "مطعم / كافيه",
+                    "en": "Restaurant / Café",
+                    "tr": "Restoran / Kafe"
+                },
+                {
+                    "ar": "شاطئ خاص",
+                    "en": "Private Beach",
+                    "tr": "Özel Plaj"
+                }
+            ]
+        },
+        {
+            "id": "annual_fees",
+            "type": "number",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "الخدمات السنوية / الرسوم السنوية",
+                "en": "Annual Fees / Service Charges",
+                "tr": "Yıllık Ücretler / Aidat"
+            }
+        },
+        {
+            "id": "ownership_transferable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابلية نقل الملكية",
+                "en": "Ownership Transferable",
+                "tr": "Mülkiyet Devredilebilir"
+            },
+            "options": [
+                {
+                    "ar": "قابلة للنقل",
+                    "en": "Transferable",
+                    "tr": "Devredilebilir"
+                },
+                {
+                    "ar": "غير قابلة للنقل",
+                    "en": "Not Transferable",
+                    "tr": "Devredilemez"
+                },
+                {
+                    "ar": "حسب العقد",
+                    "en": "Per Contract",
+                    "tr": "Sözleşmeye Göre"
+                }
+            ]
+        },
+        {
+            "id": "contract_ownership_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "نوع العقد / الملكية",
+                "en": "Contract / Ownership Type",
+                "tr": "Sözleşme / Mülkiyet Tipi"
+            },
+            "options": [
+                {
+                    "ar": "عقد تملك زمني",
+                    "en": "Timeshare Contract",
+                    "tr": "Devremülk Sözleşmesi"
+                },
+                {
+                    "ar": "عقد انتفاع",
+                    "en": "Usufruct Contract",
+                    "tr": "İntifa Sözleşmesi"
+                },
+                {
+                    "ar": "سند ملكية",
+                    "en": "Title Deed",
+                    "tr": "Tapu"
+                },
+                {
+                    "ar": "عقد شركة إدارة",
+                    "en": "Management Company Contract",
+                    "tr": "Yönetim Şirketi Sözleşmesi"
+                },
+                {
+                    "ar": "غير معروف",
+                    "en": "Unknown",
+                    "tr": "Bilinmiyor"
+                }
+            ]
+        },
+        {
+            "id": "usage_status",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "حالة الاستخدام",
+                "en": "Usage Status",
+                "tr": "Kullanım Durumu"
+            },
+            "options": [
+                {
+                    "ar": "جاهز للاستخدام",
+                    "en": "Ready to Use",
+                    "tr": "Kullanıma Hazır"
+                },
+                {
+                    "ar": "قيد التسليم",
+                    "en": "Pending Handover",
+                    "tr": "Teslim Sürecinde"
+                },
+                {
+                    "ar": "مستخدم سابقًا",
+                    "en": "Previously Used",
+                    "tr": "Daha Önce Kullanılmış"
+                },
+                {
+                    "ar": "يحتاج تجديد / صيانة",
+                    "en": "Needs Renovation / Maintenance",
+                    "tr": "Yenileme / Bakım Gerekiyor"
+                }
+            ]
+        },
+        {
+            "id": "seller_type",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "صفة المعلن",
+                "en": "Advertiser Type",
+                "tr": "İlan Sahibi Türü"
+            },
+            "options": [
+                {
+                    "ar": "مالك",
+                    "en": "Owner",
+                    "tr": "Mal Sahibi"
+                },
+                {
+                    "ar": "مكتب عقاري",
+                    "en": "Real Estate Office",
+                    "tr": "Emlak Ofisi"
+                },
+                {
+                    "ar": "وكيل",
+                    "en": "Agent",
+                    "tr": "Temsilci"
+                },
+                {
+                    "ar": "وسيط",
+                    "en": "Broker",
+                    "tr": "Aracı"
+                }
+            ]
+        },
+        {
+            "id": "negotiable",
+            "type": "select",
+            "required": true,
+            "is_active": true,
+            "label": {
+                "ar": "قابل للتفاوض",
+                "en": "Price Negotiable",
+                "tr": "Pazarlık Payı"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        },
+        {
+            "id": "delivery_available",
+            "type": "select",
+            "required": false,
+            "is_active": true,
+            "label": {
+                "ar": "إمكانية الداكيش",
+                "en": "Delivery Available",
+                "tr": "Teslimat Mevcut"
+            },
+            "options": [
+                {
+                    "ar": "نعم",
+                    "en": "Yes",
+                    "tr": "Evet"
+                },
+                {
+                    "ar": "لا",
+                    "en": "No",
+                    "tr": "Hayır"
+                }
+            ]
+        }
+    ]
+}
