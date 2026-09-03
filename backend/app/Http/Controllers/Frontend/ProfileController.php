@@ -1069,6 +1069,21 @@ class ProfileController extends Controller
             }
         }
 
+        if (! $user->is_verified) {
+            $schema = array_values($customFieldsStructure);
+            $merged = array_merge($currentCustomFields, $customFieldValues);
+            $merged = \App\Support\SellerTypeField::applyLockedOwner($merged, $schema, $user);
+            $locked = $merged[\App\Support\SellerTypeField::FIELD_ID] ?? null;
+            if ($locked !== null) {
+                $currentSeller = $currentCustomFields[\App\Support\SellerTypeField::FIELD_ID] ?? null;
+                if ($currentSeller != $locked) {
+                    $customFieldValues[\App\Support\SellerTypeField::FIELD_ID] = $locked;
+                } else {
+                    unset($customFieldValues[\App\Support\SellerTypeField::FIELD_ID]);
+                }
+            }
+        }
+
         // Prepare pending changes - only include changed values
         $pendingChanges = [];
 

@@ -628,7 +628,14 @@ class AdController extends Controller
 
         if (isset($validated['custom_fields'])) {
             $validated['custom_fields'] = \App\Support\CustomFieldValidation::normalizeStoredValues($validated['custom_fields']);
+        } else {
+            $validated['custom_fields'] = [];
         }
+        $validated['custom_fields'] = \App\Support\SellerTypeField::applyLockedOwner(
+            $validated['custom_fields'],
+            \App\Support\CustomFieldsResolver::resolveActiveFields($category, $subcategory),
+            $user
+        );
 
         // صور الإعلان: رفع أو مسار من معرض لوحة التحكم
         $images = [];

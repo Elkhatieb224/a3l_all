@@ -425,6 +425,13 @@ class AdController extends Controller
             }
         }
 
+        $customFields = \App\Support\SellerTypeField::applyLockedOwner(
+            $customFields,
+            $fieldSchema,
+            $user,
+            'ar'
+        );
+
         // صور الإعلان: رفع من المستخدم أو مسار من معرض لوحة التحكم
         $images = [];
         if ($imgCfg['mode'] === AdImagesConfig::MODE_ADMIN_GALLERY) {
@@ -711,6 +718,22 @@ class AdController extends Controller
             if ($normalizedNew == $currentValue) continue;
             $customFieldValues[$fieldId] = $normalizedNew;
         }
+
+        if (! $user->is_verified) {
+            $schema = array_values($customFieldsStructure);
+            $merged = array_merge($currentCustomFields, $customFieldValues);
+            $merged = \App\Support\SellerTypeField::applyLockedOwner($merged, $schema, $user, 'ar');
+            $locked = $merged[\App\Support\SellerTypeField::FIELD_ID] ?? null;
+            if ($locked !== null) {
+                $currentSeller = $currentCustomFields[\App\Support\SellerTypeField::FIELD_ID] ?? null;
+                if ($currentSeller != $locked) {
+                    $customFieldValues[\App\Support\SellerTypeField::FIELD_ID] = $locked;
+                } else {
+                    unset($customFieldValues[\App\Support\SellerTypeField::FIELD_ID]);
+                }
+            }
+        }
+
         if (!empty($customFieldValues)) {
             $pendingChanges['custom_fields'] = $customFieldValues;
         }

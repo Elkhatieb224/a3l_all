@@ -118,6 +118,11 @@
                                     $fieldLabel = $field['label'][app()->getLocale()] ?? $field['label']['ar'] ?? $fieldId;
                                     $isRequired = $field['required'] ?? false;
                                     $fieldValue = old('custom_fields.' . $fieldId);
+                                    $isSellerType = \App\Support\SellerTypeField::isField($field);
+                                    $sellerTypeLocked = $isSellerType && !auth()->user()->is_verified;
+                                    if ($sellerTypeLocked) {
+                                        $fieldValue = \App\Support\SellerTypeField::ownerStoredValue($field);
+                                    }
                                 @endphp
 
                                 <div>
@@ -135,15 +140,24 @@
                                                   class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary"
                                                   @if($isRequired) required @endif>{{ $fieldValue }}</textarea>
                                     @elseif($fieldType === 'select' && isset($field['options']))
-                                        <select name="custom_fields[{{ $fieldId }}]"
+                                        @if($sellerTypeLocked)
+                                            <input type="hidden" name="custom_fields[{{ $fieldId }}]" value="{{ $fieldValue }}">
+                                        @endif
+                                        <select name="{{ $sellerTypeLocked ? '' : 'custom_fields['.$fieldId.']' }}"
                                                 id="custom_fields_{{ $fieldId }}"
-                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary"
-                                                @if($isRequired) required @endif>
-                                            <option value="">{{ __('frontend.ads.select_option') }}</option>
+                                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary focus:border-primary {{ $sellerTypeLocked ? 'bg-gray-100 cursor-not-allowed' : '' }}"
+                                                @if($sellerTypeLocked) disabled @endif
+                                                @if($isRequired && !$sellerTypeLocked) required @endif>
+                                            @unless($sellerTypeLocked)
+                                                <option value="">{{ __('frontend.ads.select_option') }}</option>
+                                            @endunless
                                             @foreach($field['options'] as $option)
-                                                <option value="{{ $option[app()->getLocale()] ?? $option['ar'] ?? $option }}"
-                                                        {{ $fieldValue == ($option[app()->getLocale()] ?? $option['ar'] ?? $option) ? 'selected' : '' }}>
-                                                    {{ $option[app()->getLocale()] ?? $option['ar'] ?? $option }}
+                                                @php
+                                                    $optionValue = $option[app()->getLocale()] ?? $option['ar'] ?? $option;
+                                                @endphp
+                                                <option value="{{ $optionValue }}"
+                                                        {{ $fieldValue == $optionValue ? 'selected' : '' }}>
+                                                    {{ $optionValue }}
                                                 </option>
                                             @endforeach
                                         </select>
