@@ -805,14 +805,23 @@ class _HomePageState extends State<HomePage> with TickerProviderStateMixin {
                       ),
                     ),
                   ),
-                ],
-              ),
-            ),
-              MyDrawerWidget(
-                drawerSlide: _drawerSlide,
-                categories: _categories,
-                categoriesLoading: _categoriesLoading,
-                onDismiss: () => _controller.reverse(),
+            ],
+          ),
+        ),
+              // Positioned يجب أن يكون ابناً مباشراً لـ Stack (ليس داخل AnimatedBuilder)
+              // وإلا في release يحدث TypeError → ErrorWidget رمادي على كامل الـ body.
+              Positioned(
+                top: kToolbarHeight - 65.h,
+                bottom: 0,
+                left: 0,
+                right: 0,
+                child: MyDrawerWidget(
+                  drawerSlide: _drawerSlide,
+                  drawerController: _controller,
+                  categories: _categories,
+                  categoriesLoading: _categoriesLoading,
+                  onDismiss: () => _controller.reverse(),
+                ),
               ),
             ],
           ),
@@ -838,15 +847,18 @@ class MyDrawerWidget extends StatelessWidget {
   const MyDrawerWidget({
     super.key,
     required Animation<Offset> drawerSlide,
+    required AnimationController drawerController,
     required List<CategoryModel> categories,
     required bool categoriesLoading,
     required VoidCallback onDismiss,
   })  : _drawerSlide = drawerSlide,
+        _drawerController = drawerController,
         _categories = categories,
         _categoriesLoading = categoriesLoading,
         _onDismiss = onDismiss;
 
   final Animation<Offset> _drawerSlide;
+  final AnimationController _drawerController;
   final List<CategoryModel> _categories;
   final bool _categoriesLoading;
   final VoidCallback _onDismiss;
@@ -854,113 +866,109 @@ class MyDrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return AnimatedBuilder(
-      animation: _drawerSlide,
+      animation: _drawerController,
       builder: (context, child) {
-        final isOpen = _drawerSlide.value.dx < 2.0;
-        if (!isOpen) {
-          return Positioned.fill(child: const SizedBox.shrink());
-        }
-        return Positioned(
-          top: kToolbarHeight - 65.h,
-          bottom: 0,
-          left: 0,
-          right: 0,
-          child: GestureDetector(
-            behavior: HitTestBehavior.opaque,
-            onTap: _onDismiss,
-            child: Align(
-              alignment: Alignment.centerRight,
-              child: SizedBox(
-                width: MediaQuery.sizeOf(context).width / 1.2,
-                child: SlideTransition(
-                  position: _drawerSlide,
-                  child: Material(
-                    elevation: 8,
-                    color: Colors.white,
-                    child: Column(
-                      children: [
-                        Container(
-                          padding: EdgeInsets.all(16.w),
-                          width: double.infinity,
-                          color: AppColors.darkBlue,
+        final isOpen = _drawerController.status != AnimationStatus.dismissed;
+        return IgnorePointer(
+          ignoring: !isOpen,
+          child: !isOpen
+              ? const SizedBox.expand()
+              : GestureDetector(
+                  behavior: HitTestBehavior.opaque,
+                  onTap: _onDismiss,
+                  child: Align(
+                    alignment: Alignment.centerRight,
+                    child: SizedBox(
+                      width: MediaQuery.sizeOf(context).width / 1.2,
+                      child: SlideTransition(
+                        position: _drawerSlide,
+                        child: Material(
+                          elevation: 8,
+                          color: Colors.white,
                           child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text(
-                                AppLocale.tr('aalenha'),
-                                style: TextStyle(
-                                  fontSize: 16.sp,
-                                  fontWeight: FontWeight.bold,
-                                  color: Colors.white,
+                              Container(
+                                padding: EdgeInsets.all(16.w),
+                                width: double.infinity,
+                                color: AppColors.darkBlue,
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      AppLocale.tr('aalenha'),
+                                      style: TextStyle(
+                                        fontSize: 16.sp,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                    SizedBox(height: 10.h),
+                                    DrawerHeaderRow(
+                                      title: TokenStorage.hasToken()
+                                          ? AppLocale.tr('my_account')
+                                          : AppLocale.tr('login'),
+                                      imagePath: "assets/images/Cart.png",
+                                      onTap: () {
+                                        FocusManager.instance.primaryFocus?.unfocus();
+                                        if (TokenStorage.hasToken()) {
+                                          context.push(MyAccountPage());
+                                        } else {
+                                          context.push(LoginPage());
+                                        }
+                                      },
+                                    ),
+                                    SizedBox(height: 12.h),
+                                    DrawerHeaderRow(
+                                      title: AppLocale.tr('post_ad'),
+                                      imagePath: "assets/images/مايك 1.png",
+                                      onTap: () {
+                                        FocusManager.instance.primaryFocus?.unfocus();
+                                        if (TokenStorage.hasToken()) {
+                                          context.push(PostAdStepperPage(title: AppLocale.tr('create_ad')));
+                                        } else {
+                                          context.push(LoginPage());
+                                        }
+                                      },
+                                    ),
+                                    SizedBox(height: 12.h),
+                                    DrawerHeaderRow(
+                                      title: AppLocale.tr('app_info'),
+                                      imagePath: "assets/images/ix_support.png",
+                                      onTap: () {
+                                        FocusManager.instance.primaryFocus?.unfocus();
+                                        context.push(InfoAboutAppPage());
+                                      },
+                                    ),
+                                    DrawerHeaderRow(
+                                      title: AppLocale.tr('terms_conditions'),
+                                      imagePath: "assets/images/ix_support.png",
+                                      onTap: () {
+                                        FocusManager.instance.primaryFocus?.unfocus();
+                                        context.push(TermsPage());
+                                      },
+                                    ),
+                                    DrawerHeaderRow(
+                                      title: AppLocale.tr('privacy_policy'),
+                                      imagePath: "assets/images/ix_support.png",
+                                      onTap: () {
+                                        FocusManager.instance.primaryFocus?.unfocus();
+                                        context.push(PrivacyPage());
+                                      },
+                                    ),
+                                  ],
                                 ),
                               ),
-                              SizedBox(height: 10.h),
-                              DrawerHeaderRow(
-                                title: TokenStorage.hasToken()
-                                    ? AppLocale.tr('my_account')
-                                    : AppLocale.tr('login'),
-                                imagePath: "assets/images/Cart.png",
-                                onTap: () {
-                                  FocusManager.instance.primaryFocus?.unfocus();
-                                  if (TokenStorage.hasToken()) {
-                                    context.push(MyAccountPage());
-                                  } else {
-                                    context.push(LoginPage());
-                                  }
-                                },
-                              ),
-                              SizedBox(height: 12.h),
-                              DrawerHeaderRow(
-                                title: AppLocale.tr('post_ad'),
-                                imagePath: "assets/images/مايك 1.png",
-                                onTap: () {
-                                  FocusManager.instance.primaryFocus?.unfocus();
-                                  if (TokenStorage.hasToken()) {
-                                    context.push(PostAdStepperPage(title: AppLocale.tr('create_ad')));
-                                  } else {
-                                    context.push(LoginPage());
-                                  }
-                                },
-                              ),
-                              SizedBox(height: 12.h),
-                              DrawerHeaderRow(
-                                title: AppLocale.tr('app_info'),
-                                imagePath: "assets/images/ix_support.png",
-                                onTap: () {
-                                  FocusManager.instance.primaryFocus?.unfocus();
-                                  context.push(InfoAboutAppPage());
-                                },
-                              ),
-                              DrawerHeaderRow(
-                                title: AppLocale.tr('terms_conditions'),
-                                imagePath: "assets/images/ix_support.png",
-                                onTap: () {
-                                  FocusManager.instance.primaryFocus?.unfocus();
-                                  context.push(TermsPage());
-                                },
-                              ),
-                              DrawerHeaderRow(
-                                title: AppLocale.tr('privacy_policy'),
-                                imagePath: "assets/images/ix_support.png",
-                                onTap: () {
-                                  FocusManager.instance.primaryFocus?.unfocus();
-                                  context.push(PrivacyPage());
-                                },
+                              DrawerContent(
+                                categories: _categories,
+                                categoriesLoading: _categoriesLoading,
                               ),
                             ],
                           ),
                         ),
-                        DrawerContent(
-                          categories: _categories,
-                          categoriesLoading: _categoriesLoading,
-                        ),
-                      ],
+                      ),
                     ),
                   ),
                 ),
-              ),
-            ),
-          ),
         );
       },
     );

@@ -17,8 +17,18 @@ class AdStatusBadgeIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // featured_badge.svg ملف ضخم مُحوَّل من صورة ويسبب ضغط ذاكرة في release.
+    if (isFeatured) {
+      return Image.asset(
+        'assets/images/featured_badge.png',
+        width: size,
+        height: size,
+        fit: BoxFit.contain,
+        filterQuality: FilterQuality.medium,
+      );
+    }
     return SvgPicture.asset(
-      isFeatured ? 'assets/images/featured_badge.svg' : 'assets/images/urgent_badge.svg',
+      'assets/images/urgent_badge.svg',
       width: size,
       height: size,
       fit: BoxFit.contain,

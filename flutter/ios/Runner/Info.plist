@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>A3lnha</string>
+	<string>أعلنها</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -49,8 +49,14 @@
 	<string>يُستخدم لتحديد موقعك على الخريطة عند إضافة أو تعديل إعلان.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>يُستخدم لتحديد موقعك على الخريطة عند إضافة أو تعديل إعلان.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>يُستخدم لالتقاط صور الإعلان من الكاميرا.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>يُستخدم لاختيار صور الإعلان من مكتبة الصور.</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>يُستخدم لحفظ صورة المشاركة في مكتبة الصور الخاصة بك.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>يُستخدم عند تسجيل فيديو للإعلان إن لزم الأمر.</string>
 	<key>GMSApiKey</key>
 	<string>$(GOOGLE_MAPS_API_KEY)</string>
 </dict>

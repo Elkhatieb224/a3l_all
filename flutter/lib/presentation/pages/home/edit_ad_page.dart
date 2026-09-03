@@ -8,7 +8,9 @@ import 'package:a3lnha/data/models/subcategory_model.dart';
 import 'package:a3lnha/helpers/custom_fields_resolver.dart';
 import 'package:a3lnha/data/services/ad_service.dart';
 import 'package:a3lnha/data/services/category_service.dart';
+import 'package:a3lnha/data/services/user_service.dart';
 import 'package:a3lnha/helpers/extentions.dart';
+import 'package:a3lnha/helpers/seller_type_field.dart';
 import 'package:a3lnha/core/support/car_body_map_support.dart';
 import 'package:a3lnha/presentation/widgets/car_body_map_widget.dart';
 import 'package:a3lnha/presentation/widgets/auth/text_form_with_label.dart';
@@ -38,6 +40,7 @@ class _EditAdPageState extends State<EditAdPage> {
   bool _loading = true;
   bool _saving = false;
   String? _currency;
+  bool _isUserVerified = false;
   List<Map<String, dynamic>>? _categoryCustomFields;
   Map<String, dynamic> _customFields = {};
   final Map<String, TextEditingController> _customControllers = {};
@@ -126,8 +129,11 @@ class _EditAdPageState extends State<EditAdPage> {
 
   Future<void> _load() async {
     setState(() => _loading = true);
+    final userFuture = UserService.getUser();
     final response = await AdService.getMyAdDetails(widget.adUid);
+    final user = await userFuture;
     if (!mounted) return;
+    _isUserVerified = user?.isVerified ?? false;
     if (response == null) {
       setState(() {
         _loading = false;
@@ -257,8 +263,31 @@ class _EditAdPageState extends State<EditAdPage> {
               _customControllers[fieldId] = controller;
             }
       }
+      _applySellerTypeLock();
     }
     setState(() => _loading = false);
+  }
+
+  bool get _sellerTypeLocked => !_isUserVerified;
+
+  void _applySellerTypeLock() {
+    if (!_sellerTypeLocked) return;
+    for (final f in _activeFields) {
+      if (!SellerTypeField.isField(f)) continue;
+      final id = SellerTypeField.fieldId;
+      final owner = SellerTypeField.ownerStoredValue(
+        f,
+        valueOf: (opt) => _getOptionValue(opt),
+      );
+      final c = _customControllers[id];
+      if (c != null) {
+        c.text = owner;
+      } else {
+        _customControllers[id] = TextEditingController(text: owner);
+      }
+      _customFields[id] = owner;
+      break;
+    }
   }
 
   Future<void> _save() async {
@@ -316,6 +345,16 @@ class _EditAdPageState extends State<EditAdPage> {
         customFields[fieldId] = v.isEmpty ? null : (NumeralHelper.parseFormattedAmount(v) ?? NumeralHelper.parseAmount(v) ?? v);
       } else {
         customFields[fieldId] = v;
+      }
+    }
+    if (_sellerTypeLocked) {
+      for (final f in _activeFields) {
+        if (!SellerTypeField.isField(f)) continue;
+        customFields[SellerTypeField.fieldId] = SellerTypeField.ownerStoredValue(
+          f,
+          valueOf: (opt) => _getOptionValue(opt),
+        );
+        break;
       }
     }
     // إرسال السعر الرئيسي من أول حقل رقم+عملة حتى يُحدَّث عمود price في الجدول
@@ -476,9 +515,17 @@ class _EditAdPageState extends State<EditAdPage> {
     }
     if (type == 'select') {
       final options = (field['options'] as List?) ?? [];
+      final locked = SellerTypeField.isField(field) && _sellerTypeLocked;
       String? currentVal;
       final c = _customControllers[id];
       if (c != null && c.text.isNotEmpty) currentVal = c.text;
+      if (locked) {
+        currentVal = SellerTypeField.ownerStoredValue(
+          field,
+          valueOf: (opt) => _getOptionValue(opt),
+        );
+        if (c != null) c.text = currentVal;
+      }
       final validValues = options.map((opt) => _getOptionValue(opt)).toList();
       if (currentVal != null && currentVal.isNotEmpty && !validValues.contains(currentVal)) {
         currentVal = null;
@@ -490,9 +537,12 @@ class _EditAdPageState extends State<EditAdPage> {
           decoration: InputDecoration(
             labelText: labelText,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(8.r)),
+            filled: locked,
+            fillColor: locked ? Colors.grey.shade100 : null,
           ),
           items: [
-            DropdownMenuItem<String?>(value: null, child: Text(AppLocale.tr('select_option'))),
+            if (!locked)
+              DropdownMenuItem<String?>(value: null, child: Text(AppLocale.tr('select_option'))),
             ...options.map((opt) {
               final val = _getOptionValue(opt);
               return DropdownMenuItem<String?>(
@@ -501,10 +551,12 @@ class _EditAdPageState extends State<EditAdPage> {
               );
             }),
           ],
-          onChanged: (v) {
-            final ctrl = _customControllers[id];
-            if (ctrl != null) ctrl.text = v ?? '';
-          },
+          onChanged: locked
+              ? null
+              : (v) {
+                  final ctrl = _customControllers[id];
+                  if (ctrl != null) ctrl.text = v ?? '';
+                },
         ),
       );
     }

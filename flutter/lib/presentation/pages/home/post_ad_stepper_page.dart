@@ -13,9 +13,11 @@ import 'package:a3lnha/data/models/subcategory_model.dart';
 import 'package:a3lnha/data/services/ad_service.dart';
 import 'package:a3lnha/data/services/category_service.dart';
 import 'package:a3lnha/data/services/region_service.dart';
+import 'package:a3lnha/data/services/user_service.dart';
 import 'package:a3lnha/helpers/custom_fields_resolver.dart';
 import 'package:a3lnha/helpers/extentions.dart';
 import 'package:a3lnha/helpers/numeral_helper.dart';
+import 'package:a3lnha/helpers/seller_type_field.dart';
 import 'package:a3lnha/presentation/pages/home/thank_you_page.dart';
 import 'package:a3lnha/presentation/pages/payement/quta_pages.dart';
 import 'package:a3lnha/core/support/car_body_map_support.dart';
@@ -908,12 +910,42 @@ class _DetailsStepState extends State<_DetailsStep> {
   final Map<String, String> _customCurrency = {}; // fieldId -> currency code for number+currency
   final Map<String, bool> _customTbd = {}; // fieldId -> true when "يُحدَّد لاحقًا" is chosen for number+currency
   final Map<String, Map<String, dynamic>> _customCarBodyMaps = {};
+  bool _isUserVerified = false;
 
   @override
   void initState() {
     super.initState();
     _initCustomFields();
+    _loadUserVerification();
   }
+
+  Future<void> _loadUserVerification() async {
+    final user = await UserService.getUser();
+    if (!mounted) return;
+    setState(() {
+      _isUserVerified = user?.isVerified ?? false;
+      _applySellerTypeLock();
+    });
+  }
+
+  void _applySellerTypeLock() {
+    if (_isUserVerified) return;
+    for (final f in _getActiveCustomFields()) {
+      if (!SellerTypeField.isField(f)) continue;
+      final id = SellerTypeField.fieldId;
+      final owner = SellerTypeField.ownerStoredValue(f);
+      final ctrl = _customControllers[id];
+      if (ctrl != null) {
+        ctrl.text = owner;
+      } else {
+        _customControllers[id] = TextEditingController(text: owner);
+      }
+      widget.data.customFields[id] = owner;
+      break;
+    }
+  }
+
+  bool get _sellerTypeLocked => !_isUserVerified;
 
   @override
   void didUpdateWidget(covariant _DetailsStep oldWidget) {
@@ -989,6 +1021,7 @@ class _DetailsStepState extends State<_DetailsStep> {
             widget.data.customFields[id] == '1';
       }
     }
+    _applySellerTypeLock();
   }
 
 
@@ -1146,9 +1179,14 @@ class _DetailsStepState extends State<_DetailsStep> {
     }
     if (type == 'select') {
       final options = (field['options'] as List?) ?? [];
+      final locked = SellerTypeField.isField(field) && _sellerTypeLocked;
       String? currentVal;
       final c = _customControllers[id];
       if (c != null && c.text.isNotEmpty) currentVal = c.text;
+      if (locked) {
+        currentVal = SellerTypeField.ownerStoredValue(field);
+        if (c != null) c.text = currentVal;
+      }
       final validValues = options.map((opt) {
         final v = opt is Map
             ? (opt['ar'] ?? opt['en'] ?? opt['tr'] ?? '').toString()
@@ -1165,9 +1203,12 @@ class _DetailsStepState extends State<_DetailsStep> {
           decoration: InputDecoration(
             labelText: labelText,
             border: OutlineInputBorder(borderRadius: BorderRadius.circular(8.r)),
+            filled: locked,
+            fillColor: locked ? Colors.grey.shade100 : null,
           ),
           items: [
-            DropdownMenuItem<String?>(value: null, child: Text(AppLocale.tr('select_option'))),
+            if (!locked)
+              DropdownMenuItem<String?>(value: null, child: Text(AppLocale.tr('select_option'))),
             ...options.map((opt) {
               final val = opt is Map
                   ? (opt['ar'] ?? opt['en'] ?? opt['tr'] ?? '').toString()
@@ -1178,10 +1219,12 @@ class _DetailsStepState extends State<_DetailsStep> {
               );
             }),
           ],
-          onChanged: (v) {
-            final ctrl = _customControllers[id];
-            if (ctrl != null) ctrl.text = v ?? '';
-          },
+          onChanged: locked
+              ? null
+              : (v) {
+                  final ctrl = _customControllers[id];
+                  if (ctrl != null) ctrl.text = v ?? '';
+                },
         ),
       );
     }
@@ -1433,6 +1476,14 @@ class _DetailsStepState extends State<_DetailsStep> {
             data.customFields[id] = c.text;
           }
         }
+      }
+    }
+    if (_sellerTypeLocked) {
+      for (final f in _getActiveCustomFields()) {
+        if (!SellerTypeField.isField(f)) continue;
+        data.customFields[SellerTypeField.fieldId] =
+            SellerTypeField.ownerStoredValue(f);
+        break;
       }
     }
     // استخراج الحقول الأساسية من custom_fields للـ API

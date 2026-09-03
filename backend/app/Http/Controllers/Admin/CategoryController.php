@@ -54,7 +54,8 @@ class CategoryController extends Controller
             'name_en' => 'required|string|max:255',
             'name_tr' => 'required|string|max:255',
             'slug' => 'required|string|unique:categories,slug',
-            'icon' => 'nullable|file|mimes:jpeg,png,jpg,webp,svg,gif,bmp,avif,ico|max:4096',
+            // SVG غير مدعوم في تطبيق Flutter (ملفات Illustrator تستنزف الذاكرة)
+            'icon' => 'nullable|file|mimes:jpeg,png,jpg,webp,gif|max:4096',
             'order' => 'nullable|integer',
             'ad_images_max' => 'nullable|integer|min:1|max:50',
             'enable_negotiation' => 'nullable|boolean',
@@ -66,7 +67,7 @@ class CategoryController extends Controller
         $data['is_active'] = $request->has('is_active');
         $data['enable_negotiation'] = $request->has('enable_negotiation');
         
-        // Handle icon upload (تحويل الصور لـ WebP، SVG تُحفظ كما هي)
+        // Handle icon upload (تحويل الصور لـ WebP)
         if ($request->hasFile('icon')) {
             $data['icon'] = store_image_as_webp($request->file('icon'), 'categories/icons');
         }
@@ -107,7 +108,7 @@ class CategoryController extends Controller
             'name_en' => 'required|string|max:255',
             'name_tr' => 'required|string|max:255',
             'slug' => 'required|string|unique:categories,slug,' . $id,
-            'icon' => 'nullable|file|mimes:jpeg,png,jpg,webp,svg,gif,bmp,avif,ico|max:4096',
+            'icon' => 'nullable|file|mimes:jpeg,png,jpg,webp,gif|max:4096',
             'order' => 'nullable|integer',
             'ad_images_max' => 'nullable|integer|min:1|max:50',
             'enable_negotiation' => 'nullable|boolean',

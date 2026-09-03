@@ -2,11 +2,40 @@ import 'package:a3lnha/core/cache/app_image_cache.dart';
 import 'package:a3lnha/core/styles/colors.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 bool _isSvgUrl(String url) {
   final lower = url.toLowerCase();
   return lower.endsWith('.svg') || lower.contains('.svg?');
+}
+
+/// أيقونات الأقسام من السيرفر غالباً SVG من Illustrator (مئات الـ KB + filters).
+/// `flutter_svg` لا يدعمها بشكل آمن ويستنزف الذاكرة في release / Play → شاشة رمادية.
+Widget _networkSvgFallback({
+  required BuildContext context,
+  double? width,
+  double? height,
+  Widget Function(BuildContext)? placeholder,
+  Widget Function(BuildContext, Object)? errorBuilder,
+}) {
+  if (errorBuilder != null) {
+    return SizedBox(
+      width: width,
+      height: height,
+      child: errorBuilder(context, StateError('network-svg-skipped')),
+    );
+  }
+  if (placeholder != null) {
+    return SizedBox(
+      width: width,
+      height: height,
+      child: placeholder(context),
+    );
+  }
+  return SizedBox(
+    width: width,
+    height: height,
+    child: ColoredBox(color: Colors.grey[200]!),
+  );
 }
 
 class AvatarWithFallback extends StatelessWidget {
@@ -43,7 +72,7 @@ class AvatarWithFallback extends StatelessWidget {
     return CircleAvatar(
       radius: radius,
       backgroundColor: Colors.grey[300],
-      child: url == null || url.isEmpty
+      child: url == null || url.isEmpty || _isSvgUrl(url)
           ? fallback
           : ClipOval(
               child: CachedNetworkImage(
@@ -124,16 +153,11 @@ class AppNetworkImage extends StatelessWidget {
     if (_isSvgUrl(url)) {
       return ClipRRect(
         borderRadius: borderRadius ?? BorderRadius.zero,
-        child: SvgPicture.network(
-          url,
+        child: _networkSvgFallback(
+          context: context,
           width: width,
           height: height,
-          fit: fit,
-          placeholderBuilder: (_) => SizedBox(
-            width: width,
-            height: height,
-            child: _placeholder(context),
-          ),
+          placeholder: (_) => _placeholder(context),
         ),
       );
     }
@@ -193,16 +217,12 @@ class CachedUrlImage extends StatelessWidget {
       );
     }
     if (_isSvgUrl(url)) {
-      return SvgPicture.network(
-        url,
+      return _networkSvgFallback(
+        context: context,
         width: width,
         height: height,
-        fit: fit,
-        placeholderBuilder: (_) => SizedBox(
-          width: width,
-          height: height,
-          child: ph?.call(context) ?? ColoredBox(color: Colors.grey[200]!),
-        ),
+        placeholder: ph,
+        errorBuilder: errorBuilder,
       );
     }
     return CachedNetworkImage(
